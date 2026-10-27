@@ -1,0 +1,71 @@
+{
+  "train": {
+    "all": {
+      "n": 3061,
+      "affinity_decrease_delta_pkd_lt0": 2443,
+      "affinity_increase_delta_pkd_gt0": 560,
+      "neutral_abs_delta_lt0_1": 330
+    },
+    "single": {
+      "n": 2270,
+      "affinity_decrease_delta_pkd_lt0": 1759,
+      "affinity_increase_delta_pkd_gt0": 453,
+      "neutral_abs_delta_lt0_1": 309
+    },
+    "single_to_alanine": {
+      "n": 1183,
+      "affinity_decrease_delta_pkd_lt0": 934,
+      "affinity_increase_delta_pkd_gt0": 214,
+      "neutral_abs_delta_lt0_1": 184
+    },
+    "single_to_alanine_fraction": 0.5211453744493392,
+    "all_sites": 4631,
+    "all_sites_to_alanine": 2140
+  },
+  "val": {
+    "all": {
+      "n": 269,
+      "affinity_decrease_delta_pkd_lt0": 236,
+      "affinity_increase_delta_pkd_gt0": 31,
+      "neutral_abs_delta_lt0_1": 16
+    },
+    "single": {
+      "n": 178,
+      "affinity_decrease_delta_pkd_lt0": 153,
+      "affinity_increase_delta_pkd_gt0": 24,
+      "neutral_abs_delta_lt0_1": 13
+    },
+    "single_to_alanine": {
+      "n": 124,
+      "affinity_decrease_delta_pkd_lt0": 114,
+      "affinity_increase_delta_pkd_gt0": 10,
+      "neutral_abs_delta_lt0_1": 8
+    },
+    "single_to_alanine_fraction": 0.6966292134831461,
+    "all_sites": 391,
+    "all_sites_to_alanine": 270
+  },
+  "test": {
+    "all": {
+      "n": 271,
+      "affinity_decrease_delta_pkd_lt0": 187,
+      "affinity_increase_delta_pkd_gt0": 62,
+      "neutral_abs_delta_lt0_1": 59
+    },
+    "single": {
+      "n": 238,
+      "affinity_decrease_delta_pkd_lt0": 172,
+      "affinity_increase_delta_pkd_gt0": 44,
+      "neutral_abs_delta_lt0_1": 57
+    },
+    "single_to_alanine": {
+      "n": 172,
+      "affinity_decrease_delta_pkd_lt0": 128,
+      "affinity_increase_delta_pkd_gt0": 23,
+      "neutral_abs_delta_lt0_1": 44
+    },
+    "single_to_alanine_fraction": 0.7226890756302521,
+    "all_sites": 390,
+    "all_sites_to_alanine": 215
+  }
+}

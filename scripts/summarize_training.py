@@ -8,10 +8,12 @@ import statistics
 def main():
     p=argparse.ArgumentParser(__doc__)
     p.add_argument('--runs',type=Path,default=Path(__file__).resolve().parents[1]/'runs/affinity_v1')
+    p.add_argument('--arms',nargs='+',default=['absolute','joint'],
+                   help='Run directory prefixes before _seed42/_seed43/_seed44')
     args=p.parse_args()
     report={}
     missing=[]
-    for mode in ['absolute','joint']:
+    for mode in args.arms:
         records=[]
         for seed in [42,43,44]:
             path=args.runs/f'{mode}_seed{seed}'/'metrics.json'

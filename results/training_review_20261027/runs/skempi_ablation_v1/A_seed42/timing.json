@@ -1,0 +1,6 @@
+{
+  "setup_seconds": 2.887737240642309,
+  "fit_and_final_evaluation_seconds": 202.87266587512568,
+  "total_seconds": 205.76054707262665,
+  "peak_cuda_memory_bytes": 1329307648
+}

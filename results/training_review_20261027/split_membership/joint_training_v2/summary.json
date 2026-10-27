@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "absolute": {
+      "val": 459,
+      "train": 4470,
+      "test": 330
+    },
+    "pairs": {
+      "train": 3556,
+      "val": 32,
+      "test": 13
+    }
+  },
+  "audit_summary_sha256": "2a165f391fde83851b1a534aec20cb5a67feebb75a8a594f3e2bf1ea845f25eb",
+  "script_sha256": "ff740241cf82e97c811d49a9cd4b26861ca10277072f938a0bc538a43db546d1",
+  "input_hashes": {
+    "/home/weizg/wei/fangyh/appi/data/processed/joint_split_audit_v1/absolute_screened.csv": "24a47cd2f4380f925696eaa958561d586d5fafc25320039c6e841da7444223c5",
+    "/home/weizg/wei/fangyh/appi/data/processed/joint_split_audit_v1/pairs_screened.csv": "a439eb5069165f9dee3031b27224fcd2224908c9f14dd61727d0c16d58918adf"
+  },
+  "policy": "Preserve published split; remove external-chain hits, same-PDB/shared-feature cross-split conflicts, and identical full partner sequence pairs across splits. Holdout precedence test > val > train. Single-chain similarity is reported, not excluded by default; strict single-chain screen is retained separately in joint_training_v1.",
+  "excluded_absolute": 4,
+  "eligibility_scope": "Frozen-feature first baseline. Does not establish chain-disjoint or remote-homology-free evaluation; not CATH-ddG benchmark. Difference loss should use delta_pkd directly; source-assumed temperatures remain flagged for kcal/mol reporting. No new physical scalar features or ranking groups prepared here."
+}

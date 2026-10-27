@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "status": "completed",
+  "jobs": {
+    "gpu_smoke": "16074",
+    "training_array": "16075",
+    "dependent_analysis": "16076"
+  },
+  "seed": 42,
+  "data": "data/processed/joint_training_complex40_v1",
+  "cache": "data/processed/residue_cache_complex40_v1.pt",
+  "arms": {
+    "A": "Non-SKEMPI absolute records, balanced by source and PDB",
+    "B": "All absolute records, balanced by source and PDB",
+    "C": "B plus PDB-balanced delta-pKd supervision, lambda=0.3"
+  },
+  "normalization": "Same non-SKEMPI absolute training subset for all arms",
+  "absolute_draws_per_epoch": 4471,
+  "optimizer_steps_per_epoch": 70,
+  "pair_endpoint_weight": 0,
+  "selection": "minimum full absolute validation RMSE",
+  "metrics": "Same internal test, by-source errors, within-PDB and within-homology macro ranking, external16 and boundary sensitivity",
+  "ordering_threshold_pkd": 0.1,
+  "macro_minimum_group_n": 5,
+  "completion": {
+    "all_slurm_exit_codes": "0:0",
+    "results": "outputs/skempi_ablation_v1/comparison.json",
+    "interpretation": "docs/SKEMPI三组消融结果-20261027.md",
+    "posthoc_diagnostics": "outputs/skempi_ablation_v1/mutation_strata.json"
+  }
+}

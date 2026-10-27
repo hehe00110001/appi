@@ -1,0 +1,1152 @@
+{
+  "pdb": "1EMV",
+  "split": "test",
+  "pairs": 49,
+  "unique_wt_features": 1,
+  "unique_mutant_features": 49,
+  "wt_geometry": "WT_fixed",
+  "wt_structure_sha256": "bbc9a4325d1d5cc37d240309c150e2524ed280a76dae4f1854814527d9b93d49",
+  "all_same_coordinates": true,
+  "all_same_structure_hash": true,
+  "all_embeddings_changed": true,
+  "records": [
+    {
+      "mutation": "RB54A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.2573184967041016,
+      "applied_mutations": [
+        {
+          "annotation": "B_R54A",
+          "chain": "B",
+          "residue_number": 54,
+          "insertion_code": "",
+          "expected_wt": "R",
+          "mutant": "A",
+          "observed_resnames": [
+            "ARG"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "NB72A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.5018619298934937,
+      "applied_mutations": [
+        {
+          "annotation": "B_N72A",
+          "chain": "B",
+          "residue_number": 72,
+          "insertion_code": "",
+          "expected_wt": "N",
+          "mutant": "A",
+          "observed_resnames": [
+            "ASN"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SB74A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.8840844631195068,
+      "applied_mutations": [
+        {
+          "annotation": "B_S74A",
+          "chain": "B",
+          "residue_number": 74,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "NB75A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.1072449684143066,
+      "applied_mutations": [
+        {
+          "annotation": "B_N75A",
+          "chain": "B",
+          "residue_number": 75,
+          "insertion_code": "",
+          "expected_wt": "N",
+          "mutant": "A",
+          "observed_resnames": [
+            "ASN"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SB77A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.05155348777771,
+      "applied_mutations": [
+        {
+          "annotation": "B_S77A",
+          "chain": "B",
+          "residue_number": 77,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SB78A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.8325804471969604,
+      "applied_mutations": [
+        {
+          "annotation": "B_S78A",
+          "chain": "B",
+          "residue_number": 78,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SB84A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.752582311630249,
+      "applied_mutations": [
+        {
+          "annotation": "B_S84A",
+          "chain": "B",
+          "residue_number": 84,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "FB86A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.3923649787902832,
+      "applied_mutations": [
+        {
+          "annotation": "B_F86A",
+          "chain": "B",
+          "residue_number": 86,
+          "insertion_code": "",
+          "expected_wt": "F",
+          "mutant": "A",
+          "observed_resnames": [
+            "PHE"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "TB87A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.8410207033157349,
+      "applied_mutations": [
+        {
+          "annotation": "B_T87A",
+          "chain": "B",
+          "residue_number": 87,
+          "insertion_code": "",
+          "expected_wt": "T",
+          "mutant": "A",
+          "observed_resnames": [
+            "THR"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "QB92A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 0.9961856603622437,
+      "applied_mutations": [
+        {
+          "annotation": "B_Q92A",
+          "chain": "B",
+          "residue_number": 92,
+          "insertion_code": "",
+          "expected_wt": "Q",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLN"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "KB97A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.1450681686401367,
+      "applied_mutations": [
+        {
+          "annotation": "B_K97A",
+          "chain": "B",
+          "residue_number": 97,
+          "insertion_code": "",
+          "expected_wt": "K",
+          "mutant": "A",
+          "observed_resnames": [
+            "LYS"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "VB98A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.8507176637649536,
+      "applied_mutations": [
+        {
+          "annotation": "B_V98A",
+          "chain": "B",
+          "residue_number": 98,
+          "insertion_code": "",
+          "expected_wt": "V",
+          "mutant": "A",
+          "observed_resnames": [
+            "VAL"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "FB86A,LA33A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.6064118146896362,
+      "applied_mutations": [
+        {
+          "annotation": "A_L31A",
+          "chain": "A",
+          "residue_number": 31,
+          "insertion_code": "",
+          "expected_wt": "L",
+          "mutant": "A",
+          "observed_resnames": [
+            "LEU"
+          ],
+          "status": "matched"
+        },
+        {
+          "annotation": "B_F86A",
+          "chain": "B",
+          "residue_number": 86,
+          "insertion_code": "",
+          "expected_wt": "F",
+          "mutant": "A",
+          "observed_resnames": [
+            "PHE"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "FB86A,VA34A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.7800463438034058,
+      "applied_mutations": [
+        {
+          "annotation": "A_V32A",
+          "chain": "A",
+          "residue_number": 32,
+          "insertion_code": "",
+          "expected_wt": "V",
+          "mutant": "A",
+          "observed_resnames": [
+            "VAL"
+          ],
+          "status": "matched"
+        },
+        {
+          "annotation": "B_F86A",
+          "chain": "B",
+          "residue_number": 86,
+          "insertion_code": "",
+          "expected_wt": "F",
+          "mutant": "A",
+          "observed_resnames": [
+            "PHE"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "FB86A,VA37A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.818751335144043,
+      "applied_mutations": [
+        {
+          "annotation": "A_V35A",
+          "chain": "A",
+          "residue_number": 35,
+          "insertion_code": "",
+          "expected_wt": "V",
+          "mutant": "A",
+          "observed_resnames": [
+            "VAL"
+          ],
+          "status": "matched"
+        },
+        {
+          "annotation": "B_F86A",
+          "chain": "B",
+          "residue_number": 86,
+          "insertion_code": "",
+          "expected_wt": "F",
+          "mutant": "A",
+          "observed_resnames": [
+            "PHE"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "FB86A,YA54A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.6345746517181396,
+      "applied_mutations": [
+        {
+          "annotation": "A_Y52A",
+          "chain": "A",
+          "residue_number": 52,
+          "insertion_code": "",
+          "expected_wt": "Y",
+          "mutant": "A",
+          "observed_resnames": [
+            "TYR"
+          ],
+          "status": "matched"
+        },
+        {
+          "annotation": "B_F86A",
+          "chain": "B",
+          "residue_number": 86,
+          "insertion_code": "",
+          "expected_wt": "F",
+          "mutant": "A",
+          "observed_resnames": [
+            "PHE"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "FB86A,YA55A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.833195447921753,
+      "applied_mutations": [
+        {
+          "annotation": "A_Y53A",
+          "chain": "A",
+          "residue_number": 53,
+          "insertion_code": "",
+          "expected_wt": "Y",
+          "mutant": "A",
+          "observed_resnames": [
+            "TYR"
+          ],
+          "status": "matched"
+        },
+        {
+          "annotation": "B_F86A",
+          "chain": "B",
+          "residue_number": 86,
+          "insertion_code": "",
+          "expected_wt": "F",
+          "mutant": "A",
+          "observed_resnames": [
+            "PHE"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "CA23A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.06754994392395,
+      "applied_mutations": [
+        {
+          "annotation": "A_C21A",
+          "chain": "A",
+          "residue_number": 21,
+          "insertion_code": "",
+          "expected_wt": "C",
+          "mutant": "A",
+          "observed_resnames": [
+            "CYS"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "NA24A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.6541963815689087,
+      "applied_mutations": [
+        {
+          "annotation": "A_N22A",
+          "chain": "A",
+          "residue_number": 22,
+          "insertion_code": "",
+          "expected_wt": "N",
+          "mutant": "A",
+          "observed_resnames": [
+            "ASN"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "DA26A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.5222532749176025,
+      "applied_mutations": [
+        {
+          "annotation": "A_D24A",
+          "chain": "A",
+          "residue_number": 24,
+          "insertion_code": "",
+          "expected_wt": "D",
+          "mutant": "A",
+          "observed_resnames": [
+            "ASP"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "TA27A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.6405606269836426,
+      "applied_mutations": [
+        {
+          "annotation": "A_T25A",
+          "chain": "A",
+          "residue_number": 25,
+          "insertion_code": "",
+          "expected_wt": "T",
+          "mutant": "A",
+          "observed_resnames": [
+            "THR"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SA28A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.4936128854751587,
+      "applied_mutations": [
+        {
+          "annotation": "A_S26A",
+          "chain": "A",
+          "residue_number": 26,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SA29A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.0272995233535767,
+      "applied_mutations": [
+        {
+          "annotation": "A_S27A",
+          "chain": "A",
+          "residue_number": 27,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "EA30A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.4103994369506836,
+      "applied_mutations": [
+        {
+          "annotation": "A_E28A",
+          "chain": "A",
+          "residue_number": 28,
+          "insertion_code": "",
+          "expected_wt": "E",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "EA31A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.9489550590515137,
+      "applied_mutations": [
+        {
+          "annotation": "A_E29A",
+          "chain": "A",
+          "residue_number": 29,
+          "insertion_code": "",
+          "expected_wt": "E",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "EA32A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.1273703575134277,
+      "applied_mutations": [
+        {
+          "annotation": "A_E30A",
+          "chain": "A",
+          "residue_number": 30,
+          "insertion_code": "",
+          "expected_wt": "E",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "LA33A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.5893843173980713,
+      "applied_mutations": [
+        {
+          "annotation": "A_L31A",
+          "chain": "A",
+          "residue_number": 31,
+          "insertion_code": "",
+          "expected_wt": "L",
+          "mutant": "A",
+          "observed_resnames": [
+            "LEU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "VA34A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.7617757320404053,
+      "applied_mutations": [
+        {
+          "annotation": "A_V32A",
+          "chain": "A",
+          "residue_number": 32,
+          "insertion_code": "",
+          "expected_wt": "V",
+          "mutant": "A",
+          "observed_resnames": [
+            "VAL"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "KA35A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.8182756900787354,
+      "applied_mutations": [
+        {
+          "annotation": "A_K33A",
+          "chain": "A",
+          "residue_number": 33,
+          "insertion_code": "",
+          "expected_wt": "K",
+          "mutant": "A",
+          "observed_resnames": [
+            "LYS"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "LA36A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.044806957244873,
+      "applied_mutations": [
+        {
+          "annotation": "A_L34A",
+          "chain": "A",
+          "residue_number": 34,
+          "insertion_code": "",
+          "expected_wt": "L",
+          "mutant": "A",
+          "observed_resnames": [
+            "LEU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "VA37A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.7829439640045166,
+      "applied_mutations": [
+        {
+          "annotation": "A_V35A",
+          "chain": "A",
+          "residue_number": 35,
+          "insertion_code": "",
+          "expected_wt": "V",
+          "mutant": "A",
+          "observed_resnames": [
+            "VAL"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "TA38A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.8507812023162842,
+      "applied_mutations": [
+        {
+          "annotation": "A_T36A",
+          "chain": "A",
+          "residue_number": 36,
+          "insertion_code": "",
+          "expected_wt": "T",
+          "mutant": "A",
+          "observed_resnames": [
+            "THR"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "EA41A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.834607481956482,
+      "applied_mutations": [
+        {
+          "annotation": "A_E39A",
+          "chain": "A",
+          "residue_number": 39,
+          "insertion_code": "",
+          "expected_wt": "E",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "EA42A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.9424893856048584,
+      "applied_mutations": [
+        {
+          "annotation": "A_E40A",
+          "chain": "A",
+          "residue_number": 40,
+          "insertion_code": "",
+          "expected_wt": "E",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "TA44A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.6775543689727783,
+      "applied_mutations": [
+        {
+          "annotation": "A_T42A",
+          "chain": "A",
+          "residue_number": 42,
+          "insertion_code": "",
+          "expected_wt": "T",
+          "mutant": "A",
+          "observed_resnames": [
+            "THR"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "EA45A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.0745389461517334,
+      "applied_mutations": [
+        {
+          "annotation": "A_E43A",
+          "chain": "A",
+          "residue_number": 43,
+          "insertion_code": "",
+          "expected_wt": "E",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "HA46A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.1067206859588623,
+      "applied_mutations": [
+        {
+          "annotation": "A_H44A",
+          "chain": "A",
+          "residue_number": 44,
+          "insertion_code": "",
+          "expected_wt": "H",
+          "mutant": "A",
+          "observed_resnames": [
+            "HIS"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "PA47A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.0919502973556519,
+      "applied_mutations": [
+        {
+          "annotation": "A_P45A",
+          "chain": "A",
+          "residue_number": 45,
+          "insertion_code": "",
+          "expected_wt": "P",
+          "mutant": "A",
+          "observed_resnames": [
+            "PRO"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SA48A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.453183889389038,
+      "applied_mutations": [
+        {
+          "annotation": "A_S46A",
+          "chain": "A",
+          "residue_number": 46,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "GA49A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.055330276489258,
+      "applied_mutations": [
+        {
+          "annotation": "A_G47A",
+          "chain": "A",
+          "residue_number": 47,
+          "insertion_code": "",
+          "expected_wt": "G",
+          "mutant": "A",
+          "observed_resnames": [
+            "GLY"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SA50A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.766379714012146,
+      "applied_mutations": [
+        {
+          "annotation": "A_S48A",
+          "chain": "A",
+          "residue_number": 48,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "DA51A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.5349370241165161,
+      "applied_mutations": [
+        {
+          "annotation": "A_D49A",
+          "chain": "A",
+          "residue_number": 49,
+          "insertion_code": "",
+          "expected_wt": "D",
+          "mutant": "A",
+          "observed_resnames": [
+            "ASP"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "LA52A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 2.1576192378997803,
+      "applied_mutations": [
+        {
+          "annotation": "A_L50A",
+          "chain": "A",
+          "residue_number": 50,
+          "insertion_code": "",
+          "expected_wt": "L",
+          "mutant": "A",
+          "observed_resnames": [
+            "LEU"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "IA53A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.66172194480896,
+      "applied_mutations": [
+        {
+          "annotation": "A_I51A",
+          "chain": "A",
+          "residue_number": 51,
+          "insertion_code": "",
+          "expected_wt": "I",
+          "mutant": "A",
+          "observed_resnames": [
+            "ILE"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "YA54A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.5462298393249512,
+      "applied_mutations": [
+        {
+          "annotation": "A_Y52A",
+          "chain": "A",
+          "residue_number": 52,
+          "insertion_code": "",
+          "expected_wt": "Y",
+          "mutant": "A",
+          "observed_resnames": [
+            "TYR"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "YA55A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.8475637435913086,
+      "applied_mutations": [
+        {
+          "annotation": "A_Y53A",
+          "chain": "A",
+          "residue_number": 53,
+          "insertion_code": "",
+          "expected_wt": "Y",
+          "mutant": "A",
+          "observed_resnames": [
+            "TYR"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "PA56A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 0.8254685401916504,
+      "applied_mutations": [
+        {
+          "annotation": "A_P54A",
+          "chain": "A",
+          "residue_number": 54,
+          "insertion_code": "",
+          "expected_wt": "P",
+          "mutant": "A",
+          "observed_resnames": [
+            "PRO"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "DA60A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.969804048538208,
+      "applied_mutations": [
+        {
+          "annotation": "A_D58A",
+          "chain": "A",
+          "residue_number": 58,
+          "insertion_code": "",
+          "expected_wt": "D",
+          "mutant": "A",
+          "observed_resnames": [
+            "ASP"
+          ],
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "mutation": "SA63A",
+      "geometry": "WT_fixed",
+      "same_coordinates": true,
+      "same_structure_hash": true,
+      "same_embedding": false,
+      "embedding_max_abs_delta": 1.509590983390808,
+      "applied_mutations": [
+        {
+          "annotation": "A_S61A",
+          "chain": "A",
+          "residue_number": 61,
+          "insertion_code": "",
+          "expected_wt": "S",
+          "mutant": "A",
+          "observed_resnames": [
+            "SER"
+          ],
+          "status": "matched"
+        }
+      ]
+    }
+  ]
+}

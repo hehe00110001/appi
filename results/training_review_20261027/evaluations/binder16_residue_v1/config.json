@@ -1,0 +1,39 @@
+{
+  "labels_path": "/home/weizg/wei/fangyh/appi/data/manifests/binder16_labels_user_20261026.csv",
+  "labels_sha256": "2737d1d9247c09e2347d8829cd459c8cb3d9f70f25d00c00790d4eebe976c115",
+  "sequence_table_sha256": "61d015b7f478408a0c8df87ca649030daf587553f451340e872aa12e634459f4",
+  "structure_hashes": {
+    "17-1_il17a": "7ff7f323d75f92e68cdf1a87720f9691227cef4414db451d5cd98a2875674210",
+    "17-2_il17a": "eee67a8e3cf57a79a6b9ec688d067730c6dfc4ac12b5d2014b0596965ee3e4a1",
+    "17-35_il17a": "f6761e8bf41940f599413d789b7b11a0bec707db9b0721a6606a44a76958ddb5",
+    "23r-10_il23r": "836483fb3495006c7e068fce7af65c1b9f2fb8f5763ce9bbf626f2659a1254cf",
+    "23r-13_il23r": "05f3543ba8795a8fdcbf91d0813872018a53d88acc9c07a2b10408fd10dd7722",
+    "23r-15_il23r": "2ee058d2a23588bb855f26bf16dddb05df58b0ca1d90ec25cc225df92ebcec66",
+    "23r-19_il23r": "c0e7a8943f672b09c9102c628084bbc1d3f895c8adf2df69ba8ab61a746d4d56",
+    "23r-1_il23r": "d4c040ab22f346370ad3f5148c6c778f20d6fd48caaa5fdd1267bbcf93ca518b",
+    "23r-22_il23r": "25edc972acc75d9d999202fa05a834743db4a63a80efbed69dcc0c87833f51a7",
+    "23r-2_il23r": "cdc2d81d126bf111805f7e23e34b5d6c37f31ddb7edc6c8ce6228a365f3a67de",
+    "23r-75_il23r": "576049adf265cbf9378fe6a6f454f8df19cd81018faa2e54d3ac5e492dcd924f",
+    "23r-91_il23r": "dc4b5feff6613352e0e40f22cb2310d8143074e2974c4e6bc1189d75e8ee51df",
+    "17-53_il17a": "2b2903108696db010f87409e8f7c29122fdeee9a13e9c01a2f5a5f4db8c8951b",
+    "17-3_il17a": "ab34d5323e85415cb51cbb23b0ae9a134705c4a30f04c9b1b76909ff2414525e",
+    "17-51_il17a": "c637fc29d64dcdb71b6f2d3bff1653f3ba91db4c3a7c42f0a936c9446859cca4",
+    "23r-24_il23r": "4c41ac8e4dd4d855eddd4445541571bd2f3ec4a3786d17c617e970757aaf89fb"
+  },
+  "encoder_sha256": "3bc26cc5e6628cee5f9e28d59a5324598ec52ae68f687f404a9e240e6a2aa44c",
+  "radius_angstrom": 10.0,
+  "device": "cpu",
+  "script_sha256": "4b5dd74d00747b87b9e5164e7c2768a86f62749f596076e31cb9239ef696a9be",
+  "preprocessing_script_sha256": "99b4354d64aa85c25db20f0d4c0ef569c221773f47e59214385eee0ddf406ba7",
+  "checkpoints": {
+    "absolute_seed42": "cbaa479c0dbbbdeb675c7b3973813ff65437bdb9ba05508439489a77a93e4e28",
+    "absolute_seed43": "4e2a49c3e579044698c161fdb4ea666453d25761575fae3b24733f920495ff6a",
+    "absolute_seed44": "00c9cb616c217e3ec7ce62f1cdaaad4fe291701184cc5be8fc35337a8988405d",
+    "joint_seed42": "cd2357cb6c5b8987e9a75875ffd61d0e56c960d163901ab3e443fda9f9d70c6c",
+    "joint_seed43": "b2dece20666a343808d5590ac1e7bd7a9358d4941afb297126ba0d490a34d90d",
+    "joint_seed44": "22cb928cee5e1186397a771dde6f13add669ceb7d5868cc2839154821fbf9647"
+  },
+  "selection": "Existing absolute-validation-selected best.pt for all six runs; no external-label selection or fitting",
+  "label_policy": "Use user-supplied pKd for all16, including 23r-22=7.37 and 23r-91=12; separately exclude 23r-91 because legacy BLI is <1pM",
+  "isolation": "Structure hashes match previous external-chain screen; no external_chain_similarity hits in retained absolute training records. Pretraining overlap not established."
+}

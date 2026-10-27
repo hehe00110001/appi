@@ -1,0 +1,197 @@
+{
+  "method": "PPiSeq concatenated-complex MMseqs2 connected components at40%, both coverages80%; preserve PDB/features/pairs; retain all records",
+  "reference": "https://github.com/Proteinea/ppiseq/blob/f15f4a919e80d6945e84fd5570c5dda7561da322/data_processing/data_postprocessing.ipynb",
+  "differences_from_author": "40% instead of30%; eligible subset; preserve original assignments where balance permits; all-vs-all search audit; count-only optimization toward85/7.5/7.5",
+  "input_hashes": {
+    "absolute_train.csv": "c9612bca9bf64989312d2f21e050eccd598f8b0cdc992a353d74dc1bd9528534",
+    "absolute_val.csv": "87ba8d730ec34347d9910e9695d67d15db98c0ff247968945f352c5fbda4e290",
+    "absolute_test.csv": "029dbe38719d20db8c6e905417bc208c15d7a0f9d6c4fcaade654eeb3d039767",
+    "pairs_train.csv": "44df2ae5b697fd27eec42f4b04ab5de17e3d220e2b66de89d9b4936f6f5b5d20",
+    "pairs_val.csv": "fd0e82bbbdc38b62d4e457279e346a7b4f3a8ff179db73fd08115b40bcbf495e",
+    "pairs_test.csv": "a0081e7a7f73c3d2197039cdde11a72f6a920ea7ac4c6530dbf9a64ec14d2144"
+  },
+  "script_sha256": "9dd4942e05d3d9b6401d50b5decaa32328bdaa47834a2027541c5b389fdcc164",
+  "mmseqs_version": "bebc956391639bdebcbe66e44d601026414fe452",
+  "commands": [
+    [
+      "/home/weizg/wei/soft/MMseqs2/build_gpu/bin/mmseqs",
+      "easy-cluster",
+      "/home/weizg/wei/fangyh/appi/outputs/homology40_protocol/mmseqs/complexes.fasta",
+      "/home/weizg/wei/fangyh/appi/outputs/homology40_protocol/mmseqs/complex40",
+      "/home/weizg/wei/fangyh/appi/outputs/homology40_protocol/mmseqs/cluster_tmp",
+      "--min-seq-id",
+      "0.4",
+      "-c",
+      "0.8",
+      "--cov-mode",
+      "0",
+      "--cluster-mode",
+      "1",
+      "--single-step-clustering",
+      "1",
+      "--remove-tmp-files",
+      "1",
+      "--threads",
+      "4",
+      "--split-memory-limit",
+      "12G"
+    ],
+    [
+      "/home/weizg/wei/soft/MMseqs2/build_gpu/bin/mmseqs",
+      "easy-search",
+      "/home/weizg/wei/fangyh/appi/outputs/homology40_protocol/mmseqs/complexes.fasta",
+      "/home/weizg/wei/fangyh/appi/outputs/homology40_protocol/mmseqs/complexes.fasta",
+      "/home/weizg/wei/fangyh/appi/outputs/homology40_protocol/mmseqs/all_hits.tsv",
+      "/home/weizg/wei/fangyh/appi/outputs/homology40_protocol/mmseqs/search_tmp",
+      "--min-seq-id",
+      "0.4",
+      "-c",
+      "0.8",
+      "--cov-mode",
+      "0",
+      "--alignment-mode",
+      "3",
+      "--max-seqs",
+      "5259",
+      "--threads",
+      "4",
+      "--split-memory-limit",
+      "12G",
+      "--format-output",
+      "query,target,fident,qcov,tcov,evalue",
+      "--remove-tmp-files",
+      "1"
+    ]
+  ],
+  "mmseqs_clusters": 814,
+  "final_groups": 634,
+  "directed_alignment_edges": 450937,
+  "cross_split_hits": 0,
+  "largest_groups": [
+    {
+      "id": "complex40_1AHW",
+      "pdbs": 112,
+      "absolute": 698,
+      "pairs": 457
+    },
+    {
+      "id": "complex40_1CSE",
+      "pdbs": 20,
+      "absolute": 273,
+      "pairs": 239
+    },
+    {
+      "id": "complex40_1CSO",
+      "pdbs": 17,
+      "absolute": 258,
+      "pairs": 228
+    },
+    {
+      "id": "complex40_1JTG",
+      "pdbs": 9,
+      "absolute": 243,
+      "pairs": 221
+    },
+    {
+      "id": "complex40_1PPF",
+      "pdbs": 1,
+      "absolute": 226,
+      "pairs": 212
+    },
+    {
+      "id": "complex40_1C1Y",
+      "pdbs": 10,
+      "absolute": 200,
+      "pairs": 169
+    },
+    {
+      "id": "complex40_3S9D",
+      "pdbs": 3,
+      "absolute": 187,
+      "pairs": 160
+    },
+    {
+      "id": "complex40_1A22",
+      "pdbs": 7,
+      "absolute": 186,
+      "pairs": 176
+    },
+    {
+      "id": "complex40_3BT1",
+      "pdbs": 1,
+      "absolute": 113,
+      "pairs": 107
+    },
+    {
+      "id": "complex40_1AY7",
+      "pdbs": 10,
+      "absolute": 109,
+      "pairs": 83
+    }
+  ],
+  "audit": {
+    "all_records_retained": true,
+    "original_fields_preserved": true,
+    "pdb_cross_split": 0,
+    "feature_cross_split": 0,
+    "group_cross_split": 0,
+    "pair_absolute_split_conflicts": 0,
+    "unique_feature_files": 5248,
+    "unique_pdbs": 1081,
+    "n_groups": 634,
+    "feature_files_checked": true
+  },
+  "splits": {
+    "train": {
+      "absolute": 4471,
+      "pairs": 3061,
+      "Affinity Benchmark v5.5": 51,
+      "PDBbind v2020": 769,
+      "SAbDab": 195,
+      "SKEMPI v2.0": 3456,
+      "groups_with_pairs": 100,
+      "groups": 535
+    },
+    "val": {
+      "absolute": 394,
+      "pairs": 269,
+      "Affinity Benchmark v5.5": 4,
+      "PDBbind v2020": 68,
+      "SAbDab": 17,
+      "SKEMPI v2.0": 305,
+      "groups_with_pairs": 9,
+      "groups": 50
+    },
+    "test": {
+      "absolute": 394,
+      "pairs": 271,
+      "Affinity Benchmark v5.5": 4,
+      "PDBbind v2020": 68,
+      "SAbDab": 17,
+      "SKEMPI v2.0": 305,
+      "groups_with_pairs": 9,
+      "groups": 49
+    }
+  },
+  "transitions": {
+    "absolute": {
+      "test->train": 254,
+      "train->train": 3845,
+      "val->val": 84,
+      "val->train": 372,
+      "test->test": 76,
+      "train->test": 315,
+      "train->val": 310,
+      "val->test": 3
+    },
+    "pairs": {
+      "train->train": 3020,
+      "train->test": 267,
+      "val->train": 31,
+      "test->train": 10,
+      "train->val": 269,
+      "val->test": 1,
+      "test->test": 3
+    }
+  }
+}

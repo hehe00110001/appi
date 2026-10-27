@@ -1,0 +1,13 @@
+{
+  "prediction_rows": 96,
+  "csv_metric_recomputation": "passed",
+  "internal_test_cpu_replay_max_allowed_error": 2e-05,
+  "internal_test_replay_absolute_errors": {
+    "absolute_seed42": 0.0,
+    "absolute_seed43": 0.0,
+    "absolute_seed44": 4.76837158203125e-07,
+    "joint_seed42": 4.76837158203125e-07,
+    "joint_seed43": 9.5367431640625e-07,
+    "joint_seed44": 9.5367431640625e-07
+  }
+}

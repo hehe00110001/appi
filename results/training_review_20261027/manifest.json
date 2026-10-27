@@ -1,0 +1,1500 @@
+[
+  {
+    "source": "outputs/skempi_ablation_v1/comparison.json",
+    "archive": "evaluations/skempi_ablation_v1/comparison.json",
+    "sha256": "af4037180cfb9fdde7102d28749d698c8219b58ca918454ce5cc9f8320fde11e",
+    "bytes": 66729
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/experiment_plan.json",
+    "archive": "evaluations/skempi_ablation_v1/experiment_plan.json",
+    "sha256": "0a56e5eb6df568f0514580b04ef68399bcd086e1e40c8ee92626171fc9fe8f35",
+    "bytes": 1194
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/external_predictions.csv",
+    "archive": "evaluations/skempi_ablation_v1/external_predictions.csv",
+    "sha256": "1c3b80a614555aa60c624fd8586ad2728691b40f271ee1a2c9f9830fbe7c7ba2",
+    "bytes": 2997
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/group_metrics.csv",
+    "archive": "evaluations/skempi_ablation_v1/group_metrics.csv",
+    "sha256": "a9a9956e9c169aa9e06725c162f3647db1680595894957747ddb5838a71ade9c",
+    "bytes": 106790
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/joined_test_predictions.csv",
+    "archive": "evaluations/skempi_ablation_v1/joined_test_predictions.csv",
+    "sha256": "e0ced9fe9a33fcffe422da561a66bea1c85f96f29d739ca58b5c36f244dc9d89",
+    "bytes": 170051
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/learning_curves.pdf",
+    "archive": "evaluations/skempi_ablation_v1/learning_curves.pdf",
+    "sha256": "0ecde5d9030403d5dcba342a5d6e60470e065633ed27186bf858c4e99faee338",
+    "bytes": 20223
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/learning_curves.png",
+    "archive": "evaluations/skempi_ablation_v1/learning_curves.png",
+    "sha256": "01e731713d253b0703c6d5fa7fe699ccebf8fba1a0e0ec7eadb67636e8fe4b4d",
+    "bytes": 168155
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/mutation_strata.csv",
+    "archive": "evaluations/skempi_ablation_v1/mutation_strata.csv",
+    "sha256": "a3382adc61b21d56e5d139c05af2c8dda4771661b4ed55591889e9ce2d30ce1e",
+    "bytes": 5941
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/mutation_strata.json",
+    "archive": "evaluations/skempi_ablation_v1/mutation_strata.json",
+    "sha256": "83eab5c01a9f3cc990946d9a66e764a722ab45ea23420cd10df9a804d7459f1a",
+    "bytes": 15444
+  },
+  {
+    "source": "outputs/skempi_ablation_v1/report.md",
+    "archive": "evaluations/skempi_ablation_v1/report.md",
+    "sha256": "34490f39e63e59f3a8e0e6a7e8d26210c491f20d35161a55293910670e75b0df",
+    "bytes": 1878
+  },
+  {
+    "source": "outputs/group_generalization_v1/1EMV_structure_provenance.json",
+    "archive": "evaluations/group_generalization_v1/1EMV_structure_provenance.json",
+    "sha256": "24b028e539f2b154fabcecfbdfa7517ace537dd25650793ede9f96e473483a0a",
+    "bytes": 28730
+  },
+  {
+    "source": "outputs/group_generalization_v1/diagnostics.json",
+    "archive": "evaluations/group_generalization_v1/diagnostics.json",
+    "sha256": "a73d71361b53f873d5e2d8459f37660599edd6041ffeaa468eb7690aa11dcd93",
+    "bytes": 90371
+  },
+  {
+    "source": "outputs/group_generalization_v1/group_metrics.csv",
+    "archive": "evaluations/group_generalization_v1/group_metrics.csv",
+    "sha256": "39d7b154034fa305c52b901200580fcf29c145e71fbaf16800f13bc5a8b8d9bf",
+    "bytes": 341632
+  },
+  {
+    "source": "outputs/group_generalization_v1/joined_test_predictions.csv",
+    "archive": "evaluations/group_generalization_v1/joined_test_predictions.csv",
+    "sha256": "f6ae3a0cdfea818b0d8527e9bc44659d8c2750618fe796291dc6a03e3b2546d9",
+    "bytes": 341078
+  },
+  {
+    "source": "outputs/group_generalization_v1/mutation_direction_audit.json",
+    "archive": "evaluations/group_generalization_v1/mutation_direction_audit.json",
+    "sha256": "8cdd80b5067d2f2cab731da6f980e54886a4925c240e36681b98a2170778f1c2",
+    "bytes": 1908
+  },
+  {
+    "source": "outputs/group_generalization_v1/report.md",
+    "archive": "evaluations/group_generalization_v1/report.md",
+    "sha256": "20f3bd3f512fe909f55ec8543ef1cf926edc27b597135dc5f5ac759c8335a273",
+    "bytes": 2699
+  },
+  {
+    "source": "outputs/group_generalization_v1/within_pdb_pearson.pdf",
+    "archive": "evaluations/group_generalization_v1/within_pdb_pearson.pdf",
+    "sha256": "108a76ead43751297c986e99063f58922db78ce3a8bc80de9f6228ac65577a38",
+    "bytes": 23704
+  },
+  {
+    "source": "outputs/group_generalization_v1/within_pdb_pearson.png",
+    "archive": "evaluations/group_generalization_v1/within_pdb_pearson.png",
+    "sha256": "a505b132195300890fc5142845813c25609bdef73fb6d7e5210b90dd16aa760b",
+    "bytes": 137278
+  },
+  {
+    "source": "outputs/split_comparison_v1/comparison.json",
+    "archive": "evaluations/split_comparison_v1/comparison.json",
+    "sha256": "51d1b9586511f2b6b106dd7540a2a59db1cbf2792678c3619cd2c7ce7372db24",
+    "bytes": 19848
+  },
+  {
+    "source": "outputs/split_comparison_v1/external_predictions.csv",
+    "archive": "evaluations/split_comparison_v1/external_predictions.csv",
+    "sha256": "5e7bd2277d23ecfa6ce267956a136653b9559cf033ba61c649492c8bd8011489",
+    "bytes": 7469
+  },
+  {
+    "source": "outputs/split_comparison_v1/learning_curves.pdf",
+    "archive": "evaluations/split_comparison_v1/learning_curves.pdf",
+    "sha256": "3faa1a7039d5f8e0f2523679078ed8165eb1f3df9c190157f65dcb8395d8fa9a",
+    "bytes": 27269
+  },
+  {
+    "source": "outputs/split_comparison_v1/learning_curves.png",
+    "archive": "evaluations/split_comparison_v1/learning_curves.png",
+    "sha256": "fc31bf62c0b059aba472d3fef9882c37382efc05f4a0ad189b0104442302ebd3",
+    "bytes": 301856
+  },
+  {
+    "source": "outputs/split_comparison_v1/report.md",
+    "archive": "evaluations/split_comparison_v1/report.md",
+    "sha256": "022982a31e7680f87ca3ad6bb283ad4ae4f06ed4722b21d3fa45006157d0aaac",
+    "bytes": 1466
+  },
+  {
+    "source": "outputs/split_comparison_v1/verification.json",
+    "archive": "evaluations/split_comparison_v1/verification.json",
+    "sha256": "d4b03861bbacfa3247791276c5dbed8726c4bf7349e4f01f855047ea2f23fffa",
+    "bytes": 1799
+  },
+  {
+    "source": "outputs/binder16_residue_v1/config.json",
+    "archive": "evaluations/binder16_residue_v1/config.json",
+    "sha256": "02d0aa00250a0b09e9266bef30e43af17a220eeb064d83d07eb60736b39e1d53",
+    "bytes": 3037
+  },
+  {
+    "source": "outputs/binder16_residue_v1/internal_group_correlation_diagnostic.json",
+    "archive": "evaluations/binder16_residue_v1/internal_group_correlation_diagnostic.json",
+    "sha256": "f1bd45cc91a8851cf1f637af81a10e39e0e331c1a9c4946ba0d3f24ba00cd3b8",
+    "bytes": 3572
+  },
+  {
+    "source": "outputs/binder16_residue_v1/metrics.json",
+    "archive": "evaluations/binder16_residue_v1/metrics.json",
+    "sha256": "05c633dec7f824694c83afd9b2920064ab5001b617fd7aafdb9bc0c92d7d6838",
+    "bytes": 16494
+  },
+  {
+    "source": "outputs/binder16_residue_v1/predicted_vs_experimental.pdf",
+    "archive": "evaluations/binder16_residue_v1/predicted_vs_experimental.pdf",
+    "sha256": "de5f117129bf1fe02f3083011527842964d4a85d29d2864de6870ed9cac0a24b",
+    "bytes": 35949
+  },
+  {
+    "source": "outputs/binder16_residue_v1/predicted_vs_experimental.png",
+    "archive": "evaluations/binder16_residue_v1/predicted_vs_experimental.png",
+    "sha256": "9259f6c691363e6fc4a0626fd80ef403de1b83824522e1b2d2541fca404b9615",
+    "bytes": 296791
+  },
+  {
+    "source": "outputs/binder16_residue_v1/predictions.csv",
+    "archive": "evaluations/binder16_residue_v1/predictions.csv",
+    "sha256": "59d062678f06043ddc184ff1738ca0a5b5d633f4371f8d966f83b434b1bf50b6",
+    "bytes": 3779
+  },
+  {
+    "source": "outputs/binder16_residue_v1/predictions_long.csv",
+    "archive": "evaluations/binder16_residue_v1/predictions_long.csv",
+    "sha256": "c7d7f03b4b868f694843a6370d414898098620c7f164b7ae2d1c43ea8baf7aa2",
+    "bytes": 7793
+  },
+  {
+    "source": "outputs/binder16_residue_v1/timing.json",
+    "archive": "evaluations/binder16_residue_v1/timing.json",
+    "sha256": "36ac817ce283b4f95c4f141e4e37815440f820a8b92ccd795b7a8d65d5d1f160",
+    "bytes": 41
+  },
+  {
+    "source": "outputs/binder16_residue_v1/verification.json",
+    "archive": "evaluations/binder16_residue_v1/verification.json",
+    "sha256": "211f5694bca7e28e34e28818081d24898a522c9ef37936ab80d65f7c29fd528b",
+    "bytes": 396
+  },
+  {
+    "source": "outputs/residue_training_analysis/diagnostics.json",
+    "archive": "evaluations/residue_training_analysis/diagnostics.json",
+    "sha256": "292bc5f825de4e24aa77bc8861c23b3e63ece11f28dd71909ed3a2138dca98da",
+    "bytes": 310638
+  },
+  {
+    "source": "outputs/residue_training_analysis/learning_curves.png",
+    "archive": "evaluations/residue_training_analysis/learning_curves.png",
+    "sha256": "2019bfbc95ab3647eb57a44d3dc47437d49c156d6fe254fb68d1e72809da7a15",
+    "bytes": 325257
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/config.json",
+    "archive": "runs/skempi_ablation_v1/A_seed42/config.json",
+    "sha256": "77bed09e5c647fd2e4ea8c1302bc73758ce23c64dab2a9b824a40b8b4a6bf145",
+    "bytes": 15032
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/metrics.json",
+    "archive": "runs/skempi_ablation_v1/A_seed42/metrics.json",
+    "sha256": "fcef156593793b1272e63747db01622d287f6b0676e6a667982f9c746c3ae832",
+    "bytes": 1290
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/timing.json",
+    "archive": "runs/skempi_ablation_v1/A_seed42/timing.json",
+    "sha256": "907b6b837effd9a7cd25ae08b5ff2c5ab726ad011bacfcb1ff9a8b1b4927b4e5",
+    "bytes": 178
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/training_manifest.json",
+    "archive": "runs/skempi_ablation_v1/A_seed42/training_manifest.json",
+    "sha256": "8bb6d4ed506475a5348cc1fe4c822df37ef280a44f841810ee9bef539d83b7c2",
+    "bytes": 168725
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/predictions_absolute_val.csv",
+    "archive": "runs/skempi_ablation_v1/A_seed42/predictions_absolute_val.csv",
+    "sha256": "69a5549dd42c69d6154bbbde88e922c3a4f23b892fee59f2e4697a93cde60dfc",
+    "bytes": 19528
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/predictions_absolute_test.csv",
+    "archive": "runs/skempi_ablation_v1/A_seed42/predictions_absolute_test.csv",
+    "sha256": "ae221133b738d5554a9cf60f3102d0ccffb4dcb1f9ba39ff23f5a0f3f1641576",
+    "bytes": 19993
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/predictions_pairs_val.csv",
+    "archive": "runs/skempi_ablation_v1/A_seed42/predictions_pairs_val.csv",
+    "sha256": "f79fd60d3a600731f8c79680a65340ca74118553eb3f9cf6e492858d072b5e40",
+    "bytes": 16244
+  },
+  {
+    "source": "runs/skempi_ablation_v1/A_seed42/predictions_pairs_test.csv",
+    "archive": "runs/skempi_ablation_v1/A_seed42/predictions_pairs_test.csv",
+    "sha256": "06c9dd83f92712a69428cb0f860cead53e9256738ec1fd53589d2a962f1886e9",
+    "bytes": 16253
+  },
+  {
+    "source_files": {
+      "runs/skempi_ablation_v1/A_seed42/epoch_0001.json": "b2d278d98e615e87985408d3a2d52a9a94a6b937bdb14d7f720a3c921027d002",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0002.json": "2b8c2f7fcd7819b2cc6d4b66fb94a5c5d43ea8a854d049b1d6c9ab1d248e189f",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0003.json": "0d089ae56426131e803e8b0be38670e0bb9b3d97f07875210e8486f21b76fed0",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0004.json": "9970f1c308024c22fbaa0a466d5ce2f1ab4b9624d47767b29e79f18c8c15939c",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0005.json": "53a669e746cfbd3bba3ad330a10286724465ed3d215edcc3d201a9dcf1bc4b03",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0006.json": "ee32d4d62fa5a7b93f5a43abd098b1c89703d2cf48d1309e24d8a4698d536e82",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0007.json": "51d12f92dea26577c6c063dc8ddd3044968f74f32ce18a8280803a3faeaa9456",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0008.json": "a391042987412e13f481d91c71cb515ddc78e1937bf878963bf5aca515887e20",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0009.json": "59485409a046544c7497d54e56b470bce828f668a1b1061ad750dae7d0b94d99",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0010.json": "53d26e53b1899c7605e8785105903ced16c03a51a55069635b7846e11e7d4db4",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0011.json": "b4c0f0126c51560f6bb0f6ce366b628c1960e7828c271950afd9269f6e018a1e",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0012.json": "929d21d9c96afdc6986f9fceb902941ee6f143068a4cbe9d80d150f7f57462c4",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0013.json": "ec756f114f0eada5d1e669663206d9656dc8e88a0ddcc324dfebc733ee8d0630",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0014.json": "756e93648123653998f26ac639be4d6d2662ae6a458831fceef8f5b4d994c116",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0015.json": "bd98c37b622c8b3391f6952042d310da55bbbd2d0e5515f73884955ffc92dccd",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0016.json": "3ebb4e6655213d623318df218cf1420af41afb08741ced1ca8c6276905bd42f7",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0017.json": "0793ef480f7892a235e0e4c9366100ad0b0fda39564a5387ac6b83a97a15b1df",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0018.json": "c811eb420e8b969bd90f73065eb00d8c6b609f981c6e305c5c65eb5843350727",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0019.json": "e58e0f9a267dbb99e685f56edba9243ed063c0bfc6fa838caca7a596a04e7b78",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0020.json": "dd5418c614c801875d959770c87471c8e445580e87edf2bac27075a69527cee2",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0021.json": "ef4e7183ad74cc4b27aab6e461220e111819252635699370ae56a7091533c18d",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0022.json": "26dfb7f90fa9dec13c57f58e421bab099571f4d2cb916c53c7bf961f2ec8f313",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0023.json": "61f0c2b10c1c6d825442f4f95d69da4fc087ce9eda9a995035569a2e2200ed7a",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0024.json": "1fd7cef588ade107483178a9677a7d8bfd985e099a37ca8fface09cb87fc431d",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0025.json": "c282131e504f7f6143874b1325970b90978e020ace67fbeb8577edcc47277aa9",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0026.json": "32e73acd60aa7b5d2d363302c92984d4354154d683d46c1db74263b45c859779",
+      "runs/skempi_ablation_v1/A_seed42/epoch_0027.json": "bc54c61cee5c4ca65a16e2c43f7a5ca38abe09c38930815ef97a1c45dc0831be"
+    },
+    "archive": "runs/skempi_ablation_v1/A_seed42/history.json",
+    "sha256": "89617a65bbadd8a86ae53264d70635e276a5c34cbca9ee6664bb2ff29a4f8b0a",
+    "bytes": 27267
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/config.json",
+    "archive": "runs/skempi_ablation_v1/B_seed42/config.json",
+    "sha256": "949c6fe7d886aa5743fbfdf4d476acb522d9ead339cd4cb6af721d2c9689a636",
+    "bytes": 15032
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/metrics.json",
+    "archive": "runs/skempi_ablation_v1/B_seed42/metrics.json",
+    "sha256": "5e602b20551ab20d12d85682b1300534bd6f1602f001ffe8f3502c21816d7adb",
+    "bytes": 1285
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/timing.json",
+    "archive": "runs/skempi_ablation_v1/B_seed42/timing.json",
+    "sha256": "f7cde85f213457b3cf50d95c390e524913e97c222f6251de82200aad09f20f94",
+    "bytes": 177
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/training_manifest.json",
+    "archive": "runs/skempi_ablation_v1/B_seed42/training_manifest.json",
+    "sha256": "8e299a91972c160df1c4262ccf78074c14bb5abd1b7b638a1e291b738833d82f",
+    "bytes": 739805
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/predictions_absolute_val.csv",
+    "archive": "runs/skempi_ablation_v1/B_seed42/predictions_absolute_val.csv",
+    "sha256": "7d33489ebd4a4a1d56ed7d777213c2c887242069317f898928f8e6e2f82da21e",
+    "bytes": 19538
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/predictions_absolute_test.csv",
+    "archive": "runs/skempi_ablation_v1/B_seed42/predictions_absolute_test.csv",
+    "sha256": "10d330dee4d309e2268f64fcb2fefd063a55ded5185cea0196613c89d0494dcc",
+    "bytes": 20013
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/predictions_pairs_val.csv",
+    "archive": "runs/skempi_ablation_v1/B_seed42/predictions_pairs_val.csv",
+    "sha256": "250e5a428a0040e1f41d1779a25ab9d727419037e67f1d2dbdfea7126299c496",
+    "bytes": 16234
+  },
+  {
+    "source": "runs/skempi_ablation_v1/B_seed42/predictions_pairs_test.csv",
+    "archive": "runs/skempi_ablation_v1/B_seed42/predictions_pairs_test.csv",
+    "sha256": "b9b38fe60c408d7bef74b7d5da3d992c458c24d973592b855edf09dc07a9804b",
+    "bytes": 16188
+  },
+  {
+    "source_files": {
+      "runs/skempi_ablation_v1/B_seed42/epoch_0001.json": "f45c6c58ae095497beb673571789fab48e5522e79d4d94bd408aacf5f816051d",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0002.json": "a4209b56238777c0979168c236a8d1e4cf79b4ec8401de112ae48fc4f980311f",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0003.json": "e1b26680b1e10ffce774d27119d50a96c88fa15e7dd03716ed236f2fa2ea8bde",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0004.json": "d87f873dedf0c0bb43dc236587b522089a67367257eff78bd4a89e933999c432",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0005.json": "556d3d3e057d4d5d4d745d4d9a650a2b9d3d0332173d9302fcabdd5bbd04f27a",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0006.json": "ef49b35cdde5517e10969efe79dfbe33136f01ea358335410a015cbb32038dd1",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0007.json": "30b11c18230e87d9a9c432930eb636c0cffcbacd6bc23c224302cca87022728b",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0008.json": "4a73b78ef7967a40a5a5aa20965ae4ca6f564ddf44e70b7492662128d30aad07",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0009.json": "642cabf880d29b10f2ed0841403572fdb2ba309ccbeee5dba56b85af97f6127d",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0010.json": "4bff7dcfb1ce064fdc61ba5dc375feb40390982d90ba1c1721a44e2b887b0dbe",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0011.json": "17382d004a9d94210c1b3ce7d0832c326fd22264fcd0bf8da41a7081269dc687",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0012.json": "412b02685a86b203dcd9bd34c48ac4e7439ffc01e312f4810a710e681457f9e1",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0013.json": "0807b534416d18366352d1b6979d9e2872477f2dee58fea119ee853257ca4d21",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0014.json": "99590b92f284547b7851038a7008a373eb6d908332c950175921f2a93edd62f7",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0015.json": "a644649f624e6be08e555dc9a3535f460f16b88c5887a1328f8d967eeb424a98",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0016.json": "b99040497e322e555ae781a09ce160f76e9bb52057da8a21cfaf75b0ef6a93d8",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0017.json": "6d846650f9322f61687673f2ea17af592d6e45f07d13147042dcd9b3c77b5c77",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0018.json": "d65406c9b19c9663e65657cb16913c2aad8e779afc8b86831afcd36a901bacc5",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0019.json": "2c5ae136c4ae0dbd2c8ed9d5f7599eab10c4a8ca7a3685a1943440d22306991c",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0020.json": "63b656a5166fbc8525be3f48082dc229509580ef08305e4d45a4b1779a0c4994",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0021.json": "4d7a5d97be94676ea7752c8787864972dfb07f3f2aed9ee794a89146ca2c9d95",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0022.json": "8a18e84d8c9270768ca3cc11f2608c944e0e9b6db7f354bb7d58d1fb5de3eca8",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0023.json": "7a53dee14c610a8727a9f84beec51841b4482e3523ebfd154dad317776abb406",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0024.json": "cb185ee29d35eda1a9a0457b275e1f875b05d1324438c63c815f800e37b8ba24",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0025.json": "5d5fa5e6ffc4650a97ff825a9a0f0fde6d08871e853462739b9fa388d37daec0",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0026.json": "2a2d158cd82a848616de8c4e810e097701c5c392302944349f2f6e700b5cf3a8",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0027.json": "818c37afdc709af3c1bdac7db3eb3359891ad11e2ce7a458d68d2f564805959c",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0028.json": "765ef3e49ee30d92ef645dd52b2487bc12b11f987e5ec50efaf636057c8baeb5",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0029.json": "801b6c1dc8d901758ef988b3afdb63350a678238c7b3c38fb5e45c79c8d2dc86",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0030.json": "8abff7e5f50209618ab729f1bb7c37fabae8bc2c7adf0126eb76950349f3bf8c",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0031.json": "a95590392af9f8396ef0db348f270138ced47ab38982caca877ea106839ab067",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0032.json": "c56c3b4c36d1452c8387d27491e94ad8dca47f00de4b63ac2b94aaddc4e41aac",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0033.json": "695bb37e24d8e7ee1a579022622ae990024fde51805242082486367897ca5c52",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0034.json": "9bde94972dcb3e8b6db10e6e1bf97301754aa8b33449c6974606af4bd7a6719b",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0035.json": "e36ac87d081b829ab698d15801c57c332ebd2b9c2d09933f321c67b235d90968",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0036.json": "de4f27e2efc35ecea16387c9ae461592c3f5ba04ae1c3b0469013a1a0c77d7c0",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0037.json": "cfb991b45733405ac51b754778f232fdc6f972782f36dd2afb620177c3940123",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0038.json": "60302593dc6221bff3e2d81e13df992dd8007bbb80c258f4d516efac26416ebb",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0039.json": "fcc9c86c2be8982b544ff0a46f14162ad22c377cedd46a057cd358cdfaaa1257",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0040.json": "7edb712383131dea1387b8f58521123c6013238f7d464dd3468d690b47f33e4e",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0041.json": "8fe4017f5087063abd0266b713c2358578a575e5c0af102dc829d32d58e9921e",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0042.json": "8b10690b7f4e53ec356e56590c57d84a87de7be32be4f99adc4fd8a9d888dc80",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0043.json": "3bf0d01e5df49b5e0d020939cd6c54f3a8c875253b80a2556b15c54ceea0d199",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0044.json": "4a31c21b8b781de18c618bddf0a23c1b7a2c4abbc8bb62e6f5209a293becd5d7",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0045.json": "ad288f07ec24e58bce1941ed085db23e0a0119b901385567a8ab1a1452442800",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0046.json": "1d669c900508c4caccbdc49dff4d79340e810add496d8e735abd6dcc45e93faa",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0047.json": "b143c131dacc530a32e02332efbfd0861c979ccd2fa1761a4545f37af3193de7",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0048.json": "96bc83d2e36d7ef978aa1b513ce9fb06c0a6721a7b0b0af3a005c6778a3fa682",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0049.json": "f30ea4627c0ddc38eedf749bbe7927139f44a41d7e6cd49e91b1145dcdad7d0d",
+      "runs/skempi_ablation_v1/B_seed42/epoch_0050.json": "87f1528b7e27a1153ae4e38b39189f6aa7e9730488ae27db6ed034892cd985c0"
+    },
+    "archive": "runs/skempi_ablation_v1/B_seed42/history.json",
+    "sha256": "31d06c1c1278846614fda3f7b9fb7959fe851e63c6643c856af006ff6b544f2e",
+    "bytes": 50482
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/config.json",
+    "archive": "runs/skempi_ablation_v1/C_seed42/config.json",
+    "sha256": "4449712d786025fb72bde36c2d69dba09dfbf417633485246675c0e717cc3199",
+    "bytes": 15037
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/metrics.json",
+    "archive": "runs/skempi_ablation_v1/C_seed42/metrics.json",
+    "sha256": "0d66730092c765c912a9974fab2299dc0ce17d2e036f1f52db073688342b730a",
+    "bytes": 1284
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/timing.json",
+    "archive": "runs/skempi_ablation_v1/C_seed42/timing.json",
+    "sha256": "47bd21a8697dcbb2d7b52b91be358a2c24e8a489ea47b8af33ca91f67a25782f",
+    "bytes": 178
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/training_manifest.json",
+    "archive": "runs/skempi_ablation_v1/C_seed42/training_manifest.json",
+    "sha256": "255eb037d4afde181c4b602e6740947a9b0d3e253c80d457e776f97a5e2ad06b",
+    "bytes": 1248588
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/predictions_absolute_val.csv",
+    "archive": "runs/skempi_ablation_v1/C_seed42/predictions_absolute_val.csv",
+    "sha256": "15a83b7ae62bf0f23d55b9a856730f8addd921b5541f67983a9772cb58654421",
+    "bytes": 19535
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/predictions_absolute_test.csv",
+    "archive": "runs/skempi_ablation_v1/C_seed42/predictions_absolute_test.csv",
+    "sha256": "08096e1fa57221cf5034dd7902886284f5cb6414ee7866f3346449edff8ebebf",
+    "bytes": 19979
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/predictions_pairs_val.csv",
+    "archive": "runs/skempi_ablation_v1/C_seed42/predictions_pairs_val.csv",
+    "sha256": "e3e2363112b2ac300f0730b25682e32c08a4731aec750d86567f095eaa9109df",
+    "bytes": 16205
+  },
+  {
+    "source": "runs/skempi_ablation_v1/C_seed42/predictions_pairs_test.csv",
+    "archive": "runs/skempi_ablation_v1/C_seed42/predictions_pairs_test.csv",
+    "sha256": "af663ae25f87efae2bc226984bea88ba9898ab9a54a0d7dd4965eb60ddcd7d14",
+    "bytes": 16194
+  },
+  {
+    "source_files": {
+      "runs/skempi_ablation_v1/C_seed42/epoch_0001.json": "ba161f0948292a9b193edea6c58d7dd38bdd623782a9ae7895c5c843b3bda613",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0002.json": "c2e47ec3b587b4d08a2a718f5c03de4adb333edd2822b799969304be09a7106f",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0003.json": "4d5bc6d72f6ebecf81512560e408f0b1c13cb3a39e7d7e299e13470b70637f86",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0004.json": "2dc43cf9023c0e4f2990f3048b95d747fa30dc41b4853a4dc0e10b251449cb29",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0005.json": "8d9fb389644fe531bff794db8ac09d069923a96d8879d93c29a6b40d91fdb62e",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0006.json": "e5e8edfd49c516d6a0977c983ddfd024755a2f56845dbb103d68dab3055696d0",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0007.json": "94488abe75b40750e9dc5a0eac7faf3f39b859913ac1f55affaa2c85a7b0e578",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0008.json": "d1a85d43259d877ddb8418205e2fb52d3f3e297a3853854372761faa50a14a68",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0009.json": "f474ee2a0d8c3057dbccfee333614affb90f32d094af3d97488c0bccabc80391",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0010.json": "107ff67f3ce4db852d9380ae726e9989cf4b4b13eb76eec633d3f4092ddae5ff",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0011.json": "eac97a37be014ca2ad15fb81239e4a8c37718c83de076130a57411130513513d",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0012.json": "dbaac14d25ce7261fc7f65dc5e44071b79d55867965be6f2498437539385d81f",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0013.json": "dadc402dba39587b9c50fbb4cce85ea95212bb96563a47c273996312bed07233",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0014.json": "2e7c1e726586c164760537251b1d1c50cbb80a30c2c36c3b6d6995dccb497a75",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0015.json": "3f6c906d4d3ffb89f917677176c338f886a17a073eb0d78bf78a44a328e3f839",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0016.json": "dc09367d25ab01e338da40ae4500687fc7e090d26e068d57734f83256b72c539",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0017.json": "09afb2c6b6beaa0cc6bdffd6bf482933342eba1dc0e46663d3da15aae3b5e550",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0018.json": "b7ca5a69d5161b1d514e2e5bf544400858c24f3944446b2bbb2e943e14497f89",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0019.json": "e66f8e00d525458f8f578de5882847322c9b5bb224d7262743f8ae2a1954d264",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0020.json": "3c732ceb997948bd6e5252f9960eba407e9708d38199eb3c090e8fb2f8259ea0",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0021.json": "6e5a5a3d0859970817d5e7ff0b270ea01a4906098b784a9e7dd472f822139699",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0022.json": "b67c2ad9e9b92f288ff6e7525f391452a79fff05cf955f5e5ba9924a29871509",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0023.json": "4131dc1548266fb7c37ffc37be1d89836e89256a984e2080d8049908da45756f",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0024.json": "de0df74ae5c41687f8081c8094654a03789fa87e96ad4cc12ae0d8935d79913f",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0025.json": "791fe3f096489bd3ce04d69600bd1aa7c459450d19cb38e5d72d828e3a9c48a1",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0026.json": "5a611167decc24d0d51f9d669dee21898d77bbb93f561026e17e0c6221b9157f",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0027.json": "261084eb044f11e1c2af6bcac2fb9953e75a6cad11a3a3de329dd32cbc8070f2",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0028.json": "0ba6ccf21e010e50fc5ad896b5bbb87382ba373f19bef1d69665cd7f0fd97ab7",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0029.json": "a93124f0b21ba9f50488aefbc8a825e5aced8a591118aa3cb1a08df090b6826e",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0030.json": "2ca279514e8da00cc60c1e8f4de54b934a0bf3451843089ad2eaf3c9a67bb799",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0031.json": "510369779ce2317c1078b2b71b1d035e66793a8687eec52d2ba06d11898ca98e",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0032.json": "bea83fb8b119b63af055b6a5bd7b29741d7690af0fe998baa248f160557e32d8",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0033.json": "879770c9f13a8938050aa837f7beeadfdd38037e1745ed0bfb04c4a24464ef89",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0034.json": "5731cb365c20b4d684329f1159ea9676c3bd40a1a6dca690e7fa56528948be34",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0035.json": "ee60ff6844ca3878c3caab20289f25b9afc8af7ace6e36b1d444c29e21320edb",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0036.json": "483777251aeef7fab7f6aa2683f2d9b9063b30704469d72807ee71acb82f78f5",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0037.json": "b23fae08bd94ac15d6746a9f87b2934f87cc70b14d83bff65e26bb790032e43c",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0038.json": "0a27af9484f56c60eeac480f32b975c6dd6b6136ff13fe2afc4b02ba6a49581b",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0039.json": "f2a66f11f9453751c43085e1d84019204fac03dde55a4d7664e2638914f20b0e",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0040.json": "d3013be2d0c7bbc174ded44a1bff60abe7e39039895cfa5b5cb1540e77a25257",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0041.json": "1d5daef4b4599b70b1fdfaa8ff9ee1027c0402e7d11ae00ba18cf0e3f2ac8ee1",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0042.json": "3e92a84bbd51cac0a74332d88173e1d6a7e5edf57f56dd6f810685daa5ce85f9",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0043.json": "a3e93b429640f5d0c9376d33bcae8cec2ba53699d4fbf3cdcd7009806f613514",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0044.json": "0017f62fbd21ebda8c8ce903540baeceddf44fd2ab840c9ac486424ef5e59eb7",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0045.json": "25c4ae820a27c3ec5acbfd96db6629115ca9c703def3a98d588cf422d7c448d5",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0046.json": "3a3c531ba3bece9397acecf1dcd9a342591633aef988992c4e62e3ec1d760b94",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0047.json": "7a1e02303c3f046a01f3d2db1ae9f57a6ab07fb588be2c7e5deda021f89c3eea",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0048.json": "f5da1743c864c1a5b8e181238e4174de62d178a5189b65a290c016ecb3611107",
+      "runs/skempi_ablation_v1/C_seed42/epoch_0049.json": "bae501a0542f31cb448ea343cdaae1ac5c7ff3342a042a8bdcd8be78c27fa1b6"
+    },
+    "archive": "runs/skempi_ablation_v1/C_seed42/history.json",
+    "sha256": "230e2ad4a6d1bfb78f3b189f421b801be47eff0f2b6604eb378f8ecb83c20385",
+    "bytes": 50500
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/config.json",
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/config.json",
+    "sha256": "a745ce92ae2dd3e5ff5ad6944d5a5b2f3273e08e9c19c73f73eed6a21d4acfc0",
+    "bytes": 2523
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/metrics.json",
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/metrics.json",
+    "sha256": "1166e552b9cbfa4b527a5ea5a712d00a4e05994cbcbbbc6c10a42930b1298a06",
+    "bytes": 1292
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/timing.json",
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/timing.json",
+    "sha256": "a6fd3365972cba7915894a63bf44d16f9a628aec36efe899aaaa43030a4186cf",
+    "bytes": 178
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_absolute_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_absolute_val.csv",
+    "sha256": "3f0ce8cdbdd25a9afad3455ae540dc26a3a73d589cacfffcdfa5272cd92b78b1",
+    "bytes": 19534
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_absolute_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_absolute_test.csv",
+    "sha256": "11098a8a6bdd5d2e8d436accf064d908c5db14ec0a74bcc62d40027163240040",
+    "bytes": 19969
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_pairs_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_pairs_val.csv",
+    "sha256": "64e5ff003f1dc839ae3fb762630c7b321b3e0ad0f112bf8eccc920e6cffce2dd",
+    "bytes": 16198
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_pairs_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/predictions_pairs_test.csv",
+    "sha256": "7e0ff05954ca08b8214b32441f1a6c2d6c9365e5bb9654d9874a477099672fce",
+    "bytes": 16202
+  },
+  {
+    "source_files": {
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0001.json": "54a57c5b764704872e72c7b37068629aaeb372a3398eeb0bdc717e1a674eeafa",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0002.json": "38d45a60e9b64cd9cc135c947d2f250c2f0a17f068d83d011e4b0ea9559a9a42",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0003.json": "3173baf99c39e7d1aa0f09618012a50a2bb859e6b8356de76e2c1fa4b4db4c8c",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0004.json": "ae2959037a1da08fa38ccaf8ce73c368458c36d096a510f972a98e69fabfbdcf",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0005.json": "7863a5d4f70c9bdaa7d7e15e64df6e64028afd477bf042a339042889a13c2122",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0006.json": "e2f41cd178b2c27578e1b08c9d2e244b240f18e9017f9f12aee266bfe5ae9b76",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0007.json": "9758ff8a952456ce9bebf498922245470c1fc1dc248caa02943df74bdfb759f9",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0008.json": "3bcc689f72d373e37a1424471ba1f73249ae16063fa86364bbbecddc520f376b",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0009.json": "f4c30d8103e015071ca5fbac93df411b87204d32ab6efb26eec58e73b14522e3",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0010.json": "8f01563cf793e6d4fec3c0e241d49ac4649584e3a12e284d4d0f3ec12558b72a",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0011.json": "6341d4699a1d004975573d8fde681e23adb0bbe2f0c9bfba4703499bed9c7ea8",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0012.json": "159ec39ce2598fdde05a59b1ed2a64df78c56a6d7a7fd4e91180adfac925cc17",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0013.json": "8db44278ad120ef97b4474afa60f270f92c53a18b486805b53ffd711dd1ce96d",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0014.json": "478bd504d299743ac86cedadbaa38a49b21cfec38c6900c0559f0978269adcc0",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0015.json": "2dbecf3f0ff9a9163b5bdb7deea5198f7df24914b5196f473b4f58e9aee5e6f9",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0016.json": "dd0447d96bd40e18216b8522952710a4aa97bf7bc86da647ecf8aaee471d56b3",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0017.json": "456307358db37de9d395f8da1ee4405138af6462fd281a4676d4f3afab57a95b",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0018.json": "279bf41fc1d996924513effacd41b8037b513afedc5eff2aba53e1ab186ae21b",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0019.json": "7ebb20be42458855f9cdea4c00a37d5b972328e66086a093bd38b56a4ff3a1c8",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0020.json": "d6ecb8e751476461cfad9b7ab96f7648caf249f749642d09942dde04e417b0c1",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0021.json": "b969e508432e8977454e4904c45f2923dc8437d86509b9d5b09cdaccc09a8770",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0022.json": "e458ac65e52a616a5148504342377862b6d317488544d85139cd1a714b4c3f1b",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0023.json": "576ace9c1063b2056e60767376da8cbee2a0b70f689bd750925743283b37f8bb",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0024.json": "8cbdf58da21bf9d43f970f191101288262b331d0e9c3e23656ec5756b4174ad4",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0025.json": "126afc1398be60a713c657f54770e42dc19b015201d60042f026cf6340d471c8",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0026.json": "722eb2d2aced5ef8ad404ce5d782b942e7f75de61067111891484f3f1163ff3d",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0027.json": "23cc6a7157ef6f65658e5b6056c013bdb35427afc214475738e797657d5472a7",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0028.json": "a35e0648d0beeb12de03ece4809ad39d9ec1d0eeecc8e8f7498e39fe6dce465e",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0029.json": "2f61541c5ad3c0d2cc3ef955a81ac21d9e655ccf571d5b1b62dc32aaec43b343",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0030.json": "4cfa6597e3b63c15e8e3385f2f92931c8a88ddf4af65dd58f0adf68934efeb93",
+      "runs/affinity_split_comparison_v1/complex40/absolute_seed42/epoch_0031.json": "9781d9bb346eb9458b290801e6a16253a01da4c44860a677106c858b3e06b4f0"
+    },
+    "archive": "runs/affinity_split_comparison_v1/complex40/absolute_seed42/history.json",
+    "sha256": "630af820cf12a9c250971401aede7048dcfa82a4df9cb3b541a89eb53c861279",
+    "bytes": 29819
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/joint_seed42/config.json",
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/config.json",
+    "sha256": "b7a5385e6bec6b0af2e8a321a70fa102519824461d4876da7d7862fd11fcb69f",
+    "bytes": 2517
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/joint_seed42/metrics.json",
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/metrics.json",
+    "sha256": "9589e0cf2de7bc378c32e412ee5ea5b9ee69bd60c80ac6c44057f7132ae1b363",
+    "bytes": 1288
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/joint_seed42/timing.json",
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/timing.json",
+    "sha256": "0b90078970da012e9ecab101a2dcbf1c4887d9c4dea57056e750c3ad70ae17cc",
+    "bytes": 179
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_absolute_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_absolute_val.csv",
+    "sha256": "9ee831c10f773de6762c55e9277c2f226b5d87805b27695743ae58990dd84ae1",
+    "bytes": 19538
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_absolute_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_absolute_test.csv",
+    "sha256": "457e5047ec7446e8d266c2b7f35dcf88600ae39b65f30eaef18e06e1003dfd78",
+    "bytes": 19982
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_pairs_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_pairs_val.csv",
+    "sha256": "8e74713397d033bc6c2d8f7e97091b7ec02b65755dd688c373834d8bdc4a75b9",
+    "bytes": 16188
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_pairs_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/predictions_pairs_test.csv",
+    "sha256": "f79b57701290b8a0a68cbbad01a8f8d85b3a2e92416987d3f025a75f0e5b3f0b",
+    "bytes": 16196
+  },
+  {
+    "source_files": {
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0001.json": "8d783845dc02bfd6d2cf92c0eb30e81ec72abfb093a6037006f4df7cedb8ec6b",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0002.json": "eed7deddae2ce5b3a93ee9a2c95cc98dc5f189adacb96f2e716f8580fdb0f92f",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0003.json": "025750965d5f76f1bd9586d811eb26894280d228ea8c221a902a7fe6e81eb38d",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0004.json": "f87fae9254b4111832fcd05b1ae1e584078c28757181b1863264d43c89045b92",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0005.json": "79f3f63ac58a014f7d214d1b7d1ef40b39fece0c4081120628ea400f8f333c24",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0006.json": "8596cef6574618cf57f2138bed9f0e0a8312b26669196f951abc8734a7c0daea",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0007.json": "672a4136219cf70188190a07bb93286d3713211ac53e8d25e9f313315622a575",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0008.json": "1d42360abfedf9f162af48239f285c8644fff2ad32b4e340ba97981df901b0f9",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0009.json": "4ed95273d72e33827c37fc68e5ee14e6a5553bad393be67f8a9b1bee0616921e",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0010.json": "3f042dd602059556e3fcf757eaf6a0f3b7b087e69e2d54c36a6d0e0a90d0f5e7",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0011.json": "f08c598c1c0447b3948089fb4701d5923c897cf29bb5002999c2c13057476790",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0012.json": "20e7cd83f32c69deb71bdb2f49df0c27899c30c41067dc1d431c744002fac1b6",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0013.json": "6e25797138e637996870654255819886e7253cdad7d6a4ffb9bad33b89c6d749",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0014.json": "c0ce1361939e72d278060db372f3aba626b17ff877b91f537020f979dec280d8",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0015.json": "66486e05072a312d97d021ae7dae1baaf1d88de6fa5ee96d8810b22ea2ad9311",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0016.json": "84fb2e56e00b04f997a327f69cb0494ea3fb6c7e0ec5be173c010ede06416700",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0017.json": "f14395ae0c1e5819c35f468935085ea6be7b8a7402c6e24a218cf0661597cfbb",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0018.json": "c0f127dbbf0ab96d6f0fcd751c721928e7ef738f7b9e9835c5580665f9c782e4",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0019.json": "36f7202ff81cab42b21b3d93541a97b9191a4779a6ab8562b794ce5c3bfba5b4",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0020.json": "37c9982dc9fa1634bef7f2e7841573a361439deffd8b048424adfffea51d160c",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0021.json": "859bf0ebd48cd1c46744e81c67370380deeae259468e6eaeb50f46cd8567ef61",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0022.json": "0f878657b154f87544b4d96c3c1bf48696c323ea1172cefebe954c06bc76246a",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0023.json": "2c65bee3b87b3115f0cf8c7283028bef7f3fcb41bd687b0e9c99bc464b7c9f1a",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0024.json": "3af7c23662ea9b1d9e5a62b96d2dc5ed1600b2a334234a274deff6906b3987c9",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0025.json": "fda91471cee831d7bfc883970c0ff70ef7d30a6c01daa1fff716da48d2605440",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0026.json": "1f58382f1486c58c75380543c47705ae5ea8313a5ab0bb539ed978205acbd9fd",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0027.json": "02d9fd33e74595415f4ee0eb9997fc6c18b8ec1caa38f877a5801be0fe9bc7df",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0028.json": "da9cb4181e9f08eec63c21706313bdbd700dd9eed3116ce03355c80c30af353b",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0029.json": "9dd27db5d1f1df31a0aaa5554840dcc9d0d9468ab9683ae4fa8115eb15496ce8",
+      "runs/affinity_split_comparison_v1/complex40/joint_seed42/epoch_0030.json": "08266b91a8a9b4e3de9f0b00bba724825702ddaee3dd61a6e03f37c4f0fbfb9d"
+    },
+    "archive": "runs/affinity_split_comparison_v1/complex40/joint_seed42/history.json",
+    "sha256": "40c688cb4ad2373a9845d47486ec2504805b6150341404e42c748a673762d868",
+    "bytes": 28878
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/absolute_seed42/config.json",
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/config.json",
+    "sha256": "f5d994ecd7422a162ce44195878c60ad66080e8d8b3519ccf2919f3b5e0be591",
+    "bytes": 2511
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/absolute_seed42/metrics.json",
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/metrics.json",
+    "sha256": "6223bf74ef605714d71d11dbc58814a829c9e006c700c1dcaf5c58f9e9a9ce60",
+    "bytes": 1292
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/absolute_seed42/timing.json",
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/timing.json",
+    "sha256": "477d8a40fa4c04cbcbdb634934fa1fb9679e44e552bacc117e0f8630c552d0c8",
+    "bytes": 176
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_absolute_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_absolute_val.csv",
+    "sha256": "170067da5b66dc247b5d2ec16de3b4979774ba14630c0051bf150b78c51ecef6",
+    "bytes": 22669
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_absolute_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_absolute_test.csv",
+    "sha256": "ca451d2e5bcff486955e49b1d6bbbdbd8eebfee9025376c774af125f0a997ae0",
+    "bytes": 16588
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_pairs_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_pairs_val.csv",
+    "sha256": "d485c3ffd44895424ac5d89b8daa4e05fba145b008def73c831d38a1a3ac0724",
+    "bytes": 1969
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_pairs_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/predictions_pairs_test.csv",
+    "sha256": "6d3629ba0147c0cc3f3eeed0483d7a1fdde5ad7fe6c5beb8a683c087514d9a63",
+    "bytes": 821
+  },
+  {
+    "source_files": {
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0001.json": "39c4779283beb984752afde53e08a428d6eeae6bffe804e648f6737ed8738889",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0002.json": "57ebbc3fb334fd755a19eb8d92469429200c51fa2ccefc62495be94b16bf5c98",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0003.json": "273161eac5f44d0c11f8665eb8cbdc720920029ddc1df0c02dc19cdc9130e1f9",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0004.json": "dc0f953bd30d51660c2d0bb2c07582fdcbe75451567b4b3b7aa17c12fba746a2",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0005.json": "fcfe23fefa83c6988f240ed5439afba88dfcd588c60ca94976ec6945ebd4d8bc",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0006.json": "efef6e1ad0e4678915eb0e2852739c1dc24c761ef24ea12fcc496cf64d20c199",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0007.json": "e6149424c0f4f98136de7c9d72c3dc833ed5a4c4c682b81032a9886d75a15a80",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0008.json": "5600606456731d6582a76a28635c2a147106c11cd316d5d2f0c028827492780d",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0009.json": "03bba516f16067873511a675c4d87b6fd27bc386e842b41ec78e6a45888b686d",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0010.json": "f752612fd3e7de5f65c970946e564a3744fc69068a1b3eca07ba4385294d71a8",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0011.json": "4b51317a622c0be863e97b07616449ed4aebe1ad8a2f893dd9a89c733eed0094",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0012.json": "dfa957048bff8050f2ac7c76c96825a1e875993039054ae2b5b5199b0aba03fe",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0013.json": "35f980c56c7f9dc1e484723b32e64259f334072cc66b4173234651edc73edb5e",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0014.json": "87521ac15d892ec7f3aed050a9dd71a4d7b5901149af25d9c296dc3487058de5",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0015.json": "700db4fd6c43276fd147e30e0183e2063d69a9885d742bb13d9abffb1e3145da",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0016.json": "279b1694006105acbff22f02cce4e21f3e30e22573738ef250efada84df2ea29",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0017.json": "aa54d5d72aa4d0aed3063c251f715039105fac984b1ef5c1fa7be976da6a52ce",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0018.json": "9c770aab9cfb2d63935cd9109ece7aad7fb176decccc780d5832d1810866aa39",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0019.json": "cf9aedc1aaeacf4e47aac30541f51b074ca94952c1b96a9206b33c45601a5fb6",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0020.json": "3fdc54b1af189841007fd6b90c1e057b9e3d743d2f9d3a110fb6aeb6d37d55c3",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0021.json": "96f139f8f73bf63ae773c1fddc79d44be938722aa45a8f86a9cb1d98d0f191fd",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0022.json": "d5354f571a7919d6233adfbcab77aa22252daea6e035be5ce4ac1a28442debf4",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0023.json": "120a0d02792a9c56d19584b3ac88d5297dbaa31e1fe27ab12eea73ed734e42c0",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0024.json": "a0c2da305bc13fcef114b414f2a0981402f82c25e648bf98d1fb661695af66d9",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0025.json": "9ba5ee416433902c131066650ddb067634838c6416644f3df07f72df1f324fa5",
+      "runs/affinity_split_comparison_v1/original/absolute_seed42/epoch_0026.json": "80a99c4a37f4c7173a396ddbcfe2bf761fb4d53323c4860cdce5bef9c9622d44"
+    },
+    "archive": "runs/affinity_split_comparison_v1/original/absolute_seed42/history.json",
+    "sha256": "bcb6251e5a074b19213ef3828a020fab297d66af074e0d97a5ddb666ce5aa373",
+    "bytes": 24971
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/joint_seed42/config.json",
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/config.json",
+    "sha256": "e53b3dc515af7d23c7d6261d923ab491f656d506f039bf7a97a435a0d0901dde",
+    "bytes": 2505
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/joint_seed42/metrics.json",
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/metrics.json",
+    "sha256": "84fea7871e03934543d83382aaf76270801a41d355975933610039d9e560edc5",
+    "bytes": 1292
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/joint_seed42/timing.json",
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/timing.json",
+    "sha256": "baa548b7b49b5bc4687821a27ef26adb24cbf9b54dd39bf9915520f1ba4d1bf6",
+    "bytes": 177
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_absolute_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_absolute_val.csv",
+    "sha256": "ae1b0315a344a07a3b6235b29f0f3f318170a092b2bed10d69165f33c0092067",
+    "bytes": 22677
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_absolute_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_absolute_test.csv",
+    "sha256": "aaa3ca97cf28f14ee5ba95b3fb468b89a737c55ea8b2a184a5015b70ea815859",
+    "bytes": 16599
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_pairs_val.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_pairs_val.csv",
+    "sha256": "49b19f1b93d3868bd1ef662e927dba05e16cc3f0f54bfea8b9c2b684697470ed",
+    "bytes": 1964
+  },
+  {
+    "source": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_pairs_test.csv",
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/predictions_pairs_test.csv",
+    "sha256": "8ba7b6560197367d941c71c78c5bdb38ebe39b05cec5878bde4891acfdb69da8",
+    "bytes": 823
+  },
+  {
+    "source_files": {
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0001.json": "2a919f5421b741a3ccf689132e7c6e179443015f6e439132a50f1e2300552171",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0002.json": "82f11aac2b70bead809d7cca5457241610f75875848ce221c9f9030f8fbcd031",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0003.json": "ab45ffb6827029b8f1cfbc0f4dad1dafc45ce77ce10b488caa182e158a11b1fb",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0004.json": "30e20f50506837bd545b8473713f0c30487ee8ac0f2ba5d307b239734cb8568b",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0005.json": "3d1a717ed72b24d736a14c865e1d8869a5debff7c265e779a842882e78edfdf2",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0006.json": "7d8e1da7c6a695b8c5248f3eeb060beb0b8e6ce5a35ef36ea580461f1bbbf944",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0007.json": "fe8cd962a9c6e96bdae3101d77a080e616ce02ace6c95d0380bf25bf341dc442",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0008.json": "70cb07a9a9b44686a41ac3f751591e3b3f813e5697d8af9a91964d84b7576f83",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0009.json": "9cba418ae2039e76acca4e440a90c8c6ede04691b2443fb3849a54a92e0d48fa",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0010.json": "2fe5352ec8aeef77d7d14ceda708ead6a5dd1ef380c4f145c5b91ca8e87e27c2",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0011.json": "070ce23436792815dad78b63901c65b13f97e0ff05a504260b77a0699c3610ea",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0012.json": "12d59725b0fad2afa42ec6b33f5289ef356ea59eb3b879a9f75a82755c4393f5",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0013.json": "1b21c19a0184f06e3836793cfb521e8f15dfe6f55d244ac7894047dced657b76",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0014.json": "d9d2f0af8fb1582f72498adc1bbba9b4e0f2d931c4581baabc3ed1247c3c8b87",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0015.json": "5df31404eeb89478690b4688b6f8cbd85cc3a580b477f6bc8d66ccd072e38b98",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0016.json": "144f02c6c3c54b6570f074f7aac1519f509615b454366c567bd99d5bb5569085",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0017.json": "f25c6cd864120445989e051c35e97d81df3122611fd464c53994b8a00ac526af",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0018.json": "6c3c80151c00dfcf14c4a01a24d5b4c5abb048550083664c8cd6708a06c7034a",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0019.json": "c4c669525d380f661ed894764a3913b31126eebd0243d7c22d6aa06d194cc516",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0020.json": "3ab623cf273d63509b04dfa78c4100ed5b9dbd161a1560926a26f38dd3f6135a",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0021.json": "fb06469334e99d4fb455f5bbcb96f70c9ecba4c99e115e83e883a44cdbf560f3",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0022.json": "1758595c80970f948768235d337c6d6f22ebcfe790cf28709ab685186e9eca5c",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0023.json": "68d1f5f38eced86af109d289b4a9716b40579caf1c80f99129558e2563a1e24f",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0024.json": "2c6a1ba6b9e7424c33e82d44b7a607d2c3f0b7f042080e04f89e4f3e505a7e2b",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0025.json": "1c205d63f4ae5dc978bdc2de987f4e390f98ddc29ad4708972b19dfb65029328",
+      "runs/affinity_split_comparison_v1/original/joint_seed42/epoch_0026.json": "5c95c5950f9a40f1d2fca7352991d41465da7c953c83df77a7beb4aa0d8b78a0"
+    },
+    "archive": "runs/affinity_split_comparison_v1/original/joint_seed42/history.json",
+    "sha256": "ea998cd0ebb19d299c632e8b47308db55facd7779b30827641fdc0edb6e4173e",
+    "bytes": 24985
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed42/config.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed42/config.json",
+    "sha256": "6dc72859c8fd58a9de0594130845a71e09a96195cf9bd17cd8e5f38b05b11fcc",
+    "bytes": 2688
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed42/metrics.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed42/metrics.json",
+    "sha256": "bb6b6c541258257ac55be1ec958587ba36e7d65639aa4eb9d92dffc4a7b8397d",
+    "bytes": 1289
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed42/timing.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed42/timing.json",
+    "sha256": "f76f76e0e1141f8b91cdf5195acd065308291863e4ce35b749ace18bd0450213",
+    "bytes": 178
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed42/predictions_absolute_val.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed42/predictions_absolute_val.csv",
+    "sha256": "6d65b4052e99dd19f7b9f6d908e6708f2168f55dfa4bd0499558785aef8b302d",
+    "bytes": 19797
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed42/predictions_absolute_test.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed42/predictions_absolute_test.csv",
+    "sha256": "13a3bcadfa2b174f18521dead1ebcc1aa4829185e367657dfa0a01585d9d2420",
+    "bytes": 20375
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed42/predictions_pairs_val.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed42/predictions_pairs_val.csv",
+    "sha256": "3b98a68dfc6fcd71db52f85ff7d55dd9819be65945883e338965c53403d4214f",
+    "bytes": 16080
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed42/predictions_pairs_test.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed42/predictions_pairs_test.csv",
+    "sha256": "c9462b038a4e3535d91bf0775942ac62b2884322c801ef3fd379c99d6d63545a",
+    "bytes": 16379
+  },
+  {
+    "source_files": {
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0001.json": "10ec3f755ecd403e55eb4e0de9efe3c87db9513a6310efbbe6086e2e734a2141",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0002.json": "841d99387ae831eb73bae725344f51b9530719ef9dc5ad7357e62dbddc0f289b",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0003.json": "0e6c89f455bc9521d388f4dbeace352e4ee1fe99544518b114f14e17e2a61ab1",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0004.json": "20d731ad9adf237c4fda11dd9ca062be08718126271f62e8ad35ec7f8c192d62",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0005.json": "b16a4f1304b87a9a8f710d28d1519f129b1e2afec0f1c123921a0588194a5de2",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0006.json": "8c613df5a80855dc34aa71370fe97de35eb98eda176dc335cb6921f9769f936b",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0007.json": "4c9040972b15343d3e9932fe548b2c76bc23c432178eb8d385bde6bf2588848d",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0008.json": "70d4569691a4f9996d745eed7ce49e8dcdbe7aadb18b51147ad7e2ebdb8ada8f",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0009.json": "ed9665c7bd2546235fbb8db2ecade8faf25dbc5cf3ef3cb30eeb4e86f4f47d19",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0010.json": "f7641e2e42d7f4f878900a467babffb2fe7a881b19bf45e4a6d0bcca85c3e97e",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0011.json": "094303c9ea097e00a2fca2fd7d264d22f058084888176995161bce046ad6a891",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0012.json": "f79110c94294b2ffad2b780ae950ce8b02424a99ec4c4abc28220d1f66ac9e66",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0013.json": "d73afe592cff13beb20589e6d02192050b58aab7080c401f9dd6c41d047d0920",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0014.json": "09e1705ce42981b58376be22e223f80bcc5df66f31d527a4027e36bf9ed26ebd",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0015.json": "0c40d3dab2f7af65bb320ef7b65ec9c0df27b5d0cfe40ce3efb21a0cbaa359e4",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0016.json": "28ab7fbf78ad02acfe72a5d3a8fc713b1478ebda37bf574df4cc2fe01c211591",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0017.json": "51eca8e9bb818e964083077bc1d85905df488635d64e27b9f2d2140024e6899d",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0018.json": "c981db17e4852a526e6b494b6b3d90f8d11c2c83e108aee20e607de866ac5423",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0019.json": "132f20976fdb936713829ee9761727409b665e8372a695955ff39f9f78c127ed",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0020.json": "22f395e52beb7d6b50cb77958aac7373d0800b085c614b8abaaaca6f0b805547",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0021.json": "a6a2afbf50d52cc60bad13d33e3c1c0a00372b8a0952fbe51f103749989cd124",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0022.json": "403ab2089420c7d74d99659f8e757e777b988d3b2b4ee2a4a96f9f1fc1f8b481",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0023.json": "0dd53536758efaff64741b961fb448aed52116bf4de34584cbe01613b237acdf",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0024.json": "fd74f1bfcd4d9844489fb611c3688d66d2b7b2316d0da50b405ce3d4bcd3b4fc",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0025.json": "214c8ea03c0eb4bf66f610844020ee0c3516febc8c4bc63a584c27ef27857392",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0026.json": "4b3089a880b499d59e02f0a486b0c54729b50e39788e54b1707579754b9065e9",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0027.json": "a559d1220cea5b6b4529faae0616744ac9ecf7d08a43961ef095880c9f9daf55",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0028.json": "b8f6d32a1d809c3d6909037f0c4ca1a04119a292d4ee40ddd34b604676e80f8d",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0029.json": "54da520aa6c8cadedb6a711fa6200ad2506bbfbda488fb3fe39672f4fad46c61",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0030.json": "7c0ff9ea8c213aecb09cf676bda334163e992fd46b14e03ed0739fcb56054c70",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0031.json": "061d9b036654b50fee2129fc5d2b43373350b71b349e618ffa139a1728577a0e",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0032.json": "961cd8892ebcecc2981425b04e19b6cc14133ec89e2bb2385aed798deaeb391d",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0033.json": "0f098f23e1860b0ccf1fa036590f18dada55b2f624b8ba7e36a31970cad2c59e",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0034.json": "0ce4e7eb615e805416c51649fd697586767c788cef8178297ce4290748b4e733",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0035.json": "057049240a05ba91eff51485877ba10f2e6f74f23fc444a43b05cb0d537704c4",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0036.json": "a01a8493d7d8455b4ab7eb71e45a73ae52f872f8091b97d6c019bfa1d841cd3a",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0037.json": "f7b62d9410afb420699b0a31d64f42c1c177576376582f2a3db68aa4777f165b",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0038.json": "a0da21224c9931d590714bf1fb30aeba091e9cd00a92ec90a8abbd28b89010d0",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0039.json": "46fc506c6524056f691ebae8240db245b3d1414b62de6651471f9e162f16ae94",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0040.json": "c66b101d455dc0143c689ee8d2a37e20f1cf405915d61a2a449d68a9ac7090e9",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0041.json": "a7c27ccadfb893b1cd7704ef1eb50225b59f351e43abd89b39ca20c71a6960f8",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0042.json": "5811618dc07bdf185021d2d89a96ab884a3af8cbbc750d3b871fb7dfcb295d62",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0043.json": "c70dd141f4eaaae99fa5820c6637de2eaa8b3edde943aca594aab067f0d79fd6",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0044.json": "bb1adbfd692df97cb000957e2cde6201d58e8e954e3e4769f6386da9f5c5ed80",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0045.json": "c75039301a35c298546c849a6e362c11c4bf8b5df37b07c91b5d7bf9e8b2ba17",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0046.json": "caaffd7d00f6386814c017a3926b23d05b89dc9355c0a721e11d1272184917bf",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0047.json": "094bf3fd739310ad8c0c8fe38aa18d2bb27346840a436208c93702da46ede88a",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0048.json": "1b58afefb8a5f782e53ee8bd2bd63a9ddef16bdd84bd9e7fa4f24352bb19ac03",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0049.json": "3af3009295cb435e6e8a514fb440b2a33ddddce297f6a6892ab2308371801c79",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0050.json": "5e7a0b7db910cb7ee9a85e1860b39c2ba40d8ad4c4e1555a742477d1deefd720",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0051.json": "d1664dfb3fd61ccc702b406efb6661d9936525b27b63813f0e5b881de0003822",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0052.json": "15254f9960bd93966e8684105c0bca6f6ba3a327e622384c7fa9a0aa41ba0a6d",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0053.json": "1e3f47043c76a8b9a35b8977fca4d0d2c34fcbc0a3c23840ce9d9c7ac48605bd",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0054.json": "6b9055e66f8a83e2c9a737c084d2369df33cb3dc2aa77d17f004c38aba44b7e4",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0055.json": "0b9c4074937e83470b86ff4d6e3598d106db5184c74b09ee993a477750f28195",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0056.json": "b1d31d664c2e0d1978d0762dd111e4ccd7fdd40bef18cfc9fe68fe029b40c613",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0057.json": "62c8c42e72351c2da27ee0513fb790f18d333b05849b1fcbc55190845200c46b",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0058.json": "2e5daa9ba2029e65569f3278c2cdb2e0d194cbb7fa5d905532dd277728781c0f",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0059.json": "ae2bbcbfc7b68bb0d5dbf920136a2adba0a7b3f11cd7dbb02fcb389062430936",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0060.json": "dc86e1e1e1b73975f1e22112ce346a55ec316fb784aa45686cd876093ca43fae",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0061.json": "340b3ec79cc6f4819aed5b3550738710c58bc2adc3dcbefb7bf559423837af56",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0062.json": "6bda649036cfafe2fc27214dbdc577d1f286e833052471c1a72720e4a9996f8b",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0063.json": "462b5564e240c74320242cee9bcfb0c0c2c2ca682a6964ad7544f80004c5aa27",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0064.json": "07816359c14e002f3fc52b4d19596fc49683fe65c7098d7c47f4069bdb8db9b2",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0065.json": "1d637acf8d25cab475c9679ac269847ec98c261fb4e5ad04deac5a2c7b0ea6be",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0066.json": "ef0ea531cab238e1e8b4fc387a61e940d0bbba9dc834957d7cd1b2fd169fb1a3",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0067.json": "40c88418db51d9dac89822bb6a116dd8f184cd781a5b8bcc246444f8b9951e35",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0068.json": "5e7aea494d16480350b882c96a57ec8e3a0672168a5ecd5c8ffa22ad9e9bf741",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0069.json": "816574eda7937815243ec5afa9481780c383266449647d5a2759c5a0ab0731d5",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0070.json": "84533150f9ff8af2b65f7db5c399d82be45157ca7ca15f9bd2b99751ae5e0158",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0071.json": "10c7e6382973dff693f5e5b10b86fb7493112024081a42380c09e2c879d8e108",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0072.json": "67b11f583f4b826148dd66008bf521b2feab5512481a7b71228f5434c37d3e02",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0073.json": "5a0634624ed903b03917b11d375f91d33ef4bcd0db0507d4dd213c4550c42a45",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0074.json": "eadca0a8eee49986190ce0f9cfb9f577fc622559c655545b334c404ba90ca974",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0075.json": "a2315bf1eb768805f529af6292b584e6f3f6d76f5567e88645a02237b775727c",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0076.json": "570f082be983346e09a680338512a20ad80037d5cc188b7074bb0ea55010b25e",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0077.json": "36330add830c9f25dbce4e513c6511df9676308970e294d0b4e48b1676fbb073",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0078.json": "8e7c386e4aee6872c1774c85e50e725c2d07b39463b4e44431ab33820dfd7c33",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0079.json": "abf6280a86da76b0f4493dfcde78d0a1d341fb6e28bfbc67081b45fdc30165fc",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0080.json": "f525207250a1c56772aacf0ebcdd1a82e809be900741a7ee793232df6fb5f78a",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0081.json": "deab4ed00097b8e426409e09e2119067f3ee0386793e1d434fc80e48825adcb2",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0082.json": "2b1838b12fec88714faa57c682412bc32b26f7d4a2fd7c3da72b636ff946a482",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0083.json": "bf162c1dfc9bb6401f797bc46dca9a69ed806574be2dac60e747cfa7d8b23740",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0084.json": "1982257c71f55edd86d0052e50c9c8a67c9299b165710d3492a066398a7fcbf9",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0085.json": "ef2143f0fd70cc1ea3fe522e4aeb7d3342786084a79c60b9a03c6a83bd653975",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0086.json": "871821b0c908728a7a8eb7e0d9ae4487d0abe917807850b8827580b675a65dbe",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0087.json": "17c5093573e914f6564768a0e21b2a42af0758640482962b6d84b04e09647e0b",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0088.json": "d324971b25b46e49b221c05d36b087a9f7b107cbee6ca819142bf6ee1fd596e3",
+      "runs/affinity_residue_v1/absolute_seed42/epoch_0089.json": "312c2035ea994270101f8ace614b3b1a37d01c273fafb805ac7e1edc3b34b197"
+    },
+    "archive": "runs/affinity_residue_v1/absolute_seed42/history.json",
+    "sha256": "b97a29f0c46abd835e0bf2f1f19adf3169a4e1e8d3a05044f4bf031e6665a163",
+    "bytes": 85647
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed43/config.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed43/config.json",
+    "sha256": "7a1d355136bb550679030852513021e619d962b0294547b18fbc68aeaedc30b6",
+    "bytes": 2688
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed43/metrics.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed43/metrics.json",
+    "sha256": "f61d68c7a1e140fbf1b649d6c9b6fa0a30e1c8e57420ca375b8d9e217dcb0e88",
+    "bytes": 1282
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed43/timing.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed43/timing.json",
+    "sha256": "4e7455db9f74847476af5169b4e77ed97bdf3893ba2e3d4a2cdc85dfdcf6a53b",
+    "bytes": 178
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed43/predictions_absolute_val.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed43/predictions_absolute_val.csv",
+    "sha256": "c1fa734110c6abe6468e73c2af141da3364eab04508899c138f181d4d1336e17",
+    "bytes": 19781
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed43/predictions_absolute_test.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed43/predictions_absolute_test.csv",
+    "sha256": "078bbaf3ab2ed34c83af988b4c37bf4f26169efcf8c7673d793269fc9b3c64ca",
+    "bytes": 20391
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed43/predictions_pairs_val.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed43/predictions_pairs_val.csv",
+    "sha256": "e9d794225ef3ba961332d6acf12c875cabfc62d7131a6a98c94090076a91233a",
+    "bytes": 16057
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed43/predictions_pairs_test.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed43/predictions_pairs_test.csv",
+    "sha256": "a9abab9fb8473b203f4b994df4d742ee247572173af79eedc9f27b3a51196536",
+    "bytes": 16415
+  },
+  {
+    "source_files": {
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0001.json": "f7981b668c7ee0834837ef504e3a687dc7167d79f7ad8d7fcbdbb1aa0aa8ca34",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0002.json": "3c020a8e056e887e5048cf91a02ac29747c8a5156cf67ae7d4edb0050f3ff39b",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0003.json": "c312b99b4a211ea17ac2349548df07c9bbb5def32417c632774ab5ec51bda424",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0004.json": "8a554f2d9a34d9ac53b5dd283318c11bd0f4540aec5310ed0d4b4d65edd579b0",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0005.json": "83d8fc2d4ad616216a362811724873456043e95e074fddbb1d37edfacb3cd8b7",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0006.json": "ee99693ae5f2b0ff1e76d6439f81a203abc0b27c40b56ee4440d52569de1a159",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0007.json": "d04eba6f70d8a258a074441a1f947bab1383396ee1fa027550d532330795f503",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0008.json": "9d20e28a54dfde26f1ccd9c75076caa631b5d1f52f763db8929d9d09fccad8f0",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0009.json": "4a0659d5cf609cac676c6a6404b937164c444f6b4e31a181606832c0139387ad",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0010.json": "57405a0831541442a4a224ba8ea7a45ba5d7e6436ce934e4dd787d234e61e3d2",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0011.json": "7abf79933cf40cd0e10ffab8216e6fd431ffdc9becaac614874f8bf5f2bfc414",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0012.json": "b8d7d75d000181f80cd999618bb070a15c8021c18a70334a6ef63d4730f0e9f7",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0013.json": "e5a6c3b22c6320fa156cd0507339bd8328f433a102f3dded4aa0f55d16503c52",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0014.json": "0d40aac6b0c08a9c94ab8a3b623d3a01a5cc067b959fe9677ef02bade3231649",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0015.json": "a44842fd17a5c7882a9ad15cc8367dc91216050050812aedea0b70a824a1eb7d",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0016.json": "8172b1a87fa1362a7344604145306a2dfb594e61548293d67abaa3243ef68ad8",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0017.json": "4f19edd74eb23a7867b6005585fdfc1fc917fc52242b635d8c0827b216b5739e",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0018.json": "7b303b767f41557589fa6677e8194a67ad0eac6c0b6d0520098afbf6e91d0755",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0019.json": "378f7fe3bf07cf99bf9842cd51cb05f50377d91f15fef6f5b8800ea405fc4b8a",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0020.json": "643297c1f5bc90c976f6b36f26718049bfff80ecf06864401410b14cc8f95462",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0021.json": "cc5b562a270746ea9475d0a9454f937baa1c10287caa3f19447619222e1f75a3",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0022.json": "577f39a451563d1cefc52bd1a64fc983f56cf80a64dd6445698b2d8efcf7c5a4",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0023.json": "d5a31992c5239edafc2bda1e4af6c2ca9c4b51843401d636d46c06a797340148",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0024.json": "02caeda08e54bbefef5504684a589738ec30a1394d5d761dc698d097be946ea2",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0025.json": "3fe1d098720affffc175d46a2367ec1d21d430617e29be74448546ea0510b2bf",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0026.json": "cf642c72df0ef3dc303285ee340460dac428035612ea44f8599f746e0d77023c",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0027.json": "bb41500abe17be9bb375d336beececf6c3426dc8ca133386f73707c30a399401",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0028.json": "3c439970e37e3fbc6af1afde26a1e0307503e664819fd897bf1fa338de47c075",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0029.json": "dc410cebc97c8ebb36275d0da50116323a8143c769af020c8a835a1ce7bbe0ea",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0030.json": "2bcac2434602c348d2e7d46fcf870574b4af3d48f2cb5c4690d7c1fd04f2a64d",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0031.json": "d5c4829894baaa695cf033d3b1fcae861311a2be45d663aa9fcc1e74c5b86c7f",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0032.json": "da78a8dea4c80c2ae47c245ffaef95cb2d01bede005f124e9b138befdd6f6049",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0033.json": "84135da363df1ed90a4db314dd649ab966dd0d988bb185d64f2eb13865f37a5e",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0034.json": "201ce900f41ac442a79de2824650b66564621a1b7d453cdbee149bbae06e5af9",
+      "runs/affinity_residue_v1/absolute_seed43/epoch_0035.json": "b59f9e721b9ab868cde492c6f50083a945b18b4437322386f161a3ea76520ce4"
+    },
+    "archive": "runs/affinity_residue_v1/absolute_seed43/history.json",
+    "sha256": "425f098791f02e6bb6a328d105a2cc2b1c135b5aa7d835616e29e8c619917162",
+    "bytes": 33615
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed44/config.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed44/config.json",
+    "sha256": "790e7447d9264839f01b691ee2ac7bf6b24533a10c22b8616397e2b990764766",
+    "bytes": 2688
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed44/metrics.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed44/metrics.json",
+    "sha256": "f9cd1de42c4dfd4c7161911da1e5d592d00a012538761c829357755b72cf1908",
+    "bytes": 1282
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed44/timing.json",
+    "archive": "runs/affinity_residue_v1/absolute_seed44/timing.json",
+    "sha256": "acbfd8eb0833de8b71c4d099fbcbbb3cda578224bf2d60447f14b274f3b7f781",
+    "bytes": 177
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed44/predictions_absolute_val.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed44/predictions_absolute_val.csv",
+    "sha256": "1946b0bd4b5be402bcf9ebb43c4093ebfa19a14eae80042180a67bf5dfc0c84d",
+    "bytes": 19786
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed44/predictions_absolute_test.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed44/predictions_absolute_test.csv",
+    "sha256": "a87256b60d08e575d040fa734cb2eeb2f7bf3453f36cda1a652d0b04303bd0e9",
+    "bytes": 20332
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed44/predictions_pairs_val.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed44/predictions_pairs_val.csv",
+    "sha256": "362f4f2a801aaa4eff85547bb34da39f3a7a2466139a0f06cfea084f20fca6a0",
+    "bytes": 16052
+  },
+  {
+    "source": "runs/affinity_residue_v1/absolute_seed44/predictions_pairs_test.csv",
+    "archive": "runs/affinity_residue_v1/absolute_seed44/predictions_pairs_test.csv",
+    "sha256": "2d2424c55391de0049e858051ba528edbe6513dc6e753b66edce1e6fcba58697",
+    "bytes": 16406
+  },
+  {
+    "source_files": {
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0001.json": "3597d3c1469b3b7991349b842eb76bde326b74a116d94dfcac928c9b4d8a4173",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0002.json": "e9d5da31b100c98722fcc7802bfa5d41c2182cd0d12439e5e2ec501ea59d7ff8",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0003.json": "01e2296d2646fa7eb0f9ae77de8ab34366990abb002ec4c4cff747874dd2a49b",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0004.json": "5c0281288b0b362f16bfa6ce465bb9f9f9460a514dfbdda263768946c7445a58",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0005.json": "334c4666cb603d9af3547e426f7cad5a2a868a727ce6f7978e0035fc7a30a8c7",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0006.json": "671cc7efccfaef8d682852cadd2d304bcc006d86add9c7cbe1b79ec6c71fb2a7",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0007.json": "391bd61c72e97dac8e492288524c30f26619e24f41130408d0de20faf04ba41a",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0008.json": "c2b11ace2740cbf341254584f06bb1f586758c15e03d9fdd0e382767a95f59d8",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0009.json": "2f8acf85ebe38d1bc471c731604caabacc750288f798041e8210638d55f24658",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0010.json": "7179510b0d797524b4012b3f65cf5f5b763eec20c9e1bcecfe3b2d7f09d750ba",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0011.json": "312686365852cdf513ff0f3a6e03b908f5f9b77e13b1638bf0c52e589351679e",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0012.json": "1bd8e12ccba68d16d359c47f4f025249431d3d5668496a0f57ad41e1881dab7f",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0013.json": "d3a10864592783bc08713ccdfd12e21e49085b592876864862aec4caa4371df8",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0014.json": "d45702bdbf48c79b760893f2ae3fe4837f3831ab63e18057a5478677a6370842",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0015.json": "a3bc3e5258767ae955e03ea8c92dd8373eef240ed366eb0a4d2e94828bbba2ab",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0016.json": "3b75bb4a5629a3e6cbc46c9b0d276dc8084ba5b8a541733b40f15aa493ac4a4a",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0017.json": "464d62d12a573ece6853f758ac76e7ba21031d72cdc5c8456be7c9e308b9ca26",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0018.json": "fb3d0524392a03528907b049758eeed6c086d7efa55570611c2696ee6be88cba",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0019.json": "29a0b96ce40f27bf7b737e199556ebc073a5cf98639ea17ae93660dba5104922",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0020.json": "fa40b49c85e0bd03940eee16bf31dc4b984a2b476db535fd310f8573c15a9f1d",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0021.json": "160b652ab5c0cdcdb8297c9f1a152a4620971ef14a4b3adeca4fb882ec568756",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0022.json": "3be095b3ad7243c714f3a6fed6998c6ee8c11ca1c72d4445dd0949ae95cf0e75",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0023.json": "be403fbf060e861cb84a3d8c9884152c75ea24c2c5ca23d0ce976be965e67b10",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0024.json": "8dadd1695896c72a53e004b8deee0c98c3f72ff32004cb72dcb2eb153f1d80e5",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0025.json": "5c626bebbd3b78bb2697d6b1fb7a4b51ebb8c0a99ee8c27d44144760858f1595",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0026.json": "0ef5c8e1ef608e019c9df10bf003d2df1ef36ee9c230e50c359a485c67e7de73",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0027.json": "369f5a2c6180c76d7eda6d83170ce4d56803ee88486b3ac316e7aa23b7eee5e2",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0028.json": "a4e467ca8b6fda0e5da7eea06a29664eb49e1729e47826e3e8bfe46cc522b88f",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0029.json": "776ba7841129b6324c68ff0ef6c4ed54820faab889794ec0002fd8433d25c032",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0030.json": "08c409c507556988045b51b944cea5c5440a7cf9144acaf7d78798e706796fb0",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0031.json": "ff3d5f48ca470efd91779397244ed028245f90641fab842f530658562e2e0566",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0032.json": "b651579e20a24e5aad91ff67e30f9b380b6c86a564120cc8a84c868fc8456f7c",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0033.json": "d5471f674b62151f6dfdf213507e6b0ea313fd7cb740deef041d8dccfe43671b",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0034.json": "99c3e04c507818adead2bd4d90edc35a9c7d9fcb2a379679791252e18701ca0d",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0035.json": "86cb980809ae146a7a91de5a857f0d65984b6d203a8e38f7144ad6b6c929fcd5",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0036.json": "dfd32358f496d13acf3ec37ca2f97a5d96bf3aef17092db60e785e65046dc8d3",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0037.json": "cfbf0e343b78cef972cc22684034e7b6205ea62be3623b1f43ea22bcffaa3b38",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0038.json": "9b3d6270c55bf7168d48d834c938c466d6878f09cc3d6a1d64752f23becca3f9",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0039.json": "45e5c3b269b2c37d48ba912d99b7eb22df6f4b09de7f86da36e4edd90f4849ea",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0040.json": "9a2a444c5f4be9b540bd8382e7e91361b48bd021935d107685d7b7dbf1cc1f89",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0041.json": "2d714184a5d88d0230c2d4393428783fba158c84ec02030b29bf603fa6607475",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0042.json": "967f716f2bb85a5d7638cf14d14535f634d1893cc7757330e1b0b856be11c932",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0043.json": "b3f4a1d4983c0499c8427353dd9c6fcb9363389afe6123a86986e7b234a789de",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0044.json": "0d2f8f76122f33abe60f6809f73ef7ad254e23c256bf13ec01d9203e30d692b2",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0045.json": "a3d27782d986bb0109a04eafefe6a589e9b1a67cfe2c0fb1a1a089a59d14ddb6",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0046.json": "47051980504155a8a835adea431a8a36a5cea851891d97155d499b0597d694a1",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0047.json": "bcb0726168b48a7ee92158c55399bddffe1b2b794e9cba512131b9f7910b5b17",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0048.json": "74a5ab64b712bd191fcc3a19e26f425b3795c596c564970519b321ec01208612",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0049.json": "c57e0a134d19cf6e5025184b6b3210da187cdffc4ce1c178dc8d45ec490c359d",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0050.json": "6f867d99a5234ef58302a63a826e64048565890334e804e9ea6010b8761e28bd",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0051.json": "af3de58751ef9b4870a8dcf8b4ed3f3a654c8ec2208704accfa8da592a95dd05",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0052.json": "d9ce689207bb5846788b7a051ca01af2f19aebfebaa2efd2a1cd4455a04ea920",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0053.json": "0a764271a45e7d9373c38b7c94d473f3a6f6e4a9ea360125db994e3e2ea23202",
+      "runs/affinity_residue_v1/absolute_seed44/epoch_0054.json": "fea75bd96072cd582a05e7982634886515a529a09c423ac038184f3578e67162"
+    },
+    "archive": "runs/affinity_residue_v1/absolute_seed44/history.json",
+    "sha256": "1a9de4bb271b6b2113a406f235697c17b20f939b85df5b464f1e2ee16ab97196",
+    "bytes": 51859
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed42/config.json",
+    "archive": "runs/affinity_residue_v1/joint_seed42/config.json",
+    "sha256": "f71fdaf010a9322c196f41a67957e8ff0b73f26d8fc00759d918faf4fc3b0b7b",
+    "bytes": 2682
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed42/metrics.json",
+    "archive": "runs/affinity_residue_v1/joint_seed42/metrics.json",
+    "sha256": "c3e0f6add37fa527267cc43fda1b4a6de61655aaceba4d35d8b4ac82be3ff487",
+    "bytes": 1285
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed42/timing.json",
+    "archive": "runs/affinity_residue_v1/joint_seed42/timing.json",
+    "sha256": "a608e45a0592046bf1e2e499e26e97ea497264749952787895dda4f153798c6d",
+    "bytes": 178
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed42/predictions_absolute_val.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed42/predictions_absolute_val.csv",
+    "sha256": "f145bcaaae450d9778607954226d1ee52e48e92a83532dfb8ca85547f83c1590",
+    "bytes": 19769
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed42/predictions_absolute_test.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed42/predictions_absolute_test.csv",
+    "sha256": "aeee7a24fb6b391c4ed291a05d928dcf624fd69a93d2264b5b56bccb987be032",
+    "bytes": 20363
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed42/predictions_pairs_val.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed42/predictions_pairs_val.csv",
+    "sha256": "17a96e9e8e0b1c5dd4a2376583e37701fde8d8b1e312eedfb3f2ee5992f592da",
+    "bytes": 16021
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed42/predictions_pairs_test.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed42/predictions_pairs_test.csv",
+    "sha256": "a2fd2a28d72539a29ed18a831a1c4692a4ee7ca0ba9da9dea34f6df18b8796d3",
+    "bytes": 16363
+  },
+  {
+    "source_files": {
+      "runs/affinity_residue_v1/joint_seed42/epoch_0001.json": "9a207fbd43b671019e9173a7164c2ba2dbe27292f44474413f14086de49ad6b2",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0002.json": "b22d6a9e604642fbb7ee563d0ea0fa7fbe686c9b82e8f2a902fa26562fddb0d2",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0003.json": "27da9b63265e4a3f264c2e9cbc6768504f49d1004007150e3a85726d6e8ee40a",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0004.json": "4eedf4e72eac2dc7534a9668976c542911fb672f0fe5a51a3cf3582e4220d244",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0005.json": "8267cc9f99010263ea033188c99d5e6efeed19d6cf910ad9ec7cea92ed143c3a",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0006.json": "77335d54b2af4f796f3279c75cf88f243e1c50f8c756292decec0c3210b7135f",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0007.json": "04b84b6242cc1503795f49427fd667018bf38f2362ccdaa37dd283083a63eb52",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0008.json": "4370789db87f85ab53952c3f58ef5245661c112237811130f45cee87e81bf462",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0009.json": "44b08f33ada6cd4b1223169c44486763065a2135834ef49e4bbd1b8ec6fc66a0",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0010.json": "34dd117189b1691ebb0ec7cc10d1a664b0d8bd247496422284f4f297e6bcdb84",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0011.json": "a1ecd9c2423c97ba6a8819479f3351454745aeb44b5462960fa460cb62569fea",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0012.json": "594c712dbc92fc7b6ab540753d09ab5fccd6ce473353267e09bf99c149827d85",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0013.json": "42a71c986c3f233cab76c135f5aa8c051b99eff44b7a089c00b5b48ea6095175",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0014.json": "a1b8f7ebaefcf41ca15c4c8c49393b6c4ed7e7533067ff693d346790ed93af80",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0015.json": "7ad714e25dafa90b25d297f55f3edcd5a8b8c6dbea15c2b67b37be87c6c70652",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0016.json": "6f522865a2f89c7bde7e7ab9066b3fd0cfc4330a16bdd9f9c7505b0d481b5623",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0017.json": "ed54f6b87d42f0a44f7c4599744117b0bd0bfcb7ae87696ae11680fdca0f52d4",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0018.json": "5a0374635aa4f2100c6acaed64e56dc7d4e7fe20895b220c68f70eb1f224640c",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0019.json": "1e2764a470fd1c359b82d8f8ce5cfae6d6a59d32a10f5a6f05d41a0003e9e97f",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0020.json": "16fe7a234da4a8c8e9068facff2a9d68c4b1c2cb82d3fdbadbb80cf2ae573937",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0021.json": "e6bf854d4e1443eb3a0c309cbe32b079671bdfeac7f2e8b598f14f0ff3370c03",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0022.json": "af9f8aa0c1c167efea54997b846d24eb887d2ee24c7c996e8eb7a0956aef9ecc",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0023.json": "66d8532f9d05ecc9b4fd71f1fd4f9e4ad32f7b9f8c2b3831a45e897d5b4cf996",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0024.json": "f5b6c12a6a8d01fed565991f670801d11a2fb714ca47c8786ea3b9dfc411f49f",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0025.json": "a156cb9ff7e610b61aa08ac7eedcf56ef0ad744cb6587cc2614ebb1c2e29c87a",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0026.json": "43dc80eda2d70d78e12ff4ef04b684b82789738e5defb0e803b46e3717334edc",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0027.json": "fe58387c77d288e919bcd2aece8b118e7f367306139f4a4e3e58773bda5b9782",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0028.json": "0c028d4e6b0887eec2049334389ae8febdf4308fd01309105d8d07b818be88e8",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0029.json": "5ae69dfead52ee33adc68aea3e5f03b767ac0217be0760f526f8d68fb6f61953",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0030.json": "3ee55463c72b87819f498ee1fcd2e156cee69feff71569c2f2440be582df7527",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0031.json": "40dc3ff3b9e35b3ff8cea26baae40f2644723ecbb2e871d384f5f535c3da58c3",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0032.json": "03b04ef6ea27212df7044c4a6c95fda34da6f7c2168e8534d1cc172cc767e281",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0033.json": "54aef67e1290020b9829d82f9334ba9b1f30dcd51bb4653e2b6abe6906a00699",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0034.json": "3c4b26ad9abdaa4b82d6279469ac04570f7f81e229966fb74273238d6b53e2fb",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0035.json": "1ed7342ce55aac3b6327dd2d24cde11c257c89ec917ca18049a27694b7bdcbc9",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0036.json": "81f1f4ed6b6f414f5cf495c35b23b11e2aaf2799291fc0a4e1a13f8bb6431216",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0037.json": "b48f27a432489b7ac55e3c4394a46f78e4b16be6cfdd960c26be7048c3f5a615",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0038.json": "873e638ad98697b54c6311658690e5d0372b793fd3a5ee8efbb7bac3cdb1f425",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0039.json": "dae6620d3e6ae41bab366805c32ad8383d46bc4d047bcacd7722a134a7fd2dc3",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0040.json": "7c5228cd49112b229dad77e08a3dab39cd6ae6eecccf8d3d1c988dd598baf141",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0041.json": "da04f68cf8901ba38073e5ac39f8d7543938f10682806fe4b9b1365c20609527",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0042.json": "1f3f7507e6ad3c1f596ce39e414c1f0e727f7a646f21637f525360e5ac4cf749",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0043.json": "0da7277be50ced89580ca91f93550f93ce460732c45b6ac3804899f9de3ed0ca",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0044.json": "e5bbe7f6d33aeeeda0d170bf7abe46800a96b3ae995a8579872d4db9d1f7f88d",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0045.json": "c562bd19984293a492855ea045a4a467fa8c54057f072dd903315fa35f0a3078",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0046.json": "0fe2a9537b714d16cc418f0a84ccab8e8890d5aac8a2ccccdfde3214c4d0f385",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0047.json": "0259c467be70fce9a70d2d217ded853672cb2a7033ee519c0e33612694c2f50d",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0048.json": "23f5d2947d2a500fa086c19b62e8143b025f459f4e955e6ef089d7a2db150a1a",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0049.json": "1bdf6904fd8314d40b6c49d7cacb217f33807a31520fb5ee1c651f85a63e5ef7",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0050.json": "99c97c42d0a0b35111c07dd3c08b11b7e4d13a8464be1c5ef4fa451b7caf93e3",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0051.json": "beb6dc670fb9bb49b8a78c6e7b189ca7fb6a09e7d1ba8367b8f6a1256e004a33",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0052.json": "4ac1bb0184b66fa11326366ed5260f061f9cece9e9eff35fedd0e71c6cb4517d",
+      "runs/affinity_residue_v1/joint_seed42/epoch_0053.json": "9550c90a9ab99fc53a971f7ff992d9ed724c9ab581ca4e7a88c5a5b62808fec7"
+    },
+    "archive": "runs/affinity_residue_v1/joint_seed42/history.json",
+    "sha256": "da954f7c1c43352b44583ce429c2c241cf991e804ab1938c463c51a5d12d48df",
+    "bytes": 50898
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed43/config.json",
+    "archive": "runs/affinity_residue_v1/joint_seed43/config.json",
+    "sha256": "7e290d37cb578de54b28bb6fa48ca5a0d9cc7a15ddd1df2d64dbdc8c54841b23",
+    "bytes": 2682
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed43/metrics.json",
+    "archive": "runs/affinity_residue_v1/joint_seed43/metrics.json",
+    "sha256": "f5b595bf3908073298af49f6aaec8d05e2b6abb59c09ecf23016da69fc0c8097",
+    "bytes": 1286
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed43/timing.json",
+    "archive": "runs/affinity_residue_v1/joint_seed43/timing.json",
+    "sha256": "6e85468b548bf39475c0f3e21c67eb7d0c7045b810c319743c500976342daf45",
+    "bytes": 178
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed43/predictions_absolute_val.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed43/predictions_absolute_val.csv",
+    "sha256": "ac19b10b898ed66c6259f5938e11a1146416a30047b080fba1df8d0623d6d072",
+    "bytes": 19821
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed43/predictions_absolute_test.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed43/predictions_absolute_test.csv",
+    "sha256": "d36c1116982ddd54caa20063aa384a0cd82772f976d89d1bddaa1b34b603c6bb",
+    "bytes": 20341
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed43/predictions_pairs_val.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed43/predictions_pairs_val.csv",
+    "sha256": "984debc71536efd6a764fb9492b864294cfef5ff148ea4b2e6837fd10577791b",
+    "bytes": 16063
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed43/predictions_pairs_test.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed43/predictions_pairs_test.csv",
+    "sha256": "1d4817bb0d9a9b54c026cef4d55a05782496a0478a85499dd5d39b744cdfadb7",
+    "bytes": 16409
+  },
+  {
+    "source_files": {
+      "runs/affinity_residue_v1/joint_seed43/epoch_0001.json": "a5b48820fedd821ee5df0525515921ad46d1601bc4fed4ddbb4299a18e3ba631",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0002.json": "3bfaf21ac1d06c8415ac2b3bac9bbf239b4765e74f0c66d6100126d91e2c68c3",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0003.json": "c80174c2010e04e2e867f2e50f22da158953554359edcd8b7ad58260cd133510",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0004.json": "9fd339b6beea5807a829e771187e8322b5ee8be2687fd77fe8a7e5efa1970000",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0005.json": "df3308e169062773ca6cdab8467d27ba1d77365d1dc240be6271db7ef73ef0a1",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0006.json": "ff3602770ce00d64b481afb593d75ef03049601702412f2fb902ae48440fcd0d",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0007.json": "8ea47a5fa78b349c2fba1267d32ced05b8ff3d24a95136c5ec1f6c3a00b0a12d",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0008.json": "b829c33d52b080a1eca8dfebcf91cb38bf497bcad69dfcfe14d7abc1f1ff9d79",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0009.json": "6534cea6068957c0678692fe55cbd14a9c94a5df89de5288d747ac03b32452ee",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0010.json": "683b6b430e4c994ea1efccdd9f475b3f8cb0198d7157c19b098ad609874962c5",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0011.json": "ab71413d83c703591a9a324b808cbee9b9af9dccaa47d6c2c75056d8bf7f4ff9",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0012.json": "5ee4d4ff70621de2253f20b7664fa4f8e5f3f4e9e4a7daf308cc14a9ea3f0edc",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0013.json": "5ee652fee0ff1635ec1ee45d412f6e0f7b5070d0d57e3186e6aff700d9a2237f",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0014.json": "5812fd0b910a1b9d2c05d8d5ea6964b7d3a6796b73348a32dac1e2ba46675bc7",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0015.json": "cd0eec7c8871bb232ef8a5737ad4075c1054b569a1ed97633fcbf7af5b721a27",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0016.json": "fb8241b7e38c1b56c1fabdcbc2702b48fc2c63bb24966e6dc41fe9637d86441e",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0017.json": "beaba4baae8db7b30dcf9a58f74263f0f67a79007655cfdd116ebcf8911bbb44",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0018.json": "3c530733c61d0cb023246e90088232b6c2968273c80e9a8380b3fa7315d6984d",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0019.json": "f86622db234735c1c9b481e9dba81e1a4ef763a69e380ae696d027d865e49b84",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0020.json": "db767b286fb6e62f6781dde534fc86da9f93f23dc97d409aca5d54e7463aabdb",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0021.json": "306bf44b6abe020bb76dc7dee4ae884183315f0e3c6af9caa0c9b686126c7bfd",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0022.json": "7bac65c49c01385a1df84712d9f3c52d639b6f5be76f5b3e3a633d19515ffce0",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0023.json": "05f211a4bf5bdc184a8eda692d589b414b0ff298024aa4a55e94c0ab19d8db46",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0024.json": "e7ab5718c965b37e23d965a8c7c7404f46cc92efc5efd879d39d144db2800575",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0025.json": "27420c0ec50e1d8d0310ef4a96b24f9d4ce13f2daf52722bf1e542f13904280b",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0026.json": "b95555da0ecadf8a3ffbf324027898d7791d14674c92f460b8a9067453cd9bdc",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0027.json": "7a22a19761738ff345ce0341cabaf6e23708d3aab59a6bc092d5451dbd7c8e32",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0028.json": "3da4978a6cded862e521250115c8b9228068aac2415c8dbb40943821feec89b8",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0029.json": "85954e1221b9aa5844d9a7103d35e91fd153e9e3d69342e05b6a7a823ba5624c",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0030.json": "cc426e62eec807ad2bfff9059cc4269b22d53008c085e84baafca92d8ae65e94",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0031.json": "b7d9a44eac4d8e81f684e74b4437d0860408ae8a4f62f4bc36b37a5af337c6f1",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0032.json": "9d987f68435bbc754396d7e71883929baf302ee41538d719addceee4fe399436",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0033.json": "222dddcb2e6372275474cd0b1ec39826da11c1584ba56238c05f606af6be743c",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0034.json": "26ae49468bbdc59a54e2acaa4c91c498be955a1e680c510176db92ee3712f3ec",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0035.json": "f40b8325f3da3b2384dc647cbf8ae4f2d9fa6f9aeab2e8718cb8cf541f6bcd90",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0036.json": "94509c0bfe6503bad9dcef9d21a7d44cf72ac5f7f07926e3947e39a4e038d5d6",
+      "runs/affinity_residue_v1/joint_seed43/epoch_0037.json": "ea722caacb86b8ec3a1efd0ed1534d0f87c201725165428c11a5923b2880eae5"
+    },
+    "archive": "runs/affinity_residue_v1/joint_seed43/history.json",
+    "sha256": "72da748ffd263a1d67c79ae40d2f16fa628cf61c3a5c02a4fb9791c88755c91b",
+    "bytes": 35512
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed44/config.json",
+    "archive": "runs/affinity_residue_v1/joint_seed44/config.json",
+    "sha256": "da34c2bfcbfe92d437ffb0c232480c105ef85e5a39696e4c61a4f22f61bb5a08",
+    "bytes": 2682
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed44/metrics.json",
+    "archive": "runs/affinity_residue_v1/joint_seed44/metrics.json",
+    "sha256": "7f2daf7bf2aeb46a4fa201403a05776d7bc027071b1aa16b0056555b59648567",
+    "bytes": 1282
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed44/timing.json",
+    "archive": "runs/affinity_residue_v1/joint_seed44/timing.json",
+    "sha256": "7c923c53fd5ad736f1e9ea53d4055bd34bfcd225c3f7184ad99a1b4739ff4c55",
+    "bytes": 177
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed44/predictions_absolute_val.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed44/predictions_absolute_val.csv",
+    "sha256": "9e5f62f3de4833d804be5a1915095c282a3d5cb9c4c1bbb6e655270726322464",
+    "bytes": 19820
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed44/predictions_absolute_test.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed44/predictions_absolute_test.csv",
+    "sha256": "d63c64f863c45d301977f580f266ad3db70dbe228e7b6b7da0b59aba0ca778de",
+    "bytes": 20354
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed44/predictions_pairs_val.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed44/predictions_pairs_val.csv",
+    "sha256": "df710b708a553124db5fd32250990857d9eca92b177c0f7ff22e88b26befc584",
+    "bytes": 16012
+  },
+  {
+    "source": "runs/affinity_residue_v1/joint_seed44/predictions_pairs_test.csv",
+    "archive": "runs/affinity_residue_v1/joint_seed44/predictions_pairs_test.csv",
+    "sha256": "8fd7777c16632fb46dfe73d8835d7dfa85d4fc27086c9db559762e32ed56539c",
+    "bytes": 16442
+  },
+  {
+    "source_files": {
+      "runs/affinity_residue_v1/joint_seed44/epoch_0001.json": "9b165ef1d3f906bcca01a28d50f64e783d4b41d32792dca7e67a46d22b23f711",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0002.json": "5071b0541e4e9e059e4d857deba65442c2044155958bfac56387af5b369e7658",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0003.json": "48b27a46315973adab367fce5c0c2a9e5d8378edd909bc84cbaf2b526d2e01f8",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0004.json": "2ae00d224d4db8e07dbcdb01156304b0a4052d7f68de298bd739b3ecaa363055",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0005.json": "d7ead569605f3f4c1dbc66a3e6db53302ca83acbcbea59bbcf34f23e14d4a307",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0006.json": "2c4f0a0f37e7bc4608e22e36f4df2a25670f4797c75b9a8935e11b90ed7f9e35",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0007.json": "a50ccb6ab327b1314c972c9ed6b77c998b3d8d7871eb71788907aae4b7faa723",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0008.json": "7f320359521beff99b50f1436c4f669e19fc749ace78821cb3fca65bdaec44e5",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0009.json": "b2c9ef77cf0f5aa71d38053e796125733aa8a7bba465c26bdee5a57b387e12e7",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0010.json": "ec13ea76315c0fe5e008cc6c9a7bfee513676c7aac8c179ae27434e85975676d",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0011.json": "bb016b47c4ab80129f71dfcb9ffc3bb43babf08e5df38470ce1d020470b1c74e",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0012.json": "ad7fb9ef0a4feaf9fd0f184ca127e1519629c9f30342f19e886716852a08d2b7",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0013.json": "126ab80d7d26784eca7463b1e5f42c5198a360796b2977ed12cc9647158ca7c4",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0014.json": "ff24d9c942ae61bf831052bc35659b699c30674dc174001746ca8b12a53ee0e8",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0015.json": "b2152345402b72337b8f6bb8a0b9a2654493c312312fe2fe6d09fb801cca4a65",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0016.json": "ad72a41a5dd0eccd57b91b7f780aa527d4eac3d631006ece05d190a744a85887",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0017.json": "e6cf866d69709fba99e67fd137277e68579edd07a5656cb0bbce59d47d6d8134",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0018.json": "5d6d6a2fecc0785e96e928fa6227c6e093c66b9e04477440aeb4744dfbd4c000",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0019.json": "124fb7bd50590db43d360bf55d669cf6e67d4949e3ba4abb8e16b7687f6c3dd2",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0020.json": "7201c37fbfea5aaeb1e845990e367a87983aded96d1f35f8bb78605ac57dea59",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0021.json": "31fb6848d5ff30713fba0ee633da169824a1a8826d0feff9fd689a8b43507204",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0022.json": "21c88affcd0c01c9291f858902496d393dde69e3a2d891181102359ade630d70",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0023.json": "882afb4e51eabdada782a2f27e269a2e845dfc66e77ffdbba2ab3f4db1df4e12",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0024.json": "f32d169209ab0c980e32ee5eea9abb8f3255dba1103e4905e3d922ec94784c2f",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0025.json": "a47b9d3e979f2522a0722ec959e1f9a410a50eb09956dd0a9d17c80b72616ed0",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0026.json": "d3dc894a1d0cb08c658e57c4bc90096c576c20287d8a9f7932fcae295201737a",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0027.json": "c00a2a323ef4f38373ea41cdb0bb20c1610e62d62f7d3f671ecadd720cb0b111",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0028.json": "325932c8a6b9452f19ed2374b49664d90da8f58217a31bd41c51aff689550637",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0029.json": "817d38fc10851529ec09edf3ce7e19f89d399de86b9f65156ecf5affeb62ac80",
+      "runs/affinity_residue_v1/joint_seed44/epoch_0030.json": "384a37bf808c49ac0fb7dc50f278f083c5cf37d859f6105816e74d2c1bb780b4"
+    },
+    "archive": "runs/affinity_residue_v1/joint_seed44/history.json",
+    "sha256": "f67f03e10a17de3d77fd4ff42069c40b999edc4ee6e4a32f9a9598f10547c073",
+    "bytes": 28803
+  },
+  {
+    "source_files": {
+      "data/processed/joint_training_v2/absolute_train.csv": "c9612bca9bf64989312d2f21e050eccd598f8b0cdc992a353d74dc1bd9528534",
+      "data/processed/joint_training_v2/absolute_val.csv": "87ba8d730ec34347d9910e9695d67d15db98c0ff247968945f352c5fbda4e290",
+      "data/processed/joint_training_v2/absolute_test.csv": "029dbe38719d20db8c6e905417bc208c15d7a0f9d6c4fcaade654eeb3d039767"
+    },
+    "archive": "split_membership/joint_training_v2/absolute.csv",
+    "sha256": "d2caac195c8fbae46c05802f1727a6a80cae4a225eeb55579036c180cda1516b",
+    "bytes": 157197
+  },
+  {
+    "source_files": {
+      "data/processed/joint_training_v2/pairs_train.csv": "44df2ae5b697fd27eec42f4b04ab5de17e3d220e2b66de89d9b4936f6f5b5d20",
+      "data/processed/joint_training_v2/pairs_val.csv": "fd0e82bbbdc38b62d4e457279e346a7b4f3a8ff179db73fd08115b40bcbf495e",
+      "data/processed/joint_training_v2/pairs_test.csv": "a0081e7a7f73c3d2197039cdde11a72f6a920ea7ac4c6530dbf9a64ec14d2144"
+    },
+    "archive": "split_membership/joint_training_v2/pairs.csv",
+    "sha256": "c783daee2669623aa04102ffee68e34af89dfcb7a713d662d2e26f8e5d96660a",
+    "bytes": 110842
+  },
+  {
+    "source": "data/processed/joint_training_v2/summary.json",
+    "archive": "split_membership/joint_training_v2/summary.json",
+    "sha256": "247f186acf39e8d5c2775190fd2b3add10a3d7bccf3d30a20faac4de7b7887d4",
+    "bytes": 1406
+  },
+  {
+    "source_files": {
+      "data/processed/joint_training_resplit_v1/absolute_train.csv": "e09ab98ec41e0ce53f20e5c0edd90f007b469533254532219ccda714efb5b188",
+      "data/processed/joint_training_resplit_v1/absolute_val.csv": "15f6a3963222c37e7d98ac41fc771a5ddf642c4edd9e79d9dee0fedc1f3b0f6b",
+      "data/processed/joint_training_resplit_v1/absolute_test.csv": "72b5564f4038ec6fd0fbc026b25af205a1c65e7dabcee69f9beaab72fdce6459"
+    },
+    "archive": "split_membership/joint_training_resplit_v1/absolute.csv",
+    "sha256": "64befddcaf9fe5fa53c878e4bd057b33afa7efaa14c3461786101be0b495becc",
+    "bytes": 199322
+  },
+  {
+    "source_files": {
+      "data/processed/joint_training_resplit_v1/pairs_train.csv": "2ed14ef866d563d8c753d1a07437297494f8efd9aaf07f35524713c537a96102",
+      "data/processed/joint_training_resplit_v1/pairs_val.csv": "b804a91befbcd5a53607c680d0d51c35763eaad5a53ab32ef5616e2c51b95deb",
+      "data/processed/joint_training_resplit_v1/pairs_test.csv": "5bdee3bb430d499af5063a4954d0a7023f77d6416100f9f9e6196a3545a346b0"
+    },
+    "archive": "split_membership/joint_training_resplit_v1/pairs.csv",
+    "sha256": "c167224b289cb8660336b652b71ed6aae3eea78149c7c2d086cbb1067d1eb181",
+    "bytes": 138921
+  },
+  {
+    "source": "data/processed/joint_training_resplit_v1/summary.json",
+    "archive": "split_membership/joint_training_resplit_v1/summary.json",
+    "sha256": "b493bffe3b207594ad2f8225b019fdc10d4c6a5fa8d0b0a1823c3803449c4220",
+    "bytes": 5939
+  },
+  {
+    "source": "data/processed/joint_training_resplit_v1/group_assignments.csv",
+    "archive": "split_membership/joint_training_resplit_v1/group_assignments.csv",
+    "sha256": "95335509a5ba450b33adb8c87469deaaa104aeb026fd0fa096dd0c67ee87aec2",
+    "bytes": 40164
+  },
+  {
+    "source_files": {
+      "data/processed/joint_training_complex40_v1/absolute_train.csv": "88749eeb297cad1a7e09a483358fc9c56576d17577cf6bde9fb36dd98ece99bf",
+      "data/processed/joint_training_complex40_v1/absolute_val.csv": "44e269dfdabbfe3a753096b0e8829523efe259559cecc39aef3b400b85c6f660",
+      "data/processed/joint_training_complex40_v1/absolute_test.csv": "573008ab079dd7e9fc3b3e0dc5c0ed71f4ab96fcebe0fe0bf149e7766bad59a2"
+    },
+    "archive": "split_membership/joint_training_complex40_v1/absolute.csv",
+    "sha256": "8bf5538c88645598aa71cb469936d16d0ee534fd4b778df7078f2497fc2635fb",
+    "bytes": 230889
+  },
+  {
+    "source_files": {
+      "data/processed/joint_training_complex40_v1/pairs_train.csv": "9509d6102c9cc06e47017dd22ad29b1706d6b68c4c5c1baffc7f1f8ff3652779",
+      "data/processed/joint_training_complex40_v1/pairs_val.csv": "b3d068d513ba823ab2ddde4d031b6534f503a444b36459d908acdf882f532a22",
+      "data/processed/joint_training_complex40_v1/pairs_test.csv": "88d872630b120a63616ba1d570643f912bf0a71fa8f9502970575d4bd82d1a8c"
+    },
+    "archive": "split_membership/joint_training_complex40_v1/pairs.csv",
+    "sha256": "18046e9b553a354494d46d97f781b57bb7d3a4248dc1210aab1f907dc350dff4",
+    "bytes": 160524
+  },
+  {
+    "source": "data/processed/joint_training_complex40_v1/summary.json",
+    "archive": "split_membership/joint_training_complex40_v1/summary.json",
+    "sha256": "0d189c9e241ef9a2074e69d96ad35ed2f14c0c6e5ed61dcdf5115ed5680e087b",
+    "bytes": 5257
+  },
+  {
+    "source": "data/processed/joint_training_complex40_v1/group_assignments.csv",
+    "archive": "split_membership/joint_training_complex40_v1/group_assignments.csv",
+    "sha256": "18a1c2e7d680a4cf69996146a514b6c6f3573769ce98866a8557d004d9f60b61",
+    "bytes": 21922
+  },
+  {
+    "source": "data/manifests/binder16_labels_user_20261026.csv",
+    "archive": "external_labels/binder16_labels_user_20261026.csv",
+    "sha256": "2737d1d9247c09e2347d8829cd459c8cb3d9f70f25d00c00790d4eebe976c115",
+    "bytes": 679
+  }
+]

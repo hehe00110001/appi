@@ -1,0 +1,196 @@
+{
+  "seed": 42,
+  "fractions": {
+    "train": 0.85,
+    "val": 0.075,
+    "test": 0.075
+  },
+  "source_directory": "/home/weizg/wei/fangyh/appi/data/processed/joint_training_v2",
+  "input_hashes": {
+    "absolute_train.csv": "c9612bca9bf64989312d2f21e050eccd598f8b0cdc992a353d74dc1bd9528534",
+    "absolute_val.csv": "87ba8d730ec34347d9910e9695d67d15db98c0ff247968945f352c5fbda4e290",
+    "absolute_test.csv": "029dbe38719d20db8c6e905417bc208c15d7a0f9d6c4fcaade654eeb3d039767",
+    "pairs_train.csv": "44df2ae5b697fd27eec42f4b04ab5de17e3d220e2b66de89d9b4936f6f5b5d20",
+    "pairs_val.csv": "fd0e82bbbdc38b62d4e457279e346a7b4f3a8ff179db73fd08115b40bcbf495e",
+    "pairs_test.csv": "a0081e7a7f73c3d2197039cdde11a72f6a920ea7ac4c6530dbf9a64ec14d2144"
+  },
+  "script_sha256": "bf473ba7739500e56d4cc241505bfe9bd29de0a4573315c20186186fe5c0c359",
+  "numpy_version": "1.23.5",
+  "policy": "Retain every eligible input row. Union same PDB, shared resolved feature paths, and pair-linked absolute records. No sequence-homology grouping or new exclusions. Balance counts only, never labels; retain historical split and audit fields.",
+  "scope": "New mixed-source development split; includes previously used train/val/test records. Not a pristine external test, published split reproduction, or homology-disjoint benchmark.",
+  "algorithm": "largest-first greedy then at most 12 seeded whole-group move/swap passes",
+  "balancing_weights": {
+    "absolute": 2.0,
+    "pairs": 2.0,
+    "Affinity Benchmark v5.5": 1.0,
+    "PDBbind v2020": 1.0,
+    "SAbDab": 1.0,
+    "SKEMPI v2.0": 1.0,
+    "groups_with_pairs": 0.25,
+    "groups": 0.1
+  },
+  "objective": 0.02259482748333272,
+  "totals": {
+    "absolute": 5259,
+    "pairs": 3601
+  },
+  "audit": {
+    "all_records_retained": true,
+    "original_fields_preserved": true,
+    "pdb_cross_split": 0,
+    "feature_cross_split": 0,
+    "group_cross_split": 0,
+    "pair_absolute_split_conflicts": 0,
+    "unique_feature_files": 5248,
+    "unique_pdbs": 1081,
+    "n_groups": 1081,
+    "feature_files_checked": true
+  },
+  "maximum_group_absolute": 240,
+  "maximum_group_pairs": 226,
+  "splits": {
+    "train": {
+      "counts": {
+        "absolute": 4461,
+        "pairs": 3063,
+        "Affinity Benchmark v5.5": 51,
+        "PDBbind v2020": 769,
+        "SAbDab": 195,
+        "SKEMPI v2.0": 3446,
+        "groups_with_pairs": 174,
+        "groups": 933
+      },
+      "targets": {
+        "absolute": 4470.15,
+        "pairs": 3060.85,
+        "Affinity Benchmark v5.5": 50.15,
+        "PDBbind v2020": 769.25,
+        "SAbDab": 194.65,
+        "SKEMPI v2.0": 3456.1,
+        "groups_with_pairs": 173.4,
+        "groups": 918.85
+      },
+      "labels": {
+        "absolute": {
+          "mean": 7.612310472386761,
+          "std": 2.075196886711672
+        },
+        "pairs": {
+          "mean": -0.9934405348190236,
+          "std": 1.375042720004783
+        }
+      }
+    },
+    "val": {
+      "counts": {
+        "absolute": 397,
+        "pairs": 268,
+        "Affinity Benchmark v5.5": 4,
+        "PDBbind v2020": 68,
+        "SAbDab": 17,
+        "SKEMPI v2.0": 308,
+        "groups_with_pairs": 15,
+        "groups": 78
+      },
+      "targets": {
+        "absolute": 394.425,
+        "pairs": 270.075,
+        "Affinity Benchmark v5.5": 4.425,
+        "PDBbind v2020": 67.875,
+        "SAbDab": 17.175,
+        "SKEMPI v2.0": 304.95,
+        "groups_with_pairs": 15.299999999999999,
+        "groups": 81.075
+      },
+      "labels": {
+        "absolute": {
+          "mean": 8.5812399577542,
+          "std": 2.207608633950739
+        },
+        "pairs": {
+          "mean": -1.0590057810559268,
+          "std": 1.6872719994220615
+        }
+      }
+    },
+    "test": {
+      "counts": {
+        "absolute": 401,
+        "pairs": 270,
+        "Affinity Benchmark v5.5": 4,
+        "PDBbind v2020": 68,
+        "SAbDab": 17,
+        "SKEMPI v2.0": 312,
+        "groups_with_pairs": 15,
+        "groups": 70
+      },
+      "targets": {
+        "absolute": 394.425,
+        "pairs": 270.075,
+        "Affinity Benchmark v5.5": 4.425,
+        "PDBbind v2020": 67.875,
+        "SAbDab": 17.175,
+        "SKEMPI v2.0": 304.95,
+        "groups_with_pairs": 15.299999999999999,
+        "groups": 81.075
+      },
+      "labels": {
+        "absolute": {
+          "mean": 8.8740134510504,
+          "std": 2.5377173284543777
+        },
+        "pairs": {
+          "mean": -1.095549511892454,
+          "std": 1.792549918355821
+        }
+      }
+    }
+  },
+  "transitions": {
+    "absolute": {
+      "train": {
+        "train": 3775,
+        "test": 361,
+        "val": 334
+      },
+      "val": {
+        "train": 403,
+        "test": 15,
+        "val": 41
+      },
+      "test": {
+        "train": 283,
+        "val": 22,
+        "test": 25
+      }
+    },
+    "pairs": {
+      "train": {
+        "train": 3023,
+        "test": 268,
+        "val": 265
+      },
+      "val": {
+        "train": 30,
+        "test": 1,
+        "val": 1
+      },
+      "test": {
+        "val": 2,
+        "train": 10,
+        "test": 1
+      }
+    }
+  },
+  "output_hashes": {
+    "absolute_test.csv": "72b5564f4038ec6fd0fbc026b25af205a1c65e7dabcee69f9beaab72fdce6459",
+    "absolute_train.csv": "e09ab98ec41e0ce53f20e5c0edd90f007b469533254532219ccda714efb5b188",
+    "absolute_val.csv": "15f6a3963222c37e7d98ac41fc771a5ddf642c4edd9e79d9dee0fedc1f3b0f6b",
+    "group_assignments.csv": "95335509a5ba450b33adb8c87469deaaa104aeb026fd0fa096dd0c67ee87aec2",
+    "pairs_test.csv": "5bdee3bb430d499af5063a4954d0a7023f77d6416100f9f9e6196a3545a346b0",
+    "pairs_train.csv": "2ed14ef866d563d8c753d1a07437297494f8efd9aaf07f35524713c537a96102",
+    "pairs_val.csv": "b804a91befbcd5a53607c680d0d51c35763eaad5a53ab32ef5616e2c51b95deb",
+    "record_assignments.csv": "22b5c6b5eef70785e67ed3cf7c90e83b28c9fd015d8528677b8acfa1f732ad9b",
+    "source_composition.csv": "e3ce702e4307832422e4fb8e94d3dc6af054f975928603399e2ba8cfebf15d78"
+  }
+}

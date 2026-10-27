@@ -89,6 +89,23 @@ def make_tensors(rows, features, kind):
             torch.tensor([float(r['delta_pkd']) for r in rows]))
 
 
+def pair_endpoint_targets(rows):
+    targets = torch.tensor([[float(r['pkd_mut']), float(r['pkd_wt'])] for r in rows])
+    delta = torch.tensor([float(r['delta_pkd']) for r in rows])
+    if not torch.isfinite(targets).all() or not torch.allclose(
+            targets[:, 0]-targets[:, 1], delta, rtol=1e-5, atol=2e-6):
+        raise ValueError('Pair endpoint labels are invalid or inconsistent with delta_pkd')
+    return targets
+
+
+def pair_losses(mut_pred, wt_pred, endpoints, delta, scale):
+    """Mean absolute endpoint loss and difference loss on the same experiment batch."""
+    endpoint_loss = .5 * (((mut_pred-endpoints[:, 0])/scale).square()
+                          + ((wt_pred-endpoints[:, 1])/scale).square()).mean()
+    difference_loss = ((mut_pred-wt_pred-delta)/scale).square().mean()
+    return endpoint_loss, difference_loss
+
+
 @torch.no_grad()
 def evaluate(model, tensors, device, batch_size):
     model.eval()
@@ -112,12 +129,17 @@ def main():
     p.add_argument('--lr',type=float,default=1e-3)
     p.add_argument('--weight-decay',type=float,default=1e-4)
     p.add_argument('--lambda-diff',type=float,default=1.)
+    p.add_argument('--pair-absolute-weight',type=float,default=0.,
+                   help='Weight of mean WT/mutant absolute endpoint loss in BOTH modes; '
+                        'use 1 for the matched-label resplit comparison, 0 for the legacy objective.')
     p.add_argument('--threads',type=int,default=2)
     p.add_argument('--device',choices=['cpu','cuda'],default='cpu')
     p.add_argument('--limit',type=int,default=0,help='Smoke test only; limit each table')
     p.add_argument('--resume',action='store_true')
     args = p.parse_args()
-    if args.epochs<1 or args.batch_size<1 or args.patience<1 or args.lambda_diff<0:
+    if (args.epochs<1 or args.batch_size<1 or args.patience<1
+            or not math.isfinite(args.lambda_diff) or args.lambda_diff<0
+            or not math.isfinite(args.pair_absolute_weight) or args.pair_absolute_weight<0):
         p.error('Invalid training parameters')
     args.out.mkdir(parents=True,exist_ok=True)
     lock = (args.out/'run.lock').open('w')
@@ -129,6 +151,7 @@ def main():
     tables = read_tables(args.data,args.limit)
     features, feature_hash = load_features(tables)
     tensors = {key:make_tensors(rows,features,key[0]) for key,rows in tables.items()}
+    endpoints = pair_endpoint_targets(tables['pairs','train']) if args.pair_absolute_weight else None
     if not all(torch.isfinite(t).all() for ts in tensors.values() for t in ts):
         raise ValueError('Nonfinite data')
     # Both modes fit the same statistics, using absolute train inputs only.
@@ -143,7 +166,11 @@ def main():
                   feature_hash=feature_hash,model_hash=digest(ROOT/'appi/model.py'),
                   trainer_hash=digest(Path(__file__)),torch_version=str(torch.__version__),
                   selection='minimum absolute validation RMSE; test only after selection',
-                  normalization='unique absolute training features; absolute training targets')
+                  normalization='unique absolute training features; absolute training targets',
+                  objective='L_abs + pair_absolute_weight * mean_pair_endpoint_MSE '
+                            '+ (lambda_diff if joint else 0) * L_diff; all scaled by target variance',
+                  pair_endpoint_sampling='uniform pair experiments, WT/mutant each half weight; '
+                                         'repeated endpoints retain their experimental labels')
     config_path=args.out/'config.json'
     if config_path.exists():
         if json.loads(config_path.read_text())!=config: raise ValueError('Config changed: use a new output directory')
@@ -165,17 +192,26 @@ def main():
             x, target=(t[ids].to(device) for t in a)
             abs_loss=((model(x)-target)/model.target_scale).square().mean()
             diff_loss=abs_loss.new_zeros(())
-            if args.mode=='joint':
+            pair_abs_loss=abs_loss.new_zeros(())
+            if args.mode=='joint' or args.pair_absolute_weight:
                 # Uniform draws give the mean pair loss equal expected weight each step.
+                # With endpoint supervision both modes consume identical RNG draws.
                 dids=torch.randint(len(d[-1]),(len(ids),))
                 mut,wt,delta=(t[dids].to(device) for t in d)
-                diff_loss=((model.delta(mut,wt)-delta)/model.target_scale).square().mean()
-            loss=abs_loss+args.lambda_diff*diff_loss
+                mut_pred,wt_pred=model(mut),model(wt)
+                if endpoints is not None:
+                    pair_abs_loss,pair_diff_loss=pair_losses(
+                        mut_pred,wt_pred,endpoints[dids].to(device),delta,model.target_scale)
+                else:
+                    pair_diff_loss=((mut_pred-wt_pred-delta)/model.target_scale).square().mean()
+                if args.mode=='joint': diff_loss=pair_diff_loss
+            loss=abs_loss+args.pair_absolute_weight*pair_abs_loss+args.lambda_diff*diff_loss
             if not torch.isfinite(loss): raise RuntimeError('Nonfinite loss')
             optimizer.zero_grad();loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(),5.,error_if_nonfinite=True)
             optimizer.step()
-            losses.append([float(abs_loss.detach()),float(diff_loss.detach()),len(ids)])
+            losses.append([float(abs_loss.detach()),float(diff_loss.detach()),len(ids),
+                           float(pair_abs_loss.detach())])
         av,_=evaluate(model,tensors['absolute','val'],device,args.batch_size)
         dv,_=evaluate(model,tensors['pairs','val'],device,args.batch_size)
         improved=av['rmse']<best
@@ -188,6 +224,7 @@ def main():
         atomic_save(state,args.out/'last.pt')
         record={'epoch':epoch+1,'train_abs_mse_scaled':sum(x[0]*x[2] for x in losses)/len(y),
                 'train_diff_mse_scaled':sum(x[1]*x[2] for x in losses)/len(y),
+                'train_pair_abs_mse_scaled':sum(x[3]*x[2] for x in losses)/len(y),
                 'val_absolute':av,'val_delta_pkd':dv,'best_epoch_updated':improved}
         # One epoch per file makes a resumed run replace any uncommitted log entry.
         json_save(record,args.out/f'epoch_{epoch+1:04d}.json')
