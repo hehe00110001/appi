@@ -1,0 +1,12 @@
+{
+  "source_manifest_sha256": "9895e7e32a02b6a9e6c9ac3706f4b5213282e03aae2598966a2eaa9a4cc94cc7",
+  "records_sha256": "bb889801123caa38fc7905d4e143d591f45ec7832cba45bcd4f47a14d5c6bfb9",
+  "ppi_checkpoint_sha256": "3bc26cc5e6628cee5f9e28d59a5324598ec52ae68f687f404a9e240e6a2aa44c",
+  "esm_checkpoint_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+  "script_sha256": "6b47689719774928b0062776f41da2a8077d9e1f05015a6919bc99911c0918ab",
+  "interface_code_sha256": "99b4354d64aa85c25db20f0d4c0ef569c221773f47e59214385eee0ddf406ba7",
+  "radius_angstrom": 10.0,
+  "ppi_device": "cpu",
+  "esm_device": "cuda",
+  "limit": 0
+}

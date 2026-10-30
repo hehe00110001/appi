@@ -1,11 +1,18 @@
 # APPI：共享 PPI 亲和力预测
 
 使用冻结 PPIformer 的残基特征训练共享预测头，比较绝对 pKd 监督与绝对＋突变差分监督。
-当前代码和运行状态更新于 2026-10-27；首轮结果来自 2026-10-25。
+当前代码和结果更新于 **2026-10-30**。最新模型加入全链 ESM-2 上下文路由和结构保留通道，使用共享 pKd 评分器接受绝对及实验差分监督。
 
 ## 最新结论与结果归档
 
-SKEMPI A/B/C 单 seed 消融全部完成：A 不使用 SKEMPI 训练，B 加入均衡的 SKEMPI 绝对标签，C 再加差分监督。差分 test Pearson 为 -0.044 / 0.260 / 0.386，但按复合物等权的差分排序正确率仅 52.7% / 56.1% / 56.2%，外部16条总体仍为负相关。SKEMPI 提供部分突变信息；额外差分监督未带来稳定的跨背景排序收益。本阶段实验暂时结束。
+结构主导模型的4组×3seed训练和EGFR外部推理已完成。真实差分融合相对无差分的内部差分MAE在三个seed改善约14–17%，但相对置换标签与纯结构的优势不稳定。EGFR Round2三seed AUROC为0.486/0.575/0.672，定量Pearson为0.110/-0.011/0.231，尚未证明可靠的binder绝对亲和力预测或高亲和力Top-k富集。
+
+- [2026-10-30完整结果快照](results/research_review_20261030/README.md)：包含所有seed与对照、逐条预测、区间、Top-k及运行配置。
+- [EGFR三seed分析](docs/EGFR三seed外部推理结果-20261030.md)与[内部三seed分析](docs/三seed复现与EGFR评估结果-20261030.md)。
+- [seed44研究预发布模型卡](releases/v0.1.0-rc1-seed44/MODEL_CARD.md)、[推理说明](releases/v0.1.0-rc1-seed44/INFERENCE.md)、[手动推送与发布](releases/v0.1.0-rc1-seed44/PUBLISH.md)。seed44是在查看结果后指定的候选，不能将其表现当作无偏的三seed结论。
+- [外部数据候选与Top-k评估](docs/外部数据候选与TopK评估-20261030.md)。
+
+此前SKEMPI A/B/C单seed消融保留为历史阶段：差分test Pearson为-0.044/0.260/0.386，组内排序52.7%/56.1%/56.2%。
 
 - [A/B/C 实验方案与运行记录](docs/SKEMPI三组消融实验-20261027.md)
 - [A/B/C 完整结果解读](docs/SKEMPI三组消融结果-20261027.md)
@@ -32,6 +39,10 @@ SKEMPI A/B/C 单 seed 消融全部完成：A 不使用 SKEMPI 训练，B 加入�
 
 ## 核心文件
 
+- appi/structure_context_model.py、structure_context_data.py、gradnorm.py：结构保留、全链ESM路由、共享评分与动态任务平衡。
+- scripts/train_structure_context.py、evaluate_structure_context.py：当前模型训练与评估。
+- scripts/prepare_adaptyv_egfr.py、extract_adaptyv_egfr.py、evaluate_adaptyv_egfr.py：EGFR准备、特征提取与冻结外部评估。
+- scripts/export_seed44_release.py、predict_release.py：seed44研究模型包导出及兼容缓存推理。
 - appi/model.py：对称池化、768→256→1 共享预测头和缓存特征归一化。
 - appi/residue_model.py、residue_data.py：残基交互注意力、可学习池化及显存受限的小批次处理。
 - appi/units.py：Kd/pKd/ΔpKd/ΔΔG 单位转换。
@@ -48,7 +59,7 @@ SKEMPI A/B/C 单 seed 消融全部完成：A 不使用 SKEMPI 训练，B 加入�
 
 Python 3.10，独立环境 appi-ppiformer。当前脚本包含集群绝对路径，换机器需要修改路径。
 编码另需准备 external/PPIformer 源码及官方 masked_modeling.ckpt，原始数据另行下载。
-本仓库不包含数据、权重、缓存特征、训练模型或日志，不是开箱即跑的数据包。
+Git包含整理后的实验结果、部分标签/预测和训练配置快照；不包含原始结构全集、编码器权重、缓存特征或训练checkpoint。seed44评分网络另以本地Release资产打包，须手动上传；当前不是任意PDB一键预测服务。
 
 ```bash
 unset PYTHONPATH PYTHONHOME
@@ -59,4 +70,4 @@ python scripts/summarize_training.py
 ```
 
 首轮配置与恢复方式见 [训练说明](docs/首轮训练-20261025.md)。
-当前已实现绝对和差分监督及自有 binder 的冻结模型评估；排序损失、物理标量、删失监督与 CATH-ddG 独立基准尚未接入。
+当前已完成绝对/差分监督、独立排序损失实验、结构与ESM消融、自有binder及EGFR冻结评估。最新结构主导模型采用GradNorm平衡绝对/差分回归，组内排序用于主checkpoint选择。绝对性能硬约束训练、物理标量、删失监督与CATH-ddG独立基准尚未接入。

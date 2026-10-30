@@ -1,0 +1,977 @@
+{
+  "mode": "fusion",
+  "supervision": "shuffled",
+  "smoke_test": false,
+  "checkpoints": {
+    "best": {
+      "epoch": 34,
+      "selection": "validation macro order, tie difference MAE",
+      "metrics": {
+        "absolute_val": {
+          "n": 394,
+          "rmse": 2.011835886403936,
+          "mae": 1.5100196599671754,
+          "pearson": 0.2569093247631273,
+          "spearman": 0.19487248513385796,
+          "std_pred": 1.7439813320008317,
+          "std_target": 1.5077260012184195,
+          "bias": 0.2895400583246031
+        },
+        "pairs_val": {
+          "n": 269,
+          "rmse": 1.1760343312355837,
+          "mae": 0.9257173454243577,
+          "pearson": 0.3532436368007697,
+          "spearman": 0.34289764707405473,
+          "std_pred": 0.31936136085100775,
+          "std_target": 0.9495828016746366,
+          "bias": 0.7704589166247732,
+          "zero_change_baseline": {
+            "n": 269,
+            "rmse": 1.4044347823965933,
+            "mae": 1.1363397718519035,
+            "pearson": null,
+            "spearman": null
+          }
+        },
+        "absolute_test": {
+          "n": 394,
+          "rmse": 2.197321621295948,
+          "mae": 1.896558587325028,
+          "pearson": 0.6277191189111394,
+          "spearman": 0.5309480990265132,
+          "std_pred": 2.226990147868816,
+          "std_target": 2.747657347088743,
+          "bias": 0.03391464004867069
+        },
+        "pairs_test": {
+          "n": 271,
+          "rmse": 1.0204947151329595,
+          "mae": 0.7066289080292365,
+          "pearson": 0.6033004320505869,
+          "spearman": 0.36236016311294855,
+          "std_pred": 0.49727365374680343,
+          "std_target": 1.2046181874580915,
+          "bias": 0.25652942552582714,
+          "zero_change_baseline": {
+            "n": 271,
+            "rmse": 1.3097620155921523,
+            "mae": 0.8211124185450475,
+            "pearson": null,
+            "spearman": null
+          }
+        }
+      },
+      "ranking": {
+        "val": {
+          "eligible_groups": 22,
+          "macro_order_accuracy": 0.6715839165651492,
+          "macro_spearman": 0.39389361241533255,
+          "defined_spearman_groups": 22,
+          "constant_prediction_groups": 0,
+          "groups": [
+            {
+              "group": "32f6dbdb5ff046cc875af6b895e896c06e160c90f1078f1b4b86543f45f61449",
+              "pdb": "2DVW",
+              "homology": "complex40_2DVW",
+              "n": 10,
+              "comparisons": 32,
+              "order_accuracy": 0.65625,
+              "spearman": 0.18787878787878787
+            },
+            {
+              "group": "182b3c560fb1776404aebddecf0d78c90ed2858a9ad961456214efe54088e140",
+              "pdb": "4YFD",
+              "homology": "complex40_4YFD",
+              "n": 5,
+              "comparisons": 6,
+              "order_accuracy": 0.5,
+              "spearman": 0.3
+            },
+            {
+              "group": "8162a0486cd8fa33e163d632548754b72fc893af3549e2f0f12f952ff207f0e2",
+              "pdb": "1LFD",
+              "homology": "complex40_1C1Y",
+              "n": 16,
+              "comparisons": 76,
+              "order_accuracy": 0.7105263157894737,
+              "spearman": 0.35461345782895226
+            },
+            {
+              "group": "4408422e8292c247eecbe76bf28f9555f517459b0dc7bbcc93725fbb5b417a54",
+              "pdb": "1LFD",
+              "homology": "complex40_1C1Y",
+              "n": 16,
+              "comparisons": 103,
+              "order_accuracy": 0.5631067961165048,
+              "spearman": 0.1798088402886911
+            },
+            {
+              "group": "2e6754758178daeb35c42d58664265ef41ccf41ea73199b6fe08d40101ab3a49",
+              "pdb": "1LFD",
+              "homology": "complex40_1C1Y",
+              "n": 25,
+              "comparisons": 224,
+              "order_accuracy": 0.38839285714285715,
+              "spearman": -0.2430096957843485
+            },
+            {
+              "group": "801b81d6868554ab94ae0046970fd728e7e78977dc7ec20d8e2a460fe2120c83",
+              "pdb": "4YH7",
+              "homology": "complex40_4YFD",
+              "n": 6,
+              "comparisons": 4,
+              "order_accuracy": 1.0,
+              "spearman": 0.7826908981308054
+            },
+            {
+              "group": "29075e6fbc56ac7fd733985265a2f9b40c732d1bf7cfb3e4f943a350c48a30c3",
+              "pdb": "1GUA",
+              "homology": "complex40_1C1Y",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 1.0,
+              "spearman": 0.9999999999999999
+            },
+            {
+              "group": "2e1c4f20fd28177983d5cce7da0377d7186ff9763feb1f7f5dab173dba9adb98",
+              "pdb": "1GUA",
+              "homology": "complex40_1C1Y",
+              "n": 13,
+              "comparisons": 61,
+              "order_accuracy": 0.6229508196721312,
+              "spearman": 0.23172612180168722
+            },
+            {
+              "group": "1807f9c0b5cb6adec8368cca9e20cb97f5a03e3d16ac66d86d1aa6ba83a2dd95",
+              "pdb": "4OFY",
+              "homology": "complex40_4OFY",
+              "n": 13,
+              "comparisons": 68,
+              "order_accuracy": 0.6470588235294118,
+              "spearman": 0.2857142857142857
+            },
+            {
+              "group": "2aa792a8fcbbac22564c68ea3bd0a4d1accb8096b85d541b4953287d124c27db",
+              "pdb": "3KBH",
+              "homology": "complex40_2AJF",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 1.0,
+              "spearman": 1.0
+            },
+            {
+              "group": "e62e6dca14708cbb4849f3eec2bef777e1816ef4b7cceebbaa6a32f8fded3041",
+              "pdb": "3KBH",
+              "homology": "complex40_2AJF",
+              "n": 3,
+              "comparisons": 3,
+              "order_accuracy": 0.6666666666666666,
+              "spearman": 0.5
+            },
+            {
+              "group": "c2ed5ce912704cbd7abede833bb2de7bf90db1c624b658cabd0e4cc4cf976413",
+              "pdb": "4G0N",
+              "homology": "complex40_1C1Y",
+              "n": 6,
+              "comparisons": 12,
+              "order_accuracy": 0.9166666666666666,
+              "spearman": 0.942857142857143
+            },
+            {
+              "group": "28bea3f32506a225a7844773b61aac4037f6490bd539110676d4a173f0ba1e99",
+              "pdb": "4G0N",
+              "homology": "complex40_1C1Y",
+              "n": 31,
+              "comparisons": 370,
+              "order_accuracy": 0.7351351351351352,
+              "spearman": 0.5711693141981558
+            },
+            {
+              "group": "42092caad49ddfd670ebb96382657a5635247093b329bfc7576b85e8bdf32353",
+              "pdb": "4G0N",
+              "homology": "complex40_1C1Y",
+              "n": 13,
+              "comparisons": 68,
+              "order_accuracy": 0.6911764705882353,
+              "spearman": 0.4456675467833909
+            },
+            {
+              "group": "4769c8b697baa7e73904e99255a20441ec32a09d95bee1b1dc9b64937f36f85a",
+              "pdb": "1K8R",
+              "homology": "complex40_1C1Y",
+              "n": 17,
+              "comparisons": 107,
+              "order_accuracy": 0.616822429906542,
+              "spearman": 0.27378806404006145
+            },
+            {
+              "group": "67731ca9a44e88128d2365304e9c63ddecaf98c0f101b7b443885f84cf9cfa69",
+              "pdb": "5M2O",
+              "homology": "complex40_5M2O",
+              "n": 21,
+              "comparisons": 167,
+              "order_accuracy": 0.7724550898203593,
+              "spearman": 0.6116883116883116
+            },
+            {
+              "group": "eedccdbe284469a1c6f7e7a42b635f5fd007816ed334d8dd37222756e5c5ba68",
+              "pdb": "4NM8",
+              "homology": "complex40_4NM8",
+              "n": 9,
+              "comparisons": 34,
+              "order_accuracy": 0.6470588235294118,
+              "spearman": 0.31666666666666665
+            },
+            {
+              "group": "8459d41cef841bb760ab5a277c5c6d3d321ca980985d6241541495f8cd519b9c",
+              "pdb": "3SZK",
+              "homology": "complex40_3SZK",
+              "n": 16,
+              "comparisons": 92,
+              "order_accuracy": 0.6521739130434783,
+              "spearman": 0.36229788923120243
+            },
+            {
+              "group": "da55815f21d7417858230f59be1eb53fff285329bb00db653d7b26a00fae17d9",
+              "pdb": "3KUD",
+              "homology": "complex40_1C1Y",
+              "n": 14,
+              "comparisons": 76,
+              "order_accuracy": 0.7368421052631579,
+              "spearman": 0.6622666273742395
+            },
+            {
+              "group": "d7cf1961d1bb5187c6588cd0fdfe120a61043e195e8f375e09d6f2f40053048d",
+              "pdb": "1C1Y",
+              "homology": "complex40_1C1Y",
+              "n": 15,
+              "comparisons": 77,
+              "order_accuracy": 0.8441558441558441,
+              "spearman": 0.6648796220612823
+            },
+            {
+              "group": "7e89b9c8c6361abaec9eb9fc02d0736972fa4c9a51db4573bdbf98a91bbf13bc",
+              "pdb": "4BFI",
+              "homology": "complex40_4BFI",
+              "n": 9,
+              "comparisons": 27,
+              "order_accuracy": 0.4074074074074074,
+              "spearman": -0.2650444076219981
+            },
+            {
+              "group": "b1d039a2f375e376145b949fd84403260e70b358480445c1b02d4abe88c3f1ff",
+              "pdb": "2AJF",
+              "homology": "complex40_2AJF",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 0.0,
+              "spearman": -0.5
+            }
+          ]
+        },
+        "test": {
+          "eligible_groups": 23,
+          "macro_order_accuracy": 0.48633930455318686,
+          "macro_spearman": -0.008043284849472643,
+          "defined_spearman_groups": 23,
+          "constant_prediction_groups": 0,
+          "groups": [
+            {
+              "group": "671eaea808609eb5b2b48ccb094affdc0900ef6bdef58c5365d6726991ac9ea1",
+              "pdb": "1YY9",
+              "homology": "complex40_1N8Z",
+              "n": 8,
+              "comparisons": 18,
+              "order_accuracy": 0.1111111111111111,
+              "spearman": -0.7185757571479554
+            },
+            {
+              "group": "ef92d7d246e286bbb18b25a3f985fa563ea345afa32f6d4bf9b89464da7227a1",
+              "pdb": "1YY9",
+              "homology": "complex40_1N8Z",
+              "n": 10,
+              "comparisons": 34,
+              "order_accuracy": 0.5294117647058824,
+              "spearman": -0.01818181818181818
+            },
+            {
+              "group": "4e38b5d107783cf6b771468b79500e5c2f93038339570f17e185b5b135d009cb",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 8,
+              "comparisons": 24,
+              "order_accuracy": 0.5416666666666666,
+              "spearman": 0.2142857142857143
+            },
+            {
+              "group": "19bc9172215fa6961fe765adba7340135df23ae4f94007c5b4811b8b876aab0f",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 11,
+              "comparisons": 33,
+              "order_accuracy": 0.45454545454545453,
+              "spearman": -0.04555820475782052
+            },
+            {
+              "group": "e311ab41243419c4d39b19fa3ca197fe352960329511823105f0d9f6ebd4ccd0",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 4,
+              "comparisons": 3,
+              "order_accuracy": 0.0,
+              "spearman": -0.39999999999999997
+            },
+            {
+              "group": "801c6e431f9d5853d8d6a0916b47ab17eb873c7730be0c7caa4cb6d56cf9a8b5",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 11,
+              "comparisons": 39,
+              "order_accuracy": 0.28205128205128205,
+              "spearman": -0.5181818181818182
+            },
+            {
+              "group": "7558c7187344487302307663bc2011e56e3774841a51ed9f5da2bbad2344ae6e",
+              "pdb": "1N8Z",
+              "homology": "complex40_1N8Z",
+              "n": 6,
+              "comparisons": 9,
+              "order_accuracy": 0.6666666666666666,
+              "spearman": 0.6571428571428573
+            },
+            {
+              "group": "7d8cb5fc5a22a84f64a9dd0fe24c9210ddbb3c1edc3411e450271291195b1410",
+              "pdb": "1N8Z",
+              "homology": "complex40_1N8Z",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 0.0,
+              "spearman": -0.9999999999999999
+            },
+            {
+              "group": "2dce0363861dc7b9244563bdddb2860749cb31d495aadb35907e1352d2ddb780",
+              "pdb": "1IAR",
+              "homology": "complex40_1IAR",
+              "n": 34,
+              "comparisons": 390,
+              "order_accuracy": 0.5564102564102564,
+              "spearman": 0.17083046883075304
+            },
+            {
+              "group": "0b4b3a28e79719fbf0aabf964c5bc1084c819bdf9c9fc1ec13365865fd306c89",
+              "pdb": "2QJB",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 0.5,
+              "spearman": -0.5
+            },
+            {
+              "group": "8139c5be25e17a0560461fb6b36c679b2938559c73dfee09a7d9da8138222f94",
+              "pdb": "1EMV",
+              "homology": "complex40_1EMV",
+              "n": 17,
+              "comparisons": 120,
+              "order_accuracy": 0.9083333333333333,
+              "spearman": 0.8970588235294119
+            },
+            {
+              "group": "141c251a833a78a1b2fd3b3a09e70f3099478f015d0a58a0d1831efcf257b2b1",
+              "pdb": "1EMV",
+              "homology": "complex40_1EMV",
+              "n": 32,
+              "comparisons": 363,
+              "order_accuracy": 0.5619834710743802,
+              "spearman": 0.09237536656891496
+            },
+            {
+              "group": "1ae1944dbc9c9e2d42e283bd5c87cfc285b84aef75e2a32c1bc988e778143db9",
+              "pdb": "2REX",
+              "homology": "complex40_2REX",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 1.0,
+              "spearman": 0.9999999999999999
+            },
+            {
+              "group": "f8a34c35bbd6cb4e40d6213b4cde0f63ba63f4e00ea50b7b8c3da924c3930a77",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 0.0,
+              "spearman": -0.9999999999999999
+            },
+            {
+              "group": "72175f3f751f15fb30425c2e3d66f3809306daf2a652b06569e9ffae35346f2c",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 10,
+              "comparisons": 31,
+              "order_accuracy": 0.6129032258064516,
+              "spearman": 0.309090909090909
+            },
+            {
+              "group": "5e9183ae8afec82152c6ad5bbd174d90e45408d07ffa84ea73ec5de51bbb90d3",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 6,
+              "comparisons": 9,
+              "order_accuracy": 0.5555555555555556,
+              "spearman": -0.2571428571428572
+            },
+            {
+              "group": "fd2ae532e9285fe771ab8ace61031e7ac7c6ae3933acff50a156d7c26b895852",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 16,
+              "comparisons": 112,
+              "order_accuracy": 0.7857142857142857,
+              "spearman": 0.7029411764705883
+            },
+            {
+              "group": "11434e4948a4ca650870e21e16eeb470b986a58c3146ec3ed28cd48dfcbcaef8",
+              "pdb": "4P5T",
+              "homology": "complex40_3C60",
+              "n": 30,
+              "comparisons": 285,
+              "order_accuracy": 0.656140350877193,
+              "spearman": 0.2935124892608201
+            },
+            {
+              "group": "13f8f6b27609bf059a92f011b88b096407e3112d961fd88e23587815f984f146",
+              "pdb": "2QJA",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 3,
+              "order_accuracy": 0.6666666666666666,
+              "spearman": 0.5
+            },
+            {
+              "group": "58f3922ae8af2f5a335366a88c6c08b447c186fd7155c8c405ab9c58dfb2dd90",
+              "pdb": "1REW",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 3,
+              "order_accuracy": 0.3333333333333333,
+              "spearman": -0.5
+            },
+            {
+              "group": "5e93bf2e655d083ab8d0686b20f2570dffcd159dced84a212a9e11e2abe74ccb",
+              "pdb": "3C60",
+              "homology": "complex40_3C60",
+              "n": 32,
+              "comparisons": 293,
+              "order_accuracy": 0.7133105802047781,
+              "spearman": 0.4592166225039536
+            },
+            {
+              "group": "9cd847641c30f278b0db66038d8a088fff5dd3dc2e3ed1714c51aa584847fc2d",
+              "pdb": "2QJ9",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 0.0,
+              "spearman": -1.0
+            },
+            {
+              "group": "c985a1c91742f07922158c7eefe05223e85fd46a1176a03f8816c034443be7d7",
+              "pdb": "1FCC",
+              "homology": "complex40_1FCC",
+              "n": 8,
+              "comparisons": 24,
+              "order_accuracy": 0.75,
+              "spearman": 0.4761904761904762
+            }
+          ]
+        }
+      }
+    },
+    "best_absolute": {
+      "epoch": 1,
+      "selection": "validation absolute MAE",
+      "metrics": {
+        "absolute_val": {
+          "n": 394,
+          "rmse": 1.4019518455857753,
+          "mae": 1.0546823286947233,
+          "pearson": 0.4753127280469692,
+          "spearman": 0.40893524736077325,
+          "std_pred": 0.9950882246953614,
+          "std_target": 1.5077260012184195,
+          "bias": 0.3581528480692562
+        },
+        "pairs_val": {
+          "n": 269,
+          "rmse": 1.3563177921541867,
+          "mae": 1.0913227084762067,
+          "pearson": 0.2575075342304778,
+          "spearman": 0.274368485896062,
+          "std_pred": 0.08497446593952394,
+          "std_target": 0.9495828016746366,
+          "bias": 0.9860154725890199,
+          "zero_change_baseline": {
+            "n": 269,
+            "rmse": 1.4044347823965933,
+            "mae": 1.1363397718519035,
+            "pearson": null,
+            "spearman": null
+          }
+        },
+        "absolute_test": {
+          "n": 394,
+          "rmse": 2.8069285173941245,
+          "mae": 2.218639556567243,
+          "pearson": 0.09808052892057256,
+          "spearman": 0.04090129528268453,
+          "std_pred": 0.7780404609297953,
+          "std_target": 2.747657347088743,
+          "bias": -0.37845834239280063
+        },
+        "pairs_test": {
+          "n": 271,
+          "rmse": 1.2655557120645253,
+          "mae": 0.7959885008612342,
+          "pearson": 0.5231005412602526,
+          "spearman": 0.337243880071105,
+          "std_pred": 0.06398439900495247,
+          "std_target": 1.2046181874580915,
+          "bias": 0.47651870946407676,
+          "zero_change_baseline": {
+            "n": 271,
+            "rmse": 1.3097620155921523,
+            "mae": 0.8211124185450475,
+            "pearson": null,
+            "spearman": null
+          }
+        }
+      },
+      "ranking": {
+        "val": {
+          "eligible_groups": 22,
+          "macro_order_accuracy": 0.5936957235664754,
+          "macro_spearman": 0.2356528745547077,
+          "defined_spearman_groups": 22,
+          "constant_prediction_groups": 0,
+          "groups": [
+            {
+              "group": "32f6dbdb5ff046cc875af6b895e896c06e160c90f1078f1b4b86543f45f61449",
+              "pdb": "2DVW",
+              "homology": "complex40_2DVW",
+              "n": 10,
+              "comparisons": 32,
+              "order_accuracy": 0.6875,
+              "spearman": 0.33333333333333326
+            },
+            {
+              "group": "182b3c560fb1776404aebddecf0d78c90ed2858a9ad961456214efe54088e140",
+              "pdb": "4YFD",
+              "homology": "complex40_4YFD",
+              "n": 5,
+              "comparisons": 6,
+              "order_accuracy": 0.16666666666666666,
+              "spearman": -0.6
+            },
+            {
+              "group": "8162a0486cd8fa33e163d632548754b72fc893af3549e2f0f12f952ff207f0e2",
+              "pdb": "1LFD",
+              "homology": "complex40_1C1Y",
+              "n": 16,
+              "comparisons": 76,
+              "order_accuracy": 0.7368421052631579,
+              "spearman": 0.34571102792529657
+            },
+            {
+              "group": "4408422e8292c247eecbe76bf28f9555f517459b0dc7bbcc93725fbb5b417a54",
+              "pdb": "1LFD",
+              "homology": "complex40_1C1Y",
+              "n": 16,
+              "comparisons": 103,
+              "order_accuracy": 0.7961165048543689,
+              "spearman": 0.7030230886697185
+            },
+            {
+              "group": "2e6754758178daeb35c42d58664265ef41ccf41ea73199b6fe08d40101ab3a49",
+              "pdb": "1LFD",
+              "homology": "complex40_1C1Y",
+              "n": 25,
+              "comparisons": 224,
+              "order_accuracy": 0.6116071428571429,
+              "spearman": 0.2931545536446109
+            },
+            {
+              "group": "801b81d6868554ab94ae0046970fd728e7e78977dc7ec20d8e2a460fe2120c83",
+              "pdb": "4YH7",
+              "homology": "complex40_4YFD",
+              "n": 6,
+              "comparisons": 4,
+              "order_accuracy": 0.5,
+              "spearman": -0.028988551782622423
+            },
+            {
+              "group": "29075e6fbc56ac7fd733985265a2f9b40c732d1bf7cfb3e4f943a350c48a30c3",
+              "pdb": "1GUA",
+              "homology": "complex40_1C1Y",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 1.0,
+              "spearman": 0.9999999999999999
+            },
+            {
+              "group": "2e1c4f20fd28177983d5cce7da0377d7186ff9763feb1f7f5dab173dba9adb98",
+              "pdb": "1GUA",
+              "homology": "complex40_1C1Y",
+              "n": 13,
+              "comparisons": 61,
+              "order_accuracy": 0.6065573770491803,
+              "spearman": 0.27310578640913136
+            },
+            {
+              "group": "1807f9c0b5cb6adec8368cca9e20cb97f5a03e3d16ac66d86d1aa6ba83a2dd95",
+              "pdb": "4OFY",
+              "homology": "complex40_4OFY",
+              "n": 13,
+              "comparisons": 68,
+              "order_accuracy": 0.5441176470588235,
+              "spearman": 0.03846153846153846
+            },
+            {
+              "group": "2aa792a8fcbbac22564c68ea3bd0a4d1accb8096b85d541b4953287d124c27db",
+              "pdb": "3KBH",
+              "homology": "complex40_2AJF",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 1.0,
+              "spearman": 1.0
+            },
+            {
+              "group": "e62e6dca14708cbb4849f3eec2bef777e1816ef4b7cceebbaa6a32f8fded3041",
+              "pdb": "3KBH",
+              "homology": "complex40_2AJF",
+              "n": 3,
+              "comparisons": 3,
+              "order_accuracy": 0.3333333333333333,
+              "spearman": -0.5
+            },
+            {
+              "group": "c2ed5ce912704cbd7abede833bb2de7bf90db1c624b658cabd0e4cc4cf976413",
+              "pdb": "4G0N",
+              "homology": "complex40_1C1Y",
+              "n": 6,
+              "comparisons": 12,
+              "order_accuracy": 0.5833333333333334,
+              "spearman": 0.48571428571428577
+            },
+            {
+              "group": "28bea3f32506a225a7844773b61aac4037f6490bd539110676d4a173f0ba1e99",
+              "pdb": "4G0N",
+              "homology": "complex40_1C1Y",
+              "n": 31,
+              "comparisons": 370,
+              "order_accuracy": 0.5405405405405406,
+              "spearman": 0.1240795225121391
+            },
+            {
+              "group": "42092caad49ddfd670ebb96382657a5635247093b329bfc7576b85e8bdf32353",
+              "pdb": "4G0N",
+              "homology": "complex40_1C1Y",
+              "n": 13,
+              "comparisons": 68,
+              "order_accuracy": 0.5294117647058824,
+              "spearman": 0.09628619837912766
+            },
+            {
+              "group": "4769c8b697baa7e73904e99255a20441ec32a09d95bee1b1dc9b64937f36f85a",
+              "pdb": "1K8R",
+              "homology": "complex40_1C1Y",
+              "n": 17,
+              "comparisons": 107,
+              "order_accuracy": 0.6448598130841121,
+              "spearman": 0.25168857905028075
+            },
+            {
+              "group": "67731ca9a44e88128d2365304e9c63ddecaf98c0f101b7b443885f84cf9cfa69",
+              "pdb": "5M2O",
+              "homology": "complex40_5M2O",
+              "n": 21,
+              "comparisons": 167,
+              "order_accuracy": 0.7784431137724551,
+              "spearman": 0.6181818181818182
+            },
+            {
+              "group": "eedccdbe284469a1c6f7e7a42b635f5fd007816ed334d8dd37222756e5c5ba68",
+              "pdb": "4NM8",
+              "homology": "complex40_4NM8",
+              "n": 9,
+              "comparisons": 34,
+              "order_accuracy": 0.5294117647058824,
+              "spearman": 0.016666666666666666
+            },
+            {
+              "group": "8459d41cef841bb760ab5a277c5c6d3d321ca980985d6241541495f8cd519b9c",
+              "pdb": "3SZK",
+              "homology": "complex40_3SZK",
+              "n": 16,
+              "comparisons": 92,
+              "order_accuracy": 0.7282608695652174,
+              "spearman": 0.5228282547848654
+            },
+            {
+              "group": "da55815f21d7417858230f59be1eb53fff285329bb00db653d7b26a00fae17d9",
+              "pdb": "3KUD",
+              "homology": "complex40_1C1Y",
+              "n": 14,
+              "comparisons": 76,
+              "order_accuracy": 0.6447368421052632,
+              "spearman": 0.3256327603036127
+            },
+            {
+              "group": "d7cf1961d1bb5187c6588cd0fdfe120a61043e195e8f375e09d6f2f40053048d",
+              "pdb": "1C1Y",
+              "homology": "complex40_1C1Y",
+              "n": 15,
+              "comparisons": 77,
+              "order_accuracy": 0.7662337662337663,
+              "spearman": 0.5308313111618301
+            },
+            {
+              "group": "7e89b9c8c6361abaec9eb9fc02d0736972fa4c9a51db4573bdbf98a91bbf13bc",
+              "pdb": "4BFI",
+              "homology": "complex40_4BFI",
+              "n": 9,
+              "comparisons": 27,
+              "order_accuracy": 0.3333333333333333,
+              "spearman": -0.1453469332120635
+            },
+            {
+              "group": "b1d039a2f375e376145b949fd84403260e70b358480445c1b02d4abe88c3f1ff",
+              "pdb": "2AJF",
+              "homology": "complex40_2AJF",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 0.0,
+              "spearman": -0.5
+            }
+          ]
+        },
+        "test": {
+          "eligible_groups": 23,
+          "macro_order_accuracy": 0.5522300693931104,
+          "macro_spearman": 0.07181670436755998,
+          "defined_spearman_groups": 23,
+          "constant_prediction_groups": 0,
+          "groups": [
+            {
+              "group": "671eaea808609eb5b2b48ccb094affdc0900ef6bdef58c5365d6726991ac9ea1",
+              "pdb": "1YY9",
+              "homology": "complex40_1N8Z",
+              "n": 8,
+              "comparisons": 18,
+              "order_accuracy": 0.2777777777777778,
+              "spearman": -0.5868368683374969
+            },
+            {
+              "group": "ef92d7d246e286bbb18b25a3f985fa563ea345afa32f6d4bf9b89464da7227a1",
+              "pdb": "1YY9",
+              "homology": "complex40_1N8Z",
+              "n": 10,
+              "comparisons": 34,
+              "order_accuracy": 0.6764705882352942,
+              "spearman": 0.32121212121212117
+            },
+            {
+              "group": "4e38b5d107783cf6b771468b79500e5c2f93038339570f17e185b5b135d009cb",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 8,
+              "comparisons": 24,
+              "order_accuracy": 0.5833333333333334,
+              "spearman": 0.3333333333333334
+            },
+            {
+              "group": "19bc9172215fa6961fe765adba7340135df23ae4f94007c5b4811b8b876aab0f",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 11,
+              "comparisons": 33,
+              "order_accuracy": 0.5757575757575758,
+              "spearman": 0.0956722299914231
+            },
+            {
+              "group": "e311ab41243419c4d39b19fa3ca197fe352960329511823105f0d9f6ebd4ccd0",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 4,
+              "comparisons": 3,
+              "order_accuracy": 0.3333333333333333,
+              "spearman": 0.0
+            },
+            {
+              "group": "801c6e431f9d5853d8d6a0916b47ab17eb873c7730be0c7caa4cb6d56cf9a8b5",
+              "pdb": "4RS1",
+              "homology": "complex40_4RS1",
+              "n": 11,
+              "comparisons": 39,
+              "order_accuracy": 0.3076923076923077,
+              "spearman": -0.3454545454545455
+            },
+            {
+              "group": "7558c7187344487302307663bc2011e56e3774841a51ed9f5da2bbad2344ae6e",
+              "pdb": "1N8Z",
+              "homology": "complex40_1N8Z",
+              "n": 6,
+              "comparisons": 9,
+              "order_accuracy": 0.8888888888888888,
+              "spearman": 0.6
+            },
+            {
+              "group": "7d8cb5fc5a22a84f64a9dd0fe24c9210ddbb3c1edc3411e450271291195b1410",
+              "pdb": "1N8Z",
+              "homology": "complex40_1N8Z",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 0.0,
+              "spearman": -0.9999999999999999
+            },
+            {
+              "group": "2dce0363861dc7b9244563bdddb2860749cb31d495aadb35907e1352d2ddb780",
+              "pdb": "1IAR",
+              "homology": "complex40_1IAR",
+              "n": 34,
+              "comparisons": 390,
+              "order_accuracy": 0.6358974358974359,
+              "spearman": 0.31935212867287466
+            },
+            {
+              "group": "0b4b3a28e79719fbf0aabf964c5bc1084c819bdf9c9fc1ec13365865fd306c89",
+              "pdb": "2QJB",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 0.5,
+              "spearman": -0.5
+            },
+            {
+              "group": "8139c5be25e17a0560461fb6b36c679b2938559c73dfee09a7d9da8138222f94",
+              "pdb": "1EMV",
+              "homology": "complex40_1EMV",
+              "n": 17,
+              "comparisons": 120,
+              "order_accuracy": 0.725,
+              "spearman": 0.5931372549019609
+            },
+            {
+              "group": "141c251a833a78a1b2fd3b3a09e70f3099478f015d0a58a0d1831efcf257b2b1",
+              "pdb": "1EMV",
+              "homology": "complex40_1EMV",
+              "n": 32,
+              "comparisons": 363,
+              "order_accuracy": 0.6198347107438017,
+              "spearman": 0.2445014662756598
+            },
+            {
+              "group": "1ae1944dbc9c9e2d42e283bd5c87cfc285b84aef75e2a32c1bc988e778143db9",
+              "pdb": "2REX",
+              "homology": "complex40_2REX",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 0.0,
+              "spearman": -0.9999999999999999
+            },
+            {
+              "group": "f8a34c35bbd6cb4e40d6213b4cde0f63ba63f4e00ea50b7b8c3da924c3930a77",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 2,
+              "comparisons": 1,
+              "order_accuracy": 1.0,
+              "spearman": 0.9999999999999999
+            },
+            {
+              "group": "72175f3f751f15fb30425c2e3d66f3809306daf2a652b06569e9ffae35346f2c",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 10,
+              "comparisons": 31,
+              "order_accuracy": 0.6451612903225806,
+              "spearman": 0.4545454545454545
+            },
+            {
+              "group": "5e9183ae8afec82152c6ad5bbd174d90e45408d07ffa84ea73ec5de51bbb90d3",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 6,
+              "comparisons": 9,
+              "order_accuracy": 0.6666666666666666,
+              "spearman": 0.028571428571428574
+            },
+            {
+              "group": "fd2ae532e9285fe771ab8ace61031e7ac7c6ae3933acff50a156d7c26b895852",
+              "pdb": "2WPT",
+              "homology": "complex40_1EMV",
+              "n": 16,
+              "comparisons": 112,
+              "order_accuracy": 0.8571428571428571,
+              "spearman": 0.8176470588235294
+            },
+            {
+              "group": "11434e4948a4ca650870e21e16eeb470b986a58c3146ec3ed28cd48dfcbcaef8",
+              "pdb": "4P5T",
+              "homology": "complex40_3C60",
+              "n": 30,
+              "comparisons": 285,
+              "order_accuracy": 0.7052631578947368,
+              "spearman": 0.3345679456411976
+            },
+            {
+              "group": "13f8f6b27609bf059a92f011b88b096407e3112d961fd88e23587815f984f146",
+              "pdb": "2QJA",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 3,
+              "order_accuracy": 0.3333333333333333,
+              "spearman": -0.5
+            },
+            {
+              "group": "58f3922ae8af2f5a335366a88c6c08b447c186fd7155c8c405ab9c58dfb2dd90",
+              "pdb": "1REW",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 3,
+              "order_accuracy": 0.6666666666666666,
+              "spearman": 0.5
+            },
+            {
+              "group": "5e93bf2e655d083ab8d0686b20f2570dffcd159dced84a212a9e11e2abe74ccb",
+              "pdb": "3C60",
+              "homology": "complex40_3C60",
+              "n": 32,
+              "comparisons": 293,
+              "order_accuracy": 0.7030716723549488,
+              "spearman": 0.4177256684674148
+            },
+            {
+              "group": "9cd847641c30f278b0db66038d8a088fff5dd3dc2e3ed1714c51aa584847fc2d",
+              "pdb": "2QJ9",
+              "homology": "complex40_1REW",
+              "n": 3,
+              "comparisons": 2,
+              "order_accuracy": 0.5,
+              "spearman": -0.5
+            },
+            {
+              "group": "c985a1c91742f07922158c7eefe05223e85fd46a1176a03f8816c034443be7d7",
+              "pdb": "1FCC",
+              "homology": "complex40_1FCC",
+              "n": 8,
+              "comparisons": 24,
+              "order_accuracy": 0.5,
+              "spearman": 0.023809523809523815
+            }
+          ]
+        }
+      }
+    }
+  }
+}

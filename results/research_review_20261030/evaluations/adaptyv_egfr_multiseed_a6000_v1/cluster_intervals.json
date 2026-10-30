@@ -1,0 +1,877 @@
+{
+  "structure_transfer_seed42/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.3958835900941164,
+          0.6047814956526005
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.09296311988047569,
+          0.19124942085277125
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.9764862924103143,
+          1.6450110246164604
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.4182318364390805,
+          0.2791800281760294
+        ]
+      }
+    }
+  },
+  "structure_transfer_seed42/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.44704108986619706,
+          0.6405120797489218
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.103394688181696,
+          0.21227016952740482
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.8085854278968644,
+          1.3703057708203643
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.566684241387864,
+          0.14326151850752883
+        ]
+      }
+    }
+  },
+  "fusion_absolute_seed42/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.4641653556290818,
+          0.6241414483997717
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.11135411399747466,
+          0.20414543102827795
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.8155639640155052,
+          1.4666333684513615
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.6217377141825334,
+          0.04285495502307934
+        ]
+      }
+    }
+  },
+  "fusion_absolute_seed42/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.42143392089720777,
+          0.5609708668417058
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.09961778242891844,
+          0.1765321999867002
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.6294173422305083,
+          1.1434109916234116
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.49782185531570056,
+          0.23278666859099315
+        ]
+      }
+    }
+  },
+  "fusion_transfer_seed42/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.3836090402219462,
+          0.6190279749523487
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.09948516361246745,
+          0.21186860937742893
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.1356817871277303,
+          1.9556171139753409
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.19055918353105986,
+          0.397533061641643
+        ]
+      }
+    }
+  },
+  "fusion_transfer_seed42/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.45728020269540537,
+          0.6580360511950926
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.10320803521171637,
+          0.22564658559321435
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.2018121503249257,
+          1.935596947698907
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.5819340750066391,
+          0.18703417957533416
+        ]
+      }
+    }
+  },
+  "fusion_shuffled_seed42/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5149472189570963,
+          0.6868123331664998
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.12646276038222087,
+          0.26903517905949326
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.2735324179662257,
+          2.0185871088479823
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.465608324069137,
+          0.04762243826956935
+        ]
+      }
+    }
+  },
+  "fusion_shuffled_seed42/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5149472189570963,
+          0.6868123331664998
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.12646276038222087,
+          0.26903517905949326
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.2735324179662257,
+          2.0185871088479823
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.465608324069137,
+          0.04762243826956935
+        ]
+      }
+    }
+  },
+  "historical_seq_B_seed42": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.21589225216212934,
+          0.42286009594731133
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.06917135327299757,
+          0.14397527584026426
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.8906530925295922,
+          1.5386537298734924
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.34485769149903056,
+          0.29887264502418
+        ]
+      }
+    }
+  },
+  "structure_transfer_seed43/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.3809570249729082,
+          0.6155216228146364
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.10077556899709313,
+          0.26896682362105256
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.8936314113808023,
+          1.8580036473250239
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.4774193982019705,
+          0.5099010833370946
+        ]
+      }
+    }
+  },
+  "structure_transfer_seed43/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5321914206544924,
+          0.7212366964329591
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.1223632497675782,
+          0.2909234745941301
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.6904393724960816,
+          1.2243497494815079
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.5135906663516542,
+          0.19346120627520402
+        ]
+      }
+    }
+  },
+  "fusion_absolute_seed43/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.45287942422325933,
+          0.6523765515781036
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.10431434675731986,
+          0.21241387930149552
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.6183341124636402,
+          1.0203277529547956
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.19704093986923174,
+          0.5664828537333939
+        ]
+      }
+    }
+  },
+  "fusion_absolute_seed43/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.33645835345480757,
+          0.5653072376235894
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.08883282683537971,
+          0.20180819497782201
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5008893957060261,
+          0.960213759557873
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.05396628671161336,
+          0.6615443268026033
+        ]
+      }
+    }
+  },
+  "fusion_transfer_seed43/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.4606471447196363,
+          0.6793120741226952
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.12152695203970428,
+          0.3107072641916665
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.9099478842301617,
+          1.8645500124649368
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.5750062634141321,
+          0.41367874454685194
+        ]
+      }
+    }
+  },
+  "fusion_transfer_seed43/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5242495481944695,
+          0.7145467271988508
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.12392288854857618,
+          0.2978994743479986
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.6521121236043086,
+          1.240990923877592
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.6185174846934655,
+          0.16555404262349985
+        ]
+      }
+    }
+  },
+  "fusion_shuffled_seed43/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5037118771057361,
+          0.6675287296883677
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.1178224501182049,
+          0.2684508423837768
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.4996221038170974,
+          2.6306544887150474
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.3435137959246398,
+          0.3470163749485021
+        ]
+      }
+    }
+  },
+  "fusion_shuffled_seed43/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5907426099333379,
+          0.7525542739424317
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.14015828397992258,
+          0.3054170978405775
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.9339813158312615,
+          1.5981835299993572
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.5036601115301257,
+          0.3000788764054704
+        ]
+      }
+    }
+  },
+  "structure_transfer_seed44/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5619834675062437,
+          0.7233429621848739
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.12220404485315,
+          0.28597915164777776
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.4683857476300228,
+          2.231864793248445
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.25587056892537363,
+          0.44275985541585644
+        ]
+      }
+    }
+  },
+  "structure_transfer_seed44/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5356006203051991,
+          0.7034476009715263
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.11121405916429106,
+          0.2567250433706188
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.0219377375454606,
+          1.617808303724047
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.3989821219061136,
+          0.2524730088353756
+        ]
+      }
+    }
+  },
+  "fusion_absolute_seed44/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.3626973869264599,
+          0.5736360237190316
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.09437072742788198,
+          0.1872850220769893
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.7624825638424303,
+          1.2486883256066634
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.42019329322428906,
+          0.30417799991441397
+        ]
+      }
+    }
+  },
+  "fusion_absolute_seed44/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.355895129224851,
+          0.5739544126637129
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.09202539178179601,
+          0.19695354228057266
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.7028402891564706,
+          1.1619238258217048
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.408620161582849,
+          0.48481393235846004
+        ]
+      }
+    }
+  },
+  "fusion_transfer_seed44/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.5910288811707581,
+          0.7472127326079654
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.13144235455926181,
+          0.2962251690908036
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.3906423435276154,
+          1.9884786732519095
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.03429696055697774,
+          0.4522326114991819
+        ]
+      }
+    }
+  },
+  "fusion_transfer_seed44/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.47400216360003955,
+          0.6613418866474547
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.11456466200803521,
+          0.24144350412135612
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.9971556422461458,
+          1.6669015143009378
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.09257939286043614,
+          0.5431407658585516
+        ]
+      }
+    }
+  },
+  "fusion_shuffled_seed44/best": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.4361032488927504,
+          0.6058905710669125
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.09755482811890143,
+          0.21507001764930836
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          1.929591764286934,
+          3.0612281275013666
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.6137031487614236,
+          -0.01127060031509406
+        ]
+      }
+    }
+  },
+  "fusion_shuffled_seed44/best_absolute": {
+    "clusters": 259,
+    "repetitions": 1000,
+    "note": "Conditional on one EGFR target; resample binder sequence clusters. Does not quantify unseen-target generalization.",
+    "intervals": {
+      "binding_auroc": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.4403455645282826,
+          0.6783869496455703
+        ]
+      },
+      "binding_average_precision": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.11277002761712275,
+          0.29788009777906166
+        ]
+      },
+      "affinity_mae": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          0.4438163304019766,
+          0.7774551768786457
+        ]
+      },
+      "affinity_pearson": {
+        "valid_repetitions": 1000,
+        "percentile_95": [
+          -0.14088527551191338,
+          0.7169557621234047
+        ]
+      }
+    }
+  }
+}

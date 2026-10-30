@@ -1,0 +1,34 @@
+{
+  "job_id": 19980,
+  "recorded_at": "2026-10-30T18:10:39.487464+08:00",
+  "seeds": [
+    43,
+    44
+  ],
+  "checkpoints": [
+    "best",
+    "best_absolute"
+  ],
+  "arms": [
+    "structure_transfer",
+    "fusion_absolute",
+    "fusion_transfer",
+    "fusion_shuffled"
+  ],
+  "policy": "Identical frozen evaluator and cached features to seed42. No training, calibration, score flipping or checkpoint reselection. Historical sequence reference remains seed42 only.",
+  "new_output": "outputs/adaptyv_egfr_seed43_44_a6000_v1",
+  "merged_output": "outputs/adaptyv_egfr_multiseed_a6000_v1",
+  "file_sha256": {
+    "scripts/evaluate_adaptyv_egfr.py": "febd31166e599ea56367ce0e9a7af22d111d948b72e58409cd162bfd2b6d1020",
+    "scripts/summarize_adaptyv_egfr_multiseed.py": "c3c0976fd3e9c9a992c84b5e1141d3b980ce8745ee3de458e5680bca091af028",
+    "scripts/report_adaptyv_egfr.py": "390d891cd89d0129b8f8e6e3d03b148c9923ea3a0b64b737cde78de74c922e03",
+    "outputs/adaptyv_egfr_v1/metrics.json": "bf7d0db61d89c4715d5cbe655ba95362e97e906da24660db5756cd86e5b10e96",
+    "outputs/adaptyv_egfr_v1/predictions.csv": "f60ff3b03a6e4366a792b34ffcc0723c2b6dff3dd1246b8fbf3d4ae98f2a2879",
+    "data/processed/adaptyv_egfr_v1/audited_records.csv": "bb889801123caa38fc7905d4e143d591f45ec7832cba45bcd4f47a14d5c6bfb9",
+    "data/processed/adaptyv_egfr_features_v1/complete.json": "39033284e0cdf4e181c44dc65ebf5335e54e0f44c66f804989843f333e22d6ff",
+    "scripts/evaluate_adaptyv_egfr_remaining_seeds_a6000.sbatch": "7762f63d0b25d92ee4671c6197aa0ef93fc445e77d9c4d23654a0c18ac14c93e"
+  },
+  "partition": "A6000",
+  "parallel_pending_job": 19845,
+  "submission_command": "sbatch --parsable scripts/evaluate_adaptyv_egfr_remaining_seeds_a6000.sbatch"
+}

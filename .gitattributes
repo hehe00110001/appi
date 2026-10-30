@@ -1,0 +1,4 @@
+# Experimental snapshots retain original bytes so recorded SHA256 stays valid.
+results/research_review_20261030/** -text -whitespace
+# Python csv.writer uses CRLF; keep source CSVs byte-for-byte.
+*.csv -text whitespace=cr-at-eol

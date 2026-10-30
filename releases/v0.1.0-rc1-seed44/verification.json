@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "tests": "Standalone archive unpacked outside repository; CPU predictions for one Round1 and one Round2 real complex compared with original GPU evaluation",
+  "absolute_errors": {
+    "r1_0063": 4.76837158203125e-07,
+    "r2_0210": 4.76837158203125e-07
+  },
+  "tolerance": 0.0001,
+  "repository_tests": {
+    "passed": 73,
+    "warnings": 9,
+    "command": "python -m pytest -q tests",
+    "notes": "Warnings are dependency deprecations."
+  },
+  "snapshot_files_verified": 232
+}

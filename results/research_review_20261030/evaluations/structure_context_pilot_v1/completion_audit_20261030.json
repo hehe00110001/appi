@@ -1,0 +1,165 @@
+{
+  "verified_runs": 12,
+  "egfr_models": 9,
+  "round2_prediction_coverage": "400/400 each model",
+  "runs": {
+    "fusion_absolute_seed42": {
+      "epochs": 130,
+      "selected_epoch": 77,
+      "minimum_val_mae": 0.9995054592111362,
+      "proposed_5pct_threshold": 1.049480732171693,
+      "epochs_meeting_proposed_constraint": [
+        3,
+        8,
+        14,
+        16,
+        22,
+        24,
+        27,
+        31,
+        33,
+        34,
+        35,
+        42,
+        45,
+        48,
+        49,
+        50,
+        51,
+        52,
+        54,
+        55,
+        57,
+        60,
+        62,
+        64,
+        66,
+        68,
+        69,
+        71,
+        79,
+        81,
+        82,
+        88,
+        90,
+        92,
+        97,
+        114,
+        127
+      ],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_absolute_seed43": {
+      "epochs": 130,
+      "selected_epoch": 9,
+      "minimum_val_mae": 0.9649453986904084,
+      "proposed_5pct_threshold": 1.0131926686249288,
+      "epochs_meeting_proposed_constraint": [
+        7,
+        29,
+        43
+      ],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_absolute_seed44": {
+      "epochs": 130,
+      "selected_epoch": 72,
+      "minimum_val_mae": 0.9919593004679328,
+      "proposed_5pct_threshold": 1.0415572654913294,
+      "epochs_meeting_proposed_constraint": [
+        3,
+        5,
+        8,
+        74,
+        95,
+        96,
+        104,
+        112,
+        119,
+        120,
+        123,
+        124,
+        128
+      ],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_shuffled_seed42": {
+      "epochs": 100,
+      "selected_epoch": 1,
+      "minimum_val_mae": 1.12828519348833,
+      "proposed_5pct_threshold": 1.049480732171693,
+      "epochs_meeting_proposed_constraint": [],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_shuffled_seed43": {
+      "epochs": 100,
+      "selected_epoch": 34,
+      "minimum_val_mae": 1.0546823286947233,
+      "proposed_5pct_threshold": 1.0131926686249288,
+      "epochs_meeting_proposed_constraint": [],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_shuffled_seed44": {
+      "epochs": 100,
+      "selected_epoch": 100,
+      "minimum_val_mae": 0.985340329840699,
+      "proposed_5pct_threshold": 1.0415572654913294,
+      "epochs_meeting_proposed_constraint": [
+        2
+      ],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_transfer_seed42": {
+      "epochs": 100,
+      "selected_epoch": 48,
+      "minimum_val_mae": 1.107485479042115,
+      "proposed_5pct_threshold": 1.049480732171693,
+      "epochs_meeting_proposed_constraint": [],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_transfer_seed43": {
+      "epochs": 100,
+      "selected_epoch": 12,
+      "minimum_val_mae": 1.0788014750587593,
+      "proposed_5pct_threshold": 1.0131926686249288,
+      "epochs_meeting_proposed_constraint": [],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "fusion_transfer_seed44": {
+      "epochs": 100,
+      "selected_epoch": 16,
+      "minimum_val_mae": 1.030465459328536,
+      "proposed_5pct_threshold": 1.0415572654913294,
+      "epochs_meeting_proposed_constraint": [
+        9
+      ],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "structure_transfer_seed42": {
+      "epochs": 100,
+      "selected_epoch": 56,
+      "minimum_val_mae": 1.0544090110782738,
+      "proposed_5pct_threshold": 1.049480732171693,
+      "epochs_meeting_proposed_constraint": [],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "structure_transfer_seed43": {
+      "epochs": 100,
+      "selected_epoch": 22,
+      "minimum_val_mae": 1.004552137643792,
+      "proposed_5pct_threshold": 1.0131926686249288,
+      "epochs_meeting_proposed_constraint": [
+        2
+      ],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    },
+    "structure_transfer_seed44": {
+      "epochs": 100,
+      "selected_epoch": 65,
+      "minimum_val_mae": 1.123434677731971,
+      "proposed_5pct_threshold": 1.0415572654913294,
+      "epochs_meeting_proposed_constraint": [],
+      "note": "Validation-only feasibility diagnostic. No new model selected or test evaluation performed."
+    }
+  }
+}

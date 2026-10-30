@@ -1,0 +1,4848 @@
+{
+  "note": "Exploratory after prior EGFR inspection. Thresholds 10/100/1000 nM are illustrations, not prespecified success criteria. No retraining, calibration or seed selection. Ties receive fractional credit. Screened pool is 378 known-status candidates; 22 unknown/unexpressed excluded. Nine unresolved 10uM affinity entries are not called high-affinity negatives: report selected unresolved count and a possible upper yield separately. Measured-only pool is 44 selected binders, not prospective screening. Nonbinding status is operational assay failure, not a numeric KD.",
+  "results": {
+    "fusion_absolute_seed42/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 2.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.03773584905660377
+        },
+        "50": {
+          "hits": 5.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.09433962264150944
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.2857142857142857
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.034482758620689655
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 0.303448275862069,
+              "recall": 0.034482758620689655
+            },
+            "10": {
+              "hits": 5.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.1724137931034483
+            },
+            "20": {
+              "hits": 10.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.3448275862068966
+            }
+          }
+        }
+      }
+    },
+    "fusion_absolute_seed42/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 1.0,
+          "precision": 0.05,
+          "enrichment": 0.3566037735849057,
+          "recall": 0.018867924528301886
+        },
+        "50": {
+          "hits": 3.0,
+          "precision": 0.06,
+          "enrichment": 0.4279245283018868,
+          "recall": 0.05660377358490566
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 0.5
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.06896551724137931
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 7.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.2413793103448276
+            },
+            "20": {
+              "hits": 13.0,
+              "precision": 0.65,
+              "enrichment": 0.9862068965517242,
+              "recall": 0.4482758620689655
+            }
+          }
+        }
+      }
+    },
+    "fusion_absolute_seed43/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 0.0,
+          "precision": 0.0,
+          "enrichment": 0.0,
+          "recall": 0.0
+        },
+        "20": {
+          "hits": 1.0,
+          "precision": 0.05,
+          "enrichment": 0.3566037735849057,
+          "recall": 0.018867924528301886
+        },
+        "50": {
+          "hits": 6.0,
+          "precision": 0.12,
+          "enrichment": 0.8558490566037736,
+          "recall": 0.11320754716981132
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.5
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 4.4,
+              "recall": 0.5
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 0.5
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 4.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.08,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.13793103448275862
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 7.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.2413793103448276
+            },
+            "20": {
+              "hits": 16.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.5517241379310345
+            }
+          }
+        }
+      }
+    },
+    "fusion_absolute_seed43/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 0.0,
+          "precision": 0.0,
+          "enrichment": 0.0,
+          "recall": 0.0
+        },
+        "20": {
+          "hits": 2.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.03773584905660377
+        },
+        "50": {
+          "hits": 6.0,
+          "precision": 0.12,
+          "enrichment": 0.8558490566037736,
+          "recall": 0.11320754716981132
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 0.5
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 5.0,
+              "precision": 0.25,
+              "enrichment": 1.5714285714285714,
+              "recall": 0.7142857142857143
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 5.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.12,
+              "confirmed_hit_recall": 0.1724137931034483
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 5.0,
+              "precision": 1.0,
+              "enrichment": 1.517241379310345,
+              "recall": 0.1724137931034483
+            },
+            "10": {
+              "hits": 9.0,
+              "precision": 0.9,
+              "enrichment": 1.3655172413793104,
+              "recall": 0.3103448275862069
+            },
+            "20": {
+              "hits": 18.0,
+              "precision": 0.9,
+              "enrichment": 1.3655172413793104,
+              "recall": 0.6206896551724138
+            }
+          }
+        }
+      }
+    },
+    "fusion_absolute_seed44/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 1.0,
+          "precision": 0.05,
+          "enrichment": 0.3566037735849057,
+          "recall": 0.018867924528301886
+        },
+        "50": {
+          "hits": 6.0,
+          "precision": 0.12,
+          "enrichment": 0.8558490566037736,
+          "recall": 0.11320754716981132
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 0.31428571428571433,
+              "recall": 0.14285714285714285
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "50": {
+              "confirmed_hits": 4.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.08,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.13793103448275862
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 6.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.20689655172413793
+            },
+            "20": {
+              "hits": 13.0,
+              "precision": 0.65,
+              "enrichment": 0.9862068965517242,
+              "recall": 0.4482758620689655
+            }
+          }
+        }
+      }
+    },
+    "fusion_absolute_seed44/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 2.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.03773584905660377
+        },
+        "20": {
+          "hits": 2.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.03773584905660377
+        },
+        "50": {
+          "hits": 3.0,
+          "precision": 0.06,
+          "enrichment": 0.4279245283018868,
+          "recall": 0.05660377358490566
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 3.0,
+              "precision": 0.6,
+              "enrichment": 3.7714285714285714,
+              "recall": 0.42857142857142855
+            },
+            "10": {
+              "hits": 3.0,
+              "precision": 0.3,
+              "enrichment": 1.8857142857142857,
+              "recall": 0.42857142857142855
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.034482758620689655
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 3.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.10344827586206896
+            },
+            "10": {
+              "hits": 7.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.2413793103448276
+            },
+            "20": {
+              "hits": 16.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.5517241379310345
+            }
+          }
+        }
+      }
+    },
+    "fusion_shuffled_seed42/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 14.0,
+          "precision": 0.28,
+          "enrichment": 1.996981132075472,
+          "recall": 0.2641509433962264
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.5
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 0.5
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.2857142857142857
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 6.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.12,
+              "possible_yield_upper": 0.12,
+              "confirmed_hit_recall": 0.20689655172413793
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 3.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.10344827586206896
+            },
+            "10": {
+              "hits": 5.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.1724137931034483
+            },
+            "20": {
+              "hits": 11.0,
+              "precision": 0.55,
+              "enrichment": 0.8344827586206898,
+              "recall": 0.3793103448275862
+            }
+          }
+        }
+      }
+    },
+    "fusion_shuffled_seed42/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 14.0,
+          "precision": 0.28,
+          "enrichment": 1.996981132075472,
+          "recall": 0.2641509433962264
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.5
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 0.5
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.2857142857142857
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 6.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.12,
+              "possible_yield_upper": 0.12,
+              "confirmed_hit_recall": 0.20689655172413793
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 3.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.10344827586206896
+            },
+            "10": {
+              "hits": 5.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.1724137931034483
+            },
+            "20": {
+              "hits": 11.0,
+              "precision": 0.55,
+              "enrichment": 0.8344827586206898,
+              "recall": 0.3793103448275862
+            }
+          }
+        }
+      }
+    },
+    "fusion_shuffled_seed43/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 5.0,
+          "precision": 0.25,
+          "enrichment": 1.7830188679245285,
+          "recall": 0.09433962264150944
+        },
+        "50": {
+          "hits": 10.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.18867924528301888
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.14285714285714285
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 5.0,
+              "precision": 0.25,
+              "enrichment": 1.5714285714285714,
+              "recall": 0.7142857142857143
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 5.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.14,
+              "confirmed_hit_recall": 0.1724137931034483
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 3.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.10344827586206896
+            },
+            "10": {
+              "hits": 7.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.2413793103448276
+            },
+            "20": {
+              "hits": 14.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.4827586206896552
+            }
+          }
+        }
+      }
+    },
+    "fusion_shuffled_seed43/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 12.0,
+          "precision": 0.24,
+          "enrichment": 1.7116981132075473,
+          "recall": 0.22641509433962265
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.5
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 1.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 4.4,
+              "recall": 0.5
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 4.4,
+              "recall": 1.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.14285714285714285
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.2857142857142857
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "50": {
+              "confirmed_hits": 5.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.14,
+              "confirmed_hit_recall": 0.1724137931034483
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.06896551724137931
+            },
+            "10": {
+              "hits": 5.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.1724137931034483
+            },
+            "20": {
+              "hits": 12.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.41379310344827586
+            }
+          }
+        }
+      }
+    },
+    "fusion_shuffled_seed44/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 2.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.03773584905660377
+        },
+        "20": {
+          "hits": 2.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.03773584905660377
+        },
+        "50": {
+          "hits": 5.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.09433962264150944
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.2857142857142857
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.06896551724137931
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.06896551724137931
+            },
+            "10": {
+              "hits": 4.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.13793103448275862
+            },
+            "20": {
+              "hits": 12.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.41379310344827586
+            }
+          }
+        }
+      }
+    },
+    "fusion_shuffled_seed44/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 6.0,
+          "precision": 0.3,
+          "enrichment": 2.139622641509434,
+          "recall": 0.11320754716981132
+        },
+        "50": {
+          "hits": 13.0,
+          "precision": 0.26,
+          "enrichment": 1.8543396226415096,
+          "recall": 0.24528301886792453
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 1.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 4.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.12,
+              "confirmed_hit_recall": 1.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 8.8,
+              "recall": 1.0
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 4.4,
+              "recall": 1.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 0.2857142857142857
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 4.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.14,
+              "confirmed_hit_recall": 0.42857142857142855
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 2.5142857142857147,
+              "recall": 0.2857142857142857
+            },
+            "10": {
+              "hits": 4.0,
+              "precision": 0.4,
+              "enrichment": 2.5142857142857147,
+              "recall": 0.5714285714285714
+            },
+            "20": {
+              "hits": 5.0,
+              "precision": 0.25,
+              "enrichment": 1.5714285714285714,
+              "recall": 0.7142857142857143
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 4.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.2,
+              "possible_yield_upper": 0.25,
+              "confirmed_hit_recall": 0.13793103448275862
+            },
+            "50": {
+              "confirmed_hits": 8.0,
+              "unresolved_selected": 4.0,
+              "confirmed_yield": 0.16,
+              "possible_yield_upper": 0.24,
+              "confirmed_hit_recall": 0.27586206896551724
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 9.0,
+              "precision": 0.9,
+              "enrichment": 1.3655172413793104,
+              "recall": 0.3103448275862069
+            },
+            "20": {
+              "hits": 16.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.5517241379310345
+            }
+          }
+        }
+      }
+    },
+    "fusion_transfer_seed42/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 8.0,
+          "precision": 0.16,
+          "enrichment": 1.1411320754716983,
+          "recall": 0.1509433962264151
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 5.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.14,
+              "confirmed_hit_recall": 0.1724137931034483
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 8.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.27586206896551724
+            },
+            "20": {
+              "hits": 16.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.5517241379310345
+            }
+          }
+        }
+      }
+    },
+    "fusion_transfer_seed42/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 1.0,
+          "precision": 0.05,
+          "enrichment": 0.3566037735849057,
+          "recall": 0.018867924528301886
+        },
+        "50": {
+          "hits": 6.0,
+          "precision": 0.12,
+          "enrichment": 0.8558490566037736,
+          "recall": 0.11320754716981132
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.14285714285714285
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.14285714285714285
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 0.31428571428571433,
+              "recall": 0.14285714285714285
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.10344827586206896
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.06896551724137931
+            },
+            "10": {
+              "hits": 4.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.13793103448275862
+            },
+            "20": {
+              "hits": 13.0,
+              "precision": 0.65,
+              "enrichment": 0.9862068965517242,
+              "recall": 0.4482758620689655
+            }
+          }
+        }
+      }
+    },
+    "fusion_transfer_seed43/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 3.0,
+          "precision": 0.3,
+          "enrichment": 2.139622641509434,
+          "recall": 0.05660377358490566
+        },
+        "20": {
+          "hits": 5.0,
+          "precision": 0.25,
+          "enrichment": 1.7830188679245285,
+          "recall": 0.09433962264150944
+        },
+        "50": {
+          "hits": 9.0,
+          "precision": 0.18,
+          "enrichment": 1.2837735849056604,
+          "recall": 0.16981132075471697
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.2,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.5
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 4.4,
+              "recall": 0.5
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 0.5
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.2,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.2857142857142857
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.2,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.12,
+              "confirmed_hit_recall": 0.10344827586206896
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 3.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.10344827586206896
+            },
+            "10": {
+              "hits": 4.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.13793103448275862
+            },
+            "20": {
+              "hits": 11.0,
+              "precision": 0.55,
+              "enrichment": 0.8344827586206898,
+              "recall": 0.3793103448275862
+            }
+          }
+        }
+      }
+    },
+    "fusion_transfer_seed43/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 2.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.03773584905660377
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 9.0,
+          "precision": 0.18,
+          "enrichment": 1.2837735849056604,
+          "recall": 0.16981132075471697
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.06896551724137931
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 0.303448275862069,
+              "recall": 0.034482758620689655
+            },
+            "10": {
+              "hits": 3.0,
+              "precision": 0.3,
+              "enrichment": 0.45517241379310347,
+              "recall": 0.10344827586206896
+            },
+            "20": {
+              "hits": 12.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.41379310344827586
+            }
+          }
+        }
+      }
+    },
+    "fusion_transfer_seed44/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 9.0,
+          "precision": 0.18,
+          "enrichment": 1.2837735849056604,
+          "recall": 0.16981132075471697
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 7.0,
+              "precision": 0.35,
+              "enrichment": 2.1999999999999997,
+              "recall": 1.0
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 6.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.12,
+              "possible_yield_upper": 0.16,
+              "confirmed_hit_recall": 0.20689655172413793
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 7.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.2413793103448276
+            },
+            "20": {
+              "hits": 17.0,
+              "precision": 0.85,
+              "enrichment": 1.2896551724137932,
+              "recall": 0.5862068965517241
+            }
+          }
+        }
+      }
+    },
+    "fusion_transfer_seed44/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 8.0,
+          "precision": 0.16,
+          "enrichment": 1.1411320754716983,
+          "recall": 0.1509433962264151
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 4.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.08,
+              "possible_yield_upper": 0.14,
+              "confirmed_hit_recall": 0.13793103448275862
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 8.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.27586206896551724
+            },
+            "20": {
+              "hits": 16.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.5517241379310345
+            }
+          }
+        }
+      }
+    },
+    "historical_seq_B_seed42": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 0.0,
+          "precision": 0.0,
+          "enrichment": 0.0,
+          "recall": 0.0
+        },
+        "20": {
+          "hits": 1.0,
+          "precision": 0.05,
+          "enrichment": 0.3566037735849057,
+          "recall": 0.018867924528301886
+        },
+        "50": {
+          "hits": 3.0,
+          "precision": 0.06,
+          "enrichment": 0.4279245283018868,
+          "recall": 0.05660377358490566
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.06896551724137931
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 5.0,
+              "precision": 1.0,
+              "enrichment": 1.517241379310345,
+              "recall": 0.1724137931034483
+            },
+            "10": {
+              "hits": 9.0,
+              "precision": 0.9,
+              "enrichment": 1.3655172413793104,
+              "recall": 0.3103448275862069
+            },
+            "20": {
+              "hits": 15.0,
+              "precision": 0.75,
+              "enrichment": 1.1379310344827587,
+              "recall": 0.5172413793103449
+            }
+          }
+        }
+      }
+    },
+    "structure_transfer_seed42/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 0.0,
+          "precision": 0.0,
+          "enrichment": 0.0,
+          "recall": 0.0
+        },
+        "20": {
+          "hits": 2.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.03773584905660377
+        },
+        "50": {
+          "hits": 5.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.09433962264150944
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.06896551724137931
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.06896551724137931
+            },
+            "10": {
+              "hits": 6.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.20689655172413793
+            },
+            "20": {
+              "hits": 14.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.4827586206896552
+            }
+          }
+        }
+      }
+    },
+    "structure_transfer_seed42/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 0.0,
+          "precision": 0.0,
+          "enrichment": 0.0,
+          "recall": 0.0
+        },
+        "20": {
+          "hits": 2.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.03773584905660377
+        },
+        "50": {
+          "hits": 8.0,
+          "precision": 0.16,
+          "enrichment": 1.1411320754716983,
+          "recall": 0.1509433962264151
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.14285714285714285
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.14285714285714285
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 0.31428571428571433,
+              "recall": 0.14285714285714285
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.034482758620689655
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.10344827586206896
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 3.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.10344827586206896
+            },
+            "10": {
+              "hits": 6.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.20689655172413793
+            },
+            "20": {
+              "hits": 14.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.4827586206896552
+            }
+          }
+        }
+      }
+    },
+    "structure_transfer_seed43/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 2.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.03773584905660377
+        },
+        "20": {
+          "hits": 4.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.07547169811320754
+        },
+        "50": {
+          "hits": 7.0,
+          "precision": 0.14,
+          "enrichment": 0.998490566037736,
+          "recall": 0.1320754716981132
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.2,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.5
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 4.4,
+              "recall": 0.5
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 4.4,
+              "recall": 1.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.2,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.2,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 3.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.06896551724137931
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.06896551724137931
+            },
+            "10": {
+              "hits": 5.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.1724137931034483
+            },
+            "20": {
+              "hits": 12.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.41379310344827586
+            }
+          }
+        }
+      }
+    },
+    "structure_transfer_seed43/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 2.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.03773584905660377
+        },
+        "50": {
+          "hits": 10.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.18867924528301888
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 1.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.10344827586206896
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 0.303448275862069,
+              "recall": 0.034482758620689655
+            },
+            "10": {
+              "hits": 5.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.1724137931034483
+            },
+            "20": {
+              "hits": 12.0,
+              "precision": 0.6,
+              "enrichment": 0.9103448275862069,
+              "recall": 0.41379310344827586
+            }
+          }
+        }
+      }
+    },
+    "structure_transfer_seed44/best": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.018867924528301886
+        },
+        "20": {
+          "hits": 3.0,
+          "precision": 0.15,
+          "enrichment": 1.069811320754717,
+          "recall": 0.05660377358490566
+        },
+        "50": {
+          "hits": 7.0,
+          "precision": 0.14,
+          "enrichment": 0.998490566037736,
+          "recall": 0.1320754716981132
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.05,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.14285714285714285
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.42857142857142855
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 2.5142857142857147,
+              "recall": 0.2857142857142857
+            },
+            "10": {
+              "hits": 3.0,
+              "precision": 0.3,
+              "enrichment": 1.8857142857142857,
+              "recall": 0.42857142857142855
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.15,
+              "confirmed_hit_recall": 0.06896551724137931
+            },
+            "50": {
+              "confirmed_hits": 5.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.12,
+              "confirmed_hit_recall": 0.1724137931034483
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 7.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.2413793103448276
+            },
+            "20": {
+              "hits": 13.0,
+              "precision": 0.65,
+              "enrichment": 0.9862068965517242,
+              "recall": 0.4482758620689655
+            }
+          }
+        }
+      }
+    },
+    "structure_transfer_seed44/best_absolute": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 0.0,
+          "precision": 0.0,
+          "enrichment": 0.0,
+          "recall": 0.0
+        },
+        "20": {
+          "hits": 0.0,
+          "precision": 0.0,
+          "enrichment": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "hits": 5.0,
+          "precision": 0.1,
+          "enrichment": 0.7132075471698114,
+          "recall": 0.09433962264150944
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.14285714285714285
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 3.0,
+              "precision": 0.3,
+              "enrichment": 1.8857142857142857,
+              "recall": 0.42857142857142855
+            },
+            "20": {
+              "hits": 4.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.5714285714285714
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.10344827586206896
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 4.0,
+              "precision": 0.8,
+              "enrichment": 1.213793103448276,
+              "recall": 0.13793103448275862
+            },
+            "10": {
+              "hits": 7.0,
+              "precision": 0.7,
+              "enrichment": 1.0620689655172413,
+              "recall": 0.2413793103448276
+            },
+            "20": {
+              "hits": 13.0,
+              "precision": 0.65,
+              "enrichment": 0.9862068965517242,
+              "recall": 0.4482758620689655
+            }
+          }
+        }
+      }
+    },
+    "iptm": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 1.4545454545454546,
+          "precision": 0.14545454545454545,
+          "enrichment": 1.037392795883362,
+          "recall": 0.0274442538593482
+        },
+        "20": {
+          "hits": 5.090909090909091,
+          "precision": 0.2545454545454545,
+          "enrichment": 1.8154373927958833,
+          "recall": 0.09605488850771869
+        },
+        "50": {
+          "hits": 13.5,
+          "precision": 0.27,
+          "enrichment": 1.9256603773584908,
+          "recall": 0.25471698113207547
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.7857142857142857,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.015714285714285715,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.4,
+              "precision": 0.02,
+              "enrichment": 0.44,
+              "recall": 0.2
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.5714285714285714,
+              "unresolved_selected": 0.7857142857142857,
+              "confirmed_yield": 0.03142857142857143,
+              "possible_yield_upper": 0.047142857142857146,
+              "confirmed_hit_recall": 0.22448979591836735
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.6666666666666666,
+              "precision": 0.06666666666666667,
+              "enrichment": 0.41904761904761906,
+              "recall": 0.09523809523809523
+            },
+            "20": {
+              "hits": 2.4,
+              "precision": 0.12,
+              "enrichment": 0.7542857142857142,
+              "recall": 0.34285714285714286
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.36363636363636365,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.03636363636363636,
+              "possible_yield_upper": 0.03636363636363636,
+              "confirmed_hit_recall": 0.012539184952978056
+            },
+            "20": {
+              "confirmed_hits": 1.2727272727272727,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.06363636363636363,
+              "possible_yield_upper": 0.06363636363636363,
+              "confirmed_hit_recall": 0.0438871473354232
+            },
+            "50": {
+              "confirmed_hits": 5.142857142857142,
+              "unresolved_selected": 0.7857142857142857,
+              "confirmed_yield": 0.10285714285714284,
+              "possible_yield_upper": 0.11857142857142856,
+              "confirmed_hit_recall": 0.1773399014778325
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.25,
+              "precision": 0.25,
+              "enrichment": 0.37931034482758624,
+              "recall": 0.04310344827586207
+            },
+            "10": {
+              "hits": 3.333333333333333,
+              "precision": 0.3333333333333333,
+              "enrichment": 0.5057471264367817,
+              "recall": 0.11494252873563217
+            },
+            "20": {
+              "hits": 9.2,
+              "precision": 0.45999999999999996,
+              "enrichment": 0.6979310344827586,
+              "recall": 0.3172413793103448
+            }
+          }
+        }
+      }
+    },
+    "plddt": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 2.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.03773584905660377
+        },
+        "20": {
+          "hits": 5.0,
+          "precision": 0.25,
+          "enrichment": 1.7830188679245285,
+          "recall": 0.09433962264150944
+        },
+        "50": {
+          "hits": 11.0,
+          "precision": 0.22,
+          "enrichment": 1.569056603773585,
+          "recall": 0.20754716981132076
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 1.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.02,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.5
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 1.0,
+              "precision": 0.1,
+              "enrichment": 2.2,
+              "recall": 0.5
+            },
+            "20": {
+              "hits": 1.0,
+              "precision": 0.05,
+              "enrichment": 1.1,
+              "recall": 0.5
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 3.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.06,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.42857142857142855
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 3.0,
+              "precision": 0.3,
+              "enrichment": 1.8857142857142857,
+              "recall": 0.42857142857142855
+            },
+            "20": {
+              "hits": 3.0,
+              "precision": 0.15,
+              "enrichment": 0.9428571428571428,
+              "recall": 0.42857142857142855
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.05,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 4.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.08,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.13793103448275862
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 4.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.13793103448275862
+            },
+            "20": {
+              "hits": 8.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.27586206896551724
+            }
+          }
+        }
+      }
+    },
+    "pae_interaction": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 3.0,
+          "precision": 0.3,
+          "enrichment": 2.139622641509434,
+          "recall": 0.05660377358490566
+        },
+        "20": {
+          "hits": 5.0,
+          "precision": 0.25,
+          "enrichment": 1.7830188679245285,
+          "recall": 0.09433962264150944
+        },
+        "50": {
+          "hits": 13.0,
+          "precision": 0.26,
+          "enrichment": 1.8543396226415096,
+          "recall": 0.24528301886792453
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.02,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.06,
+              "confirmed_hit_recall": 0.2857142857142857
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.2857142857142857
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 0.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.0,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 4.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.08,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.13793103448275862
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 4.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.13793103448275862
+            },
+            "20": {
+              "hits": 8.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.27586206896551724
+            }
+          }
+        }
+      }
+    },
+    "esm_pll": {
+      "binding_n": 378,
+      "quantitative_n": 44,
+      "binding": {
+        "10": {
+          "hits": 2.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.03773584905660377
+        },
+        "20": {
+          "hits": 4.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.07547169811320754
+        },
+        "50": {
+          "hits": 10.0,
+          "precision": 0.2,
+          "enrichment": 1.4264150943396228,
+          "recall": 0.18867924528301888
+        }
+      },
+      "high_affinity": {
+        "10": {
+          "confirmed_strong": 2,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.04,
+              "confirmed_hit_recall": 0.0
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "10": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            },
+            "20": {
+              "hits": 0.0,
+              "precision": 0.0,
+              "enrichment": 0.0,
+              "recall": 0.0
+            }
+          }
+        },
+        "100": {
+          "confirmed_strong": 7,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 2.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.04,
+              "possible_yield_upper": 0.08,
+              "confirmed_hit_recall": 0.2857142857142857
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 1.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.14285714285714285
+            },
+            "10": {
+              "hits": 2.0,
+              "precision": 0.2,
+              "enrichment": 1.2571428571428573,
+              "recall": 0.2857142857142857
+            },
+            "20": {
+              "hits": 2.0,
+              "precision": 0.1,
+              "enrichment": 0.6285714285714287,
+              "recall": 0.2857142857142857
+            }
+          }
+        },
+        "1000": {
+          "confirmed_strong": 29,
+          "unresolved_affinity": 9,
+          "screened_pool": {
+            "10": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 1.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "20": {
+              "confirmed_hits": 0.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.0,
+              "possible_yield_upper": 0.1,
+              "confirmed_hit_recall": 0.0
+            },
+            "50": {
+              "confirmed_hits": 5.0,
+              "unresolved_selected": 2.0,
+              "confirmed_yield": 0.1,
+              "possible_yield_upper": 0.14,
+              "confirmed_hit_recall": 0.1724137931034483
+            }
+          },
+          "measured_only": {
+            "5": {
+              "hits": 2.0,
+              "precision": 0.4,
+              "enrichment": 0.606896551724138,
+              "recall": 0.06896551724137931
+            },
+            "10": {
+              "hits": 5.0,
+              "precision": 0.5,
+              "enrichment": 0.7586206896551725,
+              "recall": 0.1724137931034483
+            },
+            "20": {
+              "hits": 7.0,
+              "precision": 0.35,
+              "enrichment": 0.5310344827586206,
+              "recall": 0.2413793103448276
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "policy": "Report each seed and sample SD; bootstrap homology clusters after averaging matched seed gains. No test checkpoint selection.",
+  "arms": {
+    "fusion_absolute": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "absolute_mae": 2.004758405443905,
+          "difference_mae": 0.8044013005987031,
+          "order": 0.49423880453038554,
+          "order_n5_no1EMV": 0.47960554694187235,
+          "external16_pearson": -0.29701153980464573
+        },
+        {
+          "seed": 43,
+          "absolute_mae": 2.028949848975987,
+          "difference_mae": 0.8294162116444241,
+          "order": 0.410444913543189,
+          "order_n5_no1EMV": 0.46650031786022234,
+          "external16_pearson": -0.3635954146139257
+        },
+        {
+          "seed": 44,
+          "absolute_mae": 1.9878973122903778,
+          "difference_mae": 0.7952836480513915,
+          "order": 0.5021753240012619,
+          "order_n5_no1EMV": 0.4707896069350121,
+          "external16_pearson": -0.4964745145103716
+        }
+      ],
+      "summary": {
+        "absolute_mae": {
+          "mean": 2.00720185557009,
+          "sd": 0.020635055814564474
+        },
+        "difference_mae": {
+          "mean": 0.8097003867648396,
+          "sd": 0.017672526984141474
+        },
+        "order": {
+          "mean": 0.4689530140249455,
+          "sd": 0.05082465397634678
+        },
+        "order_n5_no1EMV": {
+          "mean": 0.4722984905790356,
+          "sd": 0.006681639372865956
+        },
+        "external16_pearson": {
+          "mean": -0.3856938229763143,
+          "sd": 0.10155109210996908
+        }
+      }
+    },
+    "fusion_shuffled": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "absolute_mae": 2.354833547479005,
+          "difference_mae": 0.7852186760401872,
+          "order": 0.49081868293771086,
+          "order_n5_no1EMV": 0.49211300888413384,
+          "external16_pearson": 0.49025390034832955
+        },
+        {
+          "seed": 43,
+          "absolute_mae": 1.896558587325028,
+          "difference_mae": 0.7066289080292365,
+          "order": 0.48633930455318686,
+          "order_n5_no1EMV": 0.526131413323929,
+          "external16_pearson": -0.46109886616707296
+        },
+        {
+          "seed": 44,
+          "absolute_mae": 2.461003416459127,
+          "difference_mae": 0.7397256227903586,
+          "order": 0.5067908329171464,
+          "order_n5_no1EMV": 0.5971451647943369,
+          "external16_pearson": 0.16998703216947803
+        }
+      ],
+      "summary": {
+        "absolute_mae": {
+          "mean": 2.2374651837543866,
+          "sd": 0.2999683164712589
+        },
+        "difference_mae": {
+          "mean": 0.7438577356199274,
+          "sd": 0.03945749201775221
+        },
+        "order": {
+          "mean": 0.4946496068026814,
+          "sd": 0.010750499353511973
+        },
+        "order_n5_no1EMV": {
+          "mean": 0.5384631956674666,
+          "sd": 0.05359097951719663
+        },
+        "external16_pearson": {
+          "mean": 0.06638068878357821,
+          "sd": 0.4840647966765144
+        }
+      }
+    },
+    "structure_transfer": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "absolute_mae": 2.5315845342953147,
+          "difference_mae": 0.7693269892485475,
+          "order": 0.5676015583283232,
+          "order_n5_no1EMV": 0.6016249993544766,
+          "external16_pearson": -0.24412717791167984
+        },
+        {
+          "seed": 43,
+          "absolute_mae": 2.1899980659237306,
+          "difference_mae": 0.7001000031748336,
+          "order": 0.5698793748780677,
+          "order_n5_no1EMV": 0.6077723912598543,
+          "external16_pearson": -0.2913290243288963
+        },
+        {
+          "seed": 44,
+          "absolute_mae": 2.1150563872303336,
+          "difference_mae": 0.7088254394826794,
+          "order": 0.6242818297856926,
+          "order_n5_no1EMV": 0.582589881627065,
+          "external16_pearson": -0.10544169626600843
+        }
+      ],
+      "summary": {
+        "absolute_mae": {
+          "mean": 2.2788796624831265,
+          "sd": 0.22203350643440511
+        },
+        "difference_mae": {
+          "mean": 0.7260841439686868,
+          "sd": 0.03770266649209369
+        },
+        "order": {
+          "mean": 0.5872542543306944,
+          "sd": 0.032087039753072505
+        },
+        "order_n5_no1EMV": {
+          "mean": 0.5973290907471319,
+          "sd": 0.01312938768272815
+        },
+        "external16_pearson": {
+          "mean": -0.2136326328355282,
+          "sd": 0.09662278532075656
+        }
+      }
+    },
+    "fusion_transfer": {
+      "per_seed": [
+        {
+          "seed": 42,
+          "absolute_mae": 2.0410103939213298,
+          "difference_mae": 0.6714236763853877,
+          "order": 0.5762434687019171,
+          "order_n5_no1EMV": 0.640309499411878,
+          "external16_pearson": -0.22552628380014805
+        },
+        {
+          "seed": 43,
+          "absolute_mae": 2.4519521324327993,
+          "difference_mae": 0.7107905623053848,
+          "order": 0.5445253970642873,
+          "order_n5_no1EMV": 0.6196646951705648,
+          "external16_pearson": -0.3082273397012598
+        },
+        {
+          "seed": 44,
+          "absolute_mae": 1.6457484772569764,
+          "difference_mae": 0.6755205787739023,
+          "order": 0.4960213300613541,
+          "order_n5_no1EMV": 0.5388446254028096,
+          "external16_pearson": -0.09047925536136198
+        }
+      ],
+      "summary": {
+        "absolute_mae": {
+          "mean": 2.0462370012037017,
+          "sd": 0.4031272398046024
+        },
+        "difference_mae": {
+          "mean": 0.6859116058215583,
+          "sd": 0.021642966734908516
+        },
+        "order": {
+          "mean": 0.5389300652758529,
+          "sd": 0.04040270641161835
+        },
+        "order_n5_no1EMV": {
+          "mean": 0.5996062733284174,
+          "sd": 0.05362401868115795
+        },
+        "external16_pearson": {
+          "mean": -0.20807762628758994,
+          "sd": 0.10991769100179792
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "fusion_transfer-fusion_absolute/all": {
+      "clusters": 8,
+      "experimental_groups": 23,
+      "mean_difference": 0.06997705125090732,
+      "percentile_interval_95": [
+        -0.030437632900868178,
+        0.1380786691356335
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.08200466417153159,
+        "43": 0.13408048352109825,
+        "44": -0.006153993939907907
+      },
+      "positive_seeds": 2
+    },
+    "fusion_transfer-fusion_absolute/at_least5": {
+      "clusters": 6,
+      "experimental_groups": 15,
+      "mean_difference": 0.10359444154768752,
+      "percentile_interval_95": [
+        0.05800505050505049,
+        0.17068221912041914
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.1257404850630151,
+        "43": 0.12781229695457288,
+        "44": 0.05723054262547454
+      },
+      "positive_seeds": 3
+    },
+    "fusion_transfer-fusion_absolute/at_least5_without_1EMV": {
+      "clusters": 5,
+      "experimental_groups": 10,
+      "mean_difference": 0.12730778274938187,
+      "percentile_interval_95": [
+        0.059891651558318215,
+        0.1878502216737511
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.16070395247000557,
+        "43": 0.1531643773103425,
+        "44": 0.06805501846779756
+      },
+      "positive_seeds": 3
+    },
+    "fusion_transfer-fusion_shuffled/all": {
+      "clusters": 8,
+      "experimental_groups": 23,
+      "mean_difference": 0.04428045847317141,
+      "percentile_interval_95": [
+        -0.024446248671818552,
+        0.10684453562748646
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.0854247857642062,
+        "43": 0.0581860925111004,
+        "44": -0.010769502855792357
+      },
+      "positive_seeds": 2
+    },
+    "fusion_transfer-fusion_shuffled/at_least5": {
+      "clusters": 6,
+      "experimental_groups": 15,
+      "mean_difference": 0.027155962251455428,
+      "percentile_interval_95": [
+        -0.019174221137983182,
+        0.08684771322759795
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.0643180048384495,
+        "43": 0.03366311962813172,
+        "44": -0.01651323771221495
+      },
+      "positive_seeds": 2
+    },
+    "fusion_transfer-fusion_shuffled/at_least5_without_1EMV": {
+      "clusters": 5,
+      "experimental_groups": 10,
+      "mean_difference": 0.06114307766095084,
+      "percentile_interval_95": [
+        0.021723646723646725,
+        0.09749947022674293
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.14819649052774406,
+        "43": 0.09353328184663576,
+        "44": -0.05830053939152725
+      },
+      "positive_seeds": 2
+    },
+    "fusion_transfer-structure_transfer/all": {
+      "clusters": 8,
+      "experimental_groups": 23,
+      "mean_difference": -0.04832418905484171,
+      "percentile_interval_95": [
+        -0.07492379415456338,
+        -0.01739172583512655
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.008641910373593823,
+        "43": -0.02535397781378054,
+        "44": -0.12826049972433845
+      },
+      "positive_seeds": 1
+    },
+    "fusion_transfer-structure_transfer/at_least5": {
+      "clusters": 6,
+      "experimental_groups": 15,
+      "mean_difference": -2.3015810016569863e-05,
+      "percentile_interval_95": [
+        -0.01871641385526088,
+        0.02143524163797694
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.002139818128399414,
+        "43": 0.005568345129980943,
+        "44": -0.007777210688430058
+      },
+      "positive_seeds": 2
+    },
+    "fusion_transfer-structure_transfer/at_least5_without_1EMV": {
+      "clusters": 5,
+      "experimental_groups": 10,
+      "mean_difference": 0.002277182581285537,
+      "percentile_interval_95": [
+        -0.026701620819267885,
+        0.026504398902588946
+      ],
+      "repetitions": 10000,
+      "note": "Descriptive interval on previously examined fixed test; resampling homology clusters, not mutation rows or seeds",
+      "per_seed_gain": {
+        "42": 0.0386845000574013,
+        "43": 0.011892303910710689,
+        "44": -0.04374525622425537
+      },
+      "positive_seeds": 2
+    }
+  }
+}

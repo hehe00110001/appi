@@ -1,0 +1,17 @@
+sample_id,target,pkd,label_note,predicted_pkd
+17-1_il17a,IL17A,7.29,user_supplied,6.977844715118408
+17-2_il17a,IL17A,6.7,user_supplied,6.415067672729492
+17-35_il17a,IL17A,8.48,user_supplied,6.392816543579102
+23r-10_il23r,IL23R,9.43,user_supplied,7.812678813934326
+23r-13_il23r,IL23R,9.19,user_supplied,8.077392578125
+23r-15_il23r,IL23R,9,user_supplied,8.285802841186523
+23r-19_il23r,IL23R,7.09,user_supplied,7.395808696746826
+23r-1_il23r,IL23R,7.59,user_supplied,7.579797267913818
+23r-22_il23r,IL23R,7.37,user_supplied_overrides_legacy_350pM,7.423467636108398
+23r-2_il23r,IL23R,7.47,user_supplied,7.260005474090576
+23r-75_il23r,IL23R,10.12,user_supplied,7.945794105529785
+23r-91_il23r,IL23R,12,user_supplied_boundary_legacy_Kd_less_than_1pM,7.830512046813965
+17-53_il17a,IL17A,11,user_supplied,7.442681312561035
+17-3_il17a,IL17A,7.33,user_supplied,7.412290096282959
+17-51_il17a,IL17A,8.24,user_supplied,7.241600513458252
+23r-24_il23r,IL23R,10.35,user_supplied,7.4321417808532715

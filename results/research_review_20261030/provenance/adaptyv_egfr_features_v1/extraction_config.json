@@ -1,0 +1,14 @@
+{
+  "manifest_sha256": "165e3bae78a4b9851cd68f2cfd29fd45b89b50d44aa03fa4379d81e998d7c6e4",
+  "checkpoint_sha256": "ea9d0522b335a8778dea6535a65301f10208dece28cd5865482b0b1fc446168c",
+  "regression_sha256": "8ffe6edbd4173dc8d45c2cd5cb27d43aad77ec26b4c768200c58ae1f96693575",
+  "script_sha256": "6b47689719774928b0062776f41da2a8077d9e1f05015a6919bc99911c0918ab",
+  "model": "esm2_t33_650M_UR50D",
+  "layer": 33,
+  "window": 1022,
+  "stride": 766,
+  "overlap": "Arithmetic mean; no truncation",
+  "inference_dtype": "float32",
+  "storage_dtype": "float16",
+  "fair_esm_version": "2.0.0"
+}

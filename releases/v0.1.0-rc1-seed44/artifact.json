@@ -1,0 +1,18 @@
+{
+  "version": "v0.1.0-rc1-seed44",
+  "archive": "outputs/releases/v0.1.0-rc1-seed44.tar.gz",
+  "archive_bytes": 2081759,
+  "archive_sha256": "c778854921bcb27de10f641f6d911e43b69cc1caaab2ae08be9ffe36dee04931",
+  "source_checkpoint_sha256": "d9b9c96fd07605440c96514acf98fadfc82200c6816f4db7ab7e9957e65285ed",
+  "files_sha256": {
+    "INFERENCE.md": "b0410b6686435c1beb176e3863b832f40fe208a27e60134f1d36a637fcdcf445",
+    "MODEL_CARD.md": "401ba34160c1dd8c6cc9bccb6def16e4f47c975be341611297364cdbd1a844b2",
+    "appi/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "appi/structure_context_data.py": "fc9442b553bf4ff1721c797abd4ff670df2c2b706e2b2b63a03c970f158f6aef",
+    "appi/structure_context_model.py": "68789e9d5a7171f21e4bfd99a16127057dd7e7b6dcb728066e80c5fb335775e8",
+    "config.json": "70aef69fb27fe2e4dff0b24235e2c1c8d2f2172359e8ba87b1a89c78d578f437",
+    "model.pt": "a9fc7c1c06849ff83c7f6cc420082f531dec1c89828d18942eef8cf65ad0575a",
+    "requirements.txt": "9d9a4d7d17e3e6269009e4f8c60d6bee484e4c66fd08633af98db9cf2c5bb78b",
+    "scripts/predict_release.py": "215f8e029fe31f1d50ab6a453c16e0152635d7f948644ef43ec24061931165f2"
+  }
+}

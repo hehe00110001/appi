@@ -1,0 +1,68 @@
+{
+  "arms": {
+    "B": "Balanced absolute MSE",
+    "C": "B + 0.3 balanced difference MSE",
+    "R": "C + 0.1 equal-experimental-group ranking"
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "data": "joint_training_complex40_v1",
+  "architecture": "Same interaction layers and global readout + Linear128->64/GELU/Linear64->1(no bias) summed across all valid residues; final local weight initialized to zero",
+  "selection": "minimum common absolute validation RMSE; MAE/Pearson/Spearman/ranking logged but not used to reselect on test/external16",
+  "max_epochs": 200,
+  "patience": 25,
+  "epoch_records": 4471,
+  "rank_deadband_pkd": 0.3,
+  "rank_margin_pkd": 0.25,
+  "rank_groups_per_step": 4,
+  "rank_pairs_per_group": 4,
+  "ranking_groups": "WT feature path + reference + method + raw temperature + WT pKd rounded to 12 significant digits; missing metadata isolates records",
+  "ranking_replicates": "Mean mutant pKd for identical mutant feature paths within the same experiment group",
+  "ranking_scaling": "Hinge divided by common TRAIN target standard deviation; loss weights fixed as pilot, no test tuning",
+  "notes": [
+    "No new labels: ranking reuses experimental endpoints.",
+    "Equal experimental groups for ranking, equal PDBs for numeric differences, equal sources/PDBs for absolutes.",
+    "Raw temperature distinguishes assumed and reported values; unrecorded pH/buffer/assay details cannot be guaranteed identical.",
+    "Full shuffled eligible-group coverage per epoch plus prefix; uniform comparison draws with replacement inside each selected group.",
+    "Three seeds share tests. Bootstrap homology groups, not mutation rows or seeds; previously examined test is diagnostic.",
+    "External16 evaluated after training with both targets and boundary-label sensitivity; no calibration/selection.",
+    "Numeric local output bias removed to avoid an explicit per-residue constant, but size effects and context-dependent cancellation remain possible.",
+    "Global and local absolute output magnitudes logged per epoch; interpretation is not a physical energy decomposition."
+  ],
+  "audit": {
+    "train": {
+      "groups": 255,
+      "eligible_groups": 201,
+      "eligible_records": 2997,
+      "unique_variants": 3061,
+      "comparisons": 57640,
+      "eligible_pdbs": 128,
+      "eligible_homology_groups": 85,
+      "replicate_groups_with_differing_mutant_labels": 0
+    },
+    "val": {
+      "groups": 24,
+      "eligible_groups": 22,
+      "eligible_records": 266,
+      "unique_variants": 269,
+      "comparisons": 1612,
+      "eligible_pdbs": 16,
+      "eligible_homology_groups": 9,
+      "replicate_groups_with_differing_mutant_labels": 0
+    },
+    "test": {
+      "groups": 33,
+      "eligible_groups": 23,
+      "eligible_records": 261,
+      "unique_variants": 271,
+      "comparisons": 1800,
+      "eligible_pdbs": 14,
+      "eligible_homology_groups": 8,
+      "replicate_groups_with_differing_mutant_labels": 0
+    }
+  },
+  "architecture_control": "Compare B/C/R with corresponding original readout arms; shared baseline parameter initialization hashes must match. No additive warm-start from trained baseline."
+}
